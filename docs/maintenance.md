@@ -28,6 +28,8 @@ GitHub 手动工作流的 replay_commit 接受本仓库历史 release 完整 SHA
 
 ## 手机验收
 
+完整配置保留 `[mitm]`、`[task_local]`、`[http_backend]` 空模块；空模块不等于启用功能。首版省略 `[mitm]` 导致手机提示“缺少模块 mitm”，已补齐，并对最终生成配置增加模块完整性检查。遇到这条旧版提示，请重新下载主配置；仅刷新 rules.list/rewrite.list 不会修复手机上的主配置结构。无需生成或安装 MITM 证书。
+
 - 核对 Quantumult X 1.5.5 build 914+；备份旧配置，导入模板，添加自己的节点，使用 Filter 模式。
 - 手动刷新两个资源；首次远程加载失败时不要把只有启动保护与最终代理的状态当作完整配置已启用。
 - 验证 ChatGPT 登录、附件上传和语音；节点开启并支持 UDP。验证 Claude 内容、Gemini、Copilot 新入口及 Apple Intelligence。

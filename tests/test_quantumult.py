@@ -1,5 +1,6 @@
 import copy
 import json
+import re
 from pathlib import Path
 import sys
 import unittest
@@ -62,6 +63,31 @@ class QuantumultTests(unittest.TestCase):
     def test_reproducible_render(self):
         self.assertEqual(self.render(), self.render())
 
+    def test_published_config_has_all_official_modules_without_enabling_mitm(self):
+        # Import failed on a real device when mitm was omitted. Check the final
+        # artifact, not only the source: rewrite extraction must preserve its tail.
+        files, _, _ = self.render()
+        config = files['quantumultx.conf'].decode()
+        expected = {'general', 'dns', 'policy', 'server_remote', 'server_local',
+                    'filter_remote', 'filter_local', 'rewrite_remote', 'rewrite_local',
+                    'task_local', 'http_backend', 'mitm'}
+        sections = re.findall(r'^\[([^]]+)\]$', config, re.M)
+        self.assertEqual(set(sections), expected)
+        self.assertEqual(len(sections), len(expected))
+        for name in ['task_local', 'http_backend', 'mitm']:
+            content = config.split('['+name+']\n', 1)[1].split('\n[', 1)[0]
+            self.assertEqual(list(b.records(content)), [])
+        self.assertNotIn(b'[mitm]', files['rewrite.list'])
+        self.assertNotIn(b'[task_local]', files['rewrite.list'])
+
+    def test_missing_module_or_active_mitm_fails_before_publish(self):
+        base = (b.ROOT/'config/base.conf').read_text()
+        for name in ['mitm', 'task_local', 'http_backend']:
+            with self.subTest(missing=name), self.assertRaises(b.BuildError):
+                self.render(base=base.replace('['+name+']\n', ''))
+            with self.subTest(active=name), self.assertRaises(b.BuildError):
+                self.render(base=base.replace('['+name+']\n', '['+name+']\nhostname = example.com\n'))
+
     def test_no_remote_force_policy_or_unapproved_parser(self):
         base = (b.ROOT/'config/base.conf').read_text()
         for changed in [base.replace('opt-parser=false', 'opt-parser=true'),
@@ -73,11 +99,11 @@ class QuantumultTests(unittest.TestCase):
         base = (b.ROOT/'config/base.conf').read_text()
         active = '\n'.join(line for _, line in b.records(base))
         self.assertIn('doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query', active)
-        for pattern in ['no-ipv6', 'no-system', 'udp_whitelist', 'udp_drop_list', '[mitm]', 'password=', 'p12 =']:
+        for pattern in ['no-ipv6', 'no-system', 'udp_whitelist', 'udp_drop_list', 'password=', 'p12 =']:
             self.assertNotIn(pattern, active)
         self.assertIn('server = /*.lan/system', active)
         self.assertIn('fallback_udp_policy = reject', active)
-        for section in ['policy', 'server_remote', 'server_local']:
+        for section in ['policy', 'server_remote', 'server_local', 'task_local', 'http_backend', 'mitm']:
             content = base.split('['+section+']')[1].split('\n[')[0]
             self.assertEqual(list(b.records(content)), [])
 

@@ -117,7 +117,8 @@ def render_lines(rules):
 def render_bundle(base, rules, allowed):
     sections = re.findall(r'^\[([^]]+)\]$', base, re.M)
     require(sections == ['general', 'dns', 'policy', 'server_remote', 'server_local',
-                         'filter_remote', 'filter_local', 'rewrite_remote', 'rewrite_local'],
+                         'filter_remote', 'filter_local', 'rewrite_remote', 'rewrite_local',
+                         'task_local', 'http_backend', 'mitm'],
             'Unexpected base sections')
     require(base.count('{{BOOTSTRAP_RULES}}') == 1, 'Missing bootstrap placeholder')
     for name, section in [('rules.list', 'filter_remote'), ('rewrite.list', 'rewrite_remote')]:
@@ -158,7 +159,8 @@ def render_bundle(base, rules, allowed):
     require(remote and remote[-1].line == 'geoip, cn, direct', 'CN fallback must remain last remotely')
     effective = local[:-1] + remote + local[-1:]
     check_native_conflicts(effective, allowed)
-    before, rewrite = base.split('[rewrite_local]\n', 1)
+    before, remaining = base.split('[rewrite_local]\n', 1)
+    rewrite, tail = remaining.split('\n[task_local]\n', 1)
     rewrites = [line for _, line in records(rewrite)]
     require(len(rewrites) == 2, 'Expected two HTTP redirect rules')
     for line in rewrites:
@@ -166,8 +168,14 @@ def render_bundle(base, rules, allowed):
         require(len(parts) == 4 and parts[0].startswith('^http://') and parts[1:3] == ['url', '302']
                 and parts[3] == 'https://www.google.com$2', 'Unsupported rewrite change')
         re.compile(parts[0])
-    config = (before + '[rewrite_local]\n# HTTP redirects are in the remote resource.\n').replace(
+    config = (before + '[rewrite_local]\n# HTTP redirects are in the remote resource.\n'
+              + '\n[task_local]\n' + tail).replace(
         '{{BOOTSTRAP_RULES}}', render_lines(local[:-1]).strip())
+    require(re.findall(r'^\[([^]]+)\]$', config, re.M) == sections,
+            'Generated configuration lost required modules')
+    for section in ('task_local', 'http_backend', 'mitm'):
+        content = config.split('[' + section + ']\n', 1)[1].split('\n[', 1)[0]
+        require(not list(records(content)), f'{section} must remain inactive in this template')
     require('{{' not in config, 'Unexpanded template')
     outputs = {'quantumultx.conf': config.encode(), 'rules.list': render_lines(remote).encode(),
                'rewrite.list': ('# HTTP only. MITM is not enabled.\n' + '\n'.join(rewrites) + '\n').encode()}

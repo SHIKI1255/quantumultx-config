@@ -146,7 +146,8 @@ class RoutingTests(unittest.TestCase):
                           [{'name': 'Copilot', 'input': {'domain': 'copilot.cloud.microsoft'}, 'policy': 'PROXY'}])
 
     def test_rewrite_preserves_path_query_fragment(self):
-        lines = [line for _, line in b.records((b.ROOT/'config/base.conf').read_text().split('[rewrite_local]')[1])]
+        section = (b.ROOT/'config/base.conf').read_text().split('[rewrite_local]')[1].split('\n[', 1)[0]
+        lines = [line for _, line in b.records(section)]
         for line in lines:
             expression, marker, status, replacement = line.split()
             target = 'http://www.google.cn/a?q=1#x' if 'google' in expression else 'http://g.cn/a?q=1#x'
