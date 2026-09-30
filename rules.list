@@ -98,11 +98,14 @@ host-suffix, bard.google.com, proxy
 host-suffix, gemini.google, proxy
 host-suffix, gemini.google.com, proxy
 host-suffix, gemini.gstatic.com, proxy
+host, geminiweb-pa.clients.google.com, proxy
+host, geminiweb-pa.clients6.google.com, proxy
 host, cloudaicompanion.googleapis.com, proxy
 host, cloudcode-pa.googleapis.com, proxy
 host, daily-cloudcode-pa.googleapis.com, proxy
 host, notebooklm-pa.googleapis.com, proxy
 host, notebooklm.googleapis.com, proxy
+host-suffix, labstailwind.pa.googleapis.com, proxy
 host-suffix, notebook.google, proxy
 host-suffix, notebook.google.com, proxy
 host-suffix, notebooklm.google, proxy

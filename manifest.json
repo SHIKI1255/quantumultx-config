@@ -1316,7 +1316,7 @@
   "public_files_sha256": {
     "quantumultx.conf": "e4665b2eafc8364e431f0c532a591dc4648f3f8549588d85be9fd782191e6fa5",
     "rewrite.list": "c7ea734dd2d32d043e606bff60acc3bf3497cb116a22fbeb8c00a378d71c3e27",
-    "rules.list": "b80d222aae04b447ad3bb4bb2d5084fcd00f576d31649edee9551eb42f33ac17"
+    "rules.list": "3d2da76fa9745b67569f13bddcfb559d00ce7ee4aea0df3cbbcd78effc6bb85a"
   },
   "removed_exact_duplicates": 262,
   "routing_cases": [
@@ -2335,7 +2335,7 @@
       "policy": "PROXY"
     }
   ],
-  "rules": 14111,
+  "rules": 14114,
   "schema_version": 1,
   "source_files_sha256": {
     "config/base.conf": "e2bc1b7185ba24e94590b16e767f1736fe5e3b535ea80648a36655138794613d",
