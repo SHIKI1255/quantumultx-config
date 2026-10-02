@@ -1316,9 +1316,9 @@ user-agent, locationd*, direct
 user-agent, passd*, direct
 user-agent, Music*, direct
 user-agent, AppleNews*, direct
+user-agent, AppleTV*, direct
 user-agent, com.apple.news*, direct
 user-agent, com.apple.trustd*, direct
-user-agent, AppleTV*, direct
 user-agent, com.apple.tv*, direct
 ip-cidr, 139.178.128.0/18, direct
 ip-cidr, 144.178.0.0/19, direct
@@ -5914,6 +5914,7 @@ host-suffix, fututrade.com, proxy
 host-suffix, fututrustee.com, proxy
 host-suffix, fux.com, proxy
 host-suffix, fuyin.net, proxy
+host-suffix, fuyin116.com, proxy
 host-suffix, fuyindiantai.org, proxy
 host-suffix, fuyu.org.tw, proxy
 host-suffix, fw.cm, proxy
@@ -7495,6 +7496,7 @@ host-suffix, multiproxy.org, proxy
 host-suffix, multiupload.com, proxy
 host-suffix, mummysgold.com, proxy
 host-suffix, murmur.tw, proxy
+host-suffix, muse.ai, proxy
 host-suffix, musicade.net, proxy
 host-suffix, musixmatch.com, proxy
 host-suffix, muslimvideo.com, proxy
