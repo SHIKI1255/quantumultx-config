@@ -208,7 +208,7 @@
     {
       "after": "ip-cidr, 102.37.57.54/32, proxy",
       "before": "IP-CIDR,102.37.57.54/32,PROXY,no-resolve",
-      "index": 141,
+      "index": 142,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -218,7 +218,7 @@
     {
       "after": "ip-cidr, 13.71.25.29/32, proxy",
       "before": "IP-CIDR,13.71.25.29/32,PROXY,no-resolve",
-      "index": 142,
+      "index": 143,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -228,7 +228,7 @@
     {
       "after": "ip-cidr, 135.220.40.201/32, proxy",
       "before": "IP-CIDR,135.220.40.201/32,PROXY,no-resolve",
-      "index": 143,
+      "index": 144,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -238,7 +238,7 @@
     {
       "after": "ip-cidr, 172.203.39.49/32, proxy",
       "before": "IP-CIDR,172.203.39.49/32,PROXY,no-resolve",
-      "index": 144,
+      "index": 145,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -248,7 +248,7 @@
     {
       "after": "ip-cidr, 172.207.173.200/32, proxy",
       "before": "IP-CIDR,172.207.173.200/32,PROXY,no-resolve",
-      "index": 145,
+      "index": 146,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -258,7 +258,7 @@
     {
       "after": "ip-cidr, 172.214.226.198/32, proxy",
       "before": "IP-CIDR,172.214.226.198/32,PROXY,no-resolve",
-      "index": 146,
+      "index": 147,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -268,7 +268,7 @@
     {
       "after": "ip-cidr, 191.233.251.27/32, proxy",
       "before": "IP-CIDR,191.233.251.27/32,PROXY,no-resolve",
-      "index": 147,
+      "index": 148,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -278,7 +278,7 @@
     {
       "after": "ip-cidr, 20.162.96.163/32, proxy",
       "before": "IP-CIDR,20.162.96.163/32,PROXY,no-resolve",
-      "index": 148,
+      "index": 149,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -288,7 +288,7 @@
     {
       "after": "ip-cidr, 20.168.48.117/32, proxy",
       "before": "IP-CIDR,20.168.48.117/32,PROXY,no-resolve",
-      "index": 149,
+      "index": 150,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -298,7 +298,7 @@
     {
       "after": "ip-cidr, 20.184.36.134/32, proxy",
       "before": "IP-CIDR,20.184.36.134/32,PROXY,no-resolve",
-      "index": 150,
+      "index": 151,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -308,7 +308,7 @@
     {
       "after": "ip-cidr, 20.203.144.245/32, proxy",
       "before": "IP-CIDR,20.203.144.245/32,PROXY,no-resolve",
-      "index": 151,
+      "index": 152,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -318,7 +318,7 @@
     {
       "after": "ip-cidr, 20.74.221.21/32, proxy",
       "before": "IP-CIDR,20.74.221.21/32,PROXY,no-resolve",
-      "index": 152,
+      "index": 153,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -328,7 +328,7 @@
     {
       "after": "ip-cidr, 4.151.200.38/32, proxy",
       "before": "IP-CIDR,4.151.200.38/32,PROXY,no-resolve",
-      "index": 153,
+      "index": 154,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -338,7 +338,7 @@
     {
       "after": "ip-cidr, 4.155.146.196/32, proxy",
       "before": "IP-CIDR,4.155.146.196/32,PROXY,no-resolve",
-      "index": 154,
+      "index": 155,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -348,7 +348,7 @@
     {
       "after": "ip-cidr, 4.197.172.116/32, proxy",
       "before": "IP-CIDR,4.197.172.116/32,PROXY,no-resolve",
-      "index": 155,
+      "index": 156,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -358,7 +358,7 @@
     {
       "after": "ip-cidr, 4.217.235.100/32, proxy",
       "before": "IP-CIDR,4.217.235.100/32,PROXY,no-resolve",
-      "index": 156,
+      "index": 157,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -368,7 +368,7 @@
     {
       "after": "ip-cidr, 4.245.198.13/32, proxy",
       "before": "IP-CIDR,4.245.198.13/32,PROXY,no-resolve",
-      "index": 157,
+      "index": 158,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -378,7 +378,7 @@
     {
       "after": "ip-cidr, 40.118.236.137/32, proxy",
       "before": "IP-CIDR,40.118.236.137/32,PROXY,no-resolve",
-      "index": 158,
+      "index": 159,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -388,7 +388,7 @@
     {
       "after": "ip-cidr, 51.4.112.173/32, proxy",
       "before": "IP-CIDR,51.4.112.173/32,PROXY,no-resolve",
-      "index": 159,
+      "index": 160,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -398,7 +398,7 @@
     {
       "after": "ip-cidr, 52.143.181.161/32, proxy",
       "before": "IP-CIDR,52.143.181.161/32,PROXY,no-resolve",
-      "index": 160,
+      "index": 161,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -408,7 +408,7 @@
     {
       "after": "ip-cidr, 68.155.152.41/32, proxy",
       "before": "IP-CIDR,68.155.152.41/32,PROXY,no-resolve",
-      "index": 161,
+      "index": 162,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -418,7 +418,7 @@
     {
       "after": "ip-cidr, 72.146.20.246/32, proxy",
       "before": "IP-CIDR,72.146.20.246/32,PROXY,no-resolve",
-      "index": 162,
+      "index": 163,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -428,7 +428,7 @@
     {
       "after": "ip-cidr, 74.248.148.7/32, proxy",
       "before": "IP-CIDR,74.248.148.7/32,PROXY,no-resolve",
-      "index": 163,
+      "index": 164,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -438,7 +438,7 @@
     {
       "after": "ip-cidr, 109.239.140.0/24, proxy",
       "before": "IP-CIDR,109.239.140.0/24,PROXY,no-resolve",
-      "index": 231,
+      "index": 232,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -448,7 +448,7 @@
     {
       "after": "ip-cidr, 139.59.210.98/32, proxy",
       "before": "IP-CIDR,139.59.210.98/32,PROXY,no-resolve",
-      "index": 232,
+      "index": 233,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -458,7 +458,7 @@
     {
       "after": "ip-cidr, 149.154.160.0/20, proxy",
       "before": "IP-CIDR,149.154.160.0/20,PROXY,no-resolve",
-      "index": 233,
+      "index": 234,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -468,7 +468,7 @@
     {
       "after": "ip-cidr, 196.55.216.167/32, proxy",
       "before": "IP-CIDR,196.55.216.167/32,PROXY,no-resolve",
-      "index": 234,
+      "index": 235,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -478,7 +478,7 @@
     {
       "after": "ip6-cidr, 2001:67c:4e8::/48, proxy",
       "before": "IP-CIDR,2001:67c:4e8::/48,PROXY,no-resolve",
-      "index": 235,
+      "index": 236,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -489,7 +489,7 @@
     {
       "after": "ip6-cidr, 2001:b28:f23c::/47, proxy",
       "before": "IP-CIDR,2001:b28:f23c::/47,PROXY,no-resolve",
-      "index": 236,
+      "index": 237,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -500,7 +500,7 @@
     {
       "after": "ip6-cidr, 2001:b28:f23f::/48, proxy",
       "before": "IP-CIDR,2001:b28:f23f::/48,PROXY,no-resolve",
-      "index": 237,
+      "index": 238,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -511,7 +511,7 @@
     {
       "after": "ip6-cidr, 2a0a:f280::/29, proxy",
       "before": "IP-CIDR,2a0a:f280::/29,PROXY,no-resolve",
-      "index": 238,
+      "index": 239,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -522,7 +522,7 @@
     {
       "after": "ip-cidr, 5.28.192.0/18, proxy",
       "before": "IP-CIDR,5.28.192.0/18,PROXY,no-resolve",
-      "index": 239,
+      "index": 240,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -532,7 +532,7 @@
     {
       "after": "ip-cidr, 91.108.0.0/16, proxy",
       "before": "IP-CIDR,91.108.0.0/16,PROXY,no-resolve",
-      "index": 240,
+      "index": 241,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -542,7 +542,7 @@
     {
       "after": "ip-asn, 211157, proxy",
       "before": "IP-ASN,211157,PROXY,no-resolve",
-      "index": 241,
+      "index": 242,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -552,7 +552,7 @@
     {
       "after": "ip-asn, 44907, proxy",
       "before": "IP-ASN,44907,PROXY,no-resolve",
-      "index": 242,
+      "index": 243,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -562,7 +562,7 @@
     {
       "after": "ip-asn, 59930, proxy",
       "before": "IP-ASN,59930,PROXY,no-resolve",
-      "index": 243,
+      "index": 244,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -572,7 +572,7 @@
     {
       "after": "ip-asn, 62014, proxy",
       "before": "IP-ASN,62014,PROXY,no-resolve",
-      "index": 244,
+      "index": 245,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -582,7 +582,7 @@
     {
       "after": "ip-asn, 62041, proxy",
       "before": "IP-ASN,62041,PROXY,no-resolve",
-      "index": 245,
+      "index": 246,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -592,7 +592,7 @@
     {
       "after": "user-agent, %E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*, proxy",
       "before": "USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,PROXY",
-      "index": 935,
+      "index": 936,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -602,7 +602,7 @@
     {
       "after": "user-agent, *com.google.Drive*, proxy",
       "before": "USER-AGENT,*com.google.Drive*,PROXY",
-      "index": 936,
+      "index": 937,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -612,7 +612,7 @@
     {
       "after": "user-agent, Google.Drive*, proxy",
       "before": "USER-AGENT,Google.Drive*,PROXY",
-      "index": 937,
+      "index": 938,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -622,7 +622,7 @@
     {
       "after": "ip-cidr, 172.110.32.0/21, proxy",
       "before": "IP-CIDR,172.110.32.0/21,PROXY,no-resolve",
-      "index": 938,
+      "index": 939,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -632,7 +632,7 @@
     {
       "after": "ip-cidr, 173.194.0.0/16, proxy",
       "before": "IP-CIDR,173.194.0.0/16,PROXY,no-resolve",
-      "index": 939,
+      "index": 940,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -642,7 +642,7 @@
     {
       "after": "ip-cidr, 216.73.80.0/20, proxy",
       "before": "IP-CIDR,216.73.80.0/20,PROXY,no-resolve",
-      "index": 940,
+      "index": 941,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -652,7 +652,7 @@
     {
       "after": "ip6-cidr, 2620:120:e000::/40, proxy",
       "before": "IP-CIDR,2620:120:e000::/40,PROXY,no-resolve",
-      "index": 941,
+      "index": 942,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -663,7 +663,7 @@
     {
       "after": "ip-cidr, 74.125.0.0/16, proxy",
       "before": "IP-CIDR,74.125.0.0/16,PROXY,no-resolve",
-      "index": 942,
+      "index": 943,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -673,7 +673,7 @@
     {
       "after": "ip-cidr, 192.133.76.0/22, proxy",
       "before": "IP-CIDR,192.133.76.0/22,PROXY,no-resolve",
-      "index": 970,
+      "index": 971,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -683,7 +683,7 @@
     {
       "after": "ip-cidr, 199.59.148.0/22, proxy",
       "before": "IP-CIDR,199.59.148.0/22,PROXY,no-resolve",
-      "index": 971,
+      "index": 972,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -693,7 +693,7 @@
     {
       "after": "ip-cidr, 199.96.56.0/21, proxy",
       "before": "IP-CIDR,199.96.56.0/21,PROXY,no-resolve",
-      "index": 972,
+      "index": 973,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -703,7 +703,7 @@
     {
       "after": "ip-cidr, 202.160.128.0/22, proxy",
       "before": "IP-CIDR,202.160.128.0/22,PROXY,no-resolve",
-      "index": 973,
+      "index": 974,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -713,7 +713,7 @@
     {
       "after": "ip-cidr, 209.237.192.0/19, proxy",
       "before": "IP-CIDR,209.237.192.0/19,PROXY,no-resolve",
-      "index": 974,
+      "index": 975,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -723,7 +723,7 @@
     {
       "after": "ip-cidr, 69.195.160.0/19, proxy",
       "before": "IP-CIDR,69.195.160.0/19,PROXY,no-resolve",
-      "index": 975,
+      "index": 976,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -733,7 +733,7 @@
     {
       "after": "user-agent, *FindMyiPhone?, direct",
       "before": "USER-AGENT,*FindMyiPhone?,DIRECT",
-      "index": 1290,
+      "index": 1291,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -743,7 +743,7 @@
     {
       "after": "user-agent, *Music?, direct",
       "before": "USER-AGENT,*Music?,DIRECT",
-      "index": 1291,
+      "index": 1292,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -753,7 +753,7 @@
     {
       "after": "user-agent, *WeatherFoundation*, direct",
       "before": "USER-AGENT,*WeatherFoundation*,DIRECT",
-      "index": 1292,
+      "index": 1293,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -763,7 +763,7 @@
     {
       "after": "user-agent, *com.apple.Maps?, direct",
       "before": "USER-AGENT,*com.apple.Maps?,DIRECT",
-      "index": 1293,
+      "index": 1294,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -773,7 +773,7 @@
     {
       "after": "user-agent, *com.apple.mobileme.fmip1, direct",
       "before": "USER-AGENT,*com.apple.mobileme.fmip1,DIRECT",
-      "index": 1294,
+      "index": 1295,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -783,7 +783,7 @@
     {
       "after": "user-agent, FMDClient*, direct",
       "before": "USER-AGENT,FMDClient*,DIRECT",
-      "index": 1295,
+      "index": 1296,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -793,7 +793,7 @@
     {
       "after": "user-agent, FMFD*, direct",
       "before": "USER-AGENT,FMFD*,DIRECT",
-      "index": 1296,
+      "index": 1297,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -803,7 +803,7 @@
     {
       "after": "user-agent, FindMyFriends*, direct",
       "before": "USER-AGENT,FindMyFriends*,DIRECT",
-      "index": 1297,
+      "index": 1298,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -813,7 +813,7 @@
     {
       "after": "user-agent, FindMyiPhone*, direct",
       "before": "USER-AGENT,FindMyiPhone*,DIRECT",
-      "index": 1298,
+      "index": 1299,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -823,7 +823,7 @@
     {
       "after": "user-agent, Maps*, direct",
       "before": "USER-AGENT,Maps*,DIRECT",
-      "index": 1299,
+      "index": 1300,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -833,7 +833,7 @@
     {
       "after": "user-agent, Wallet*, direct",
       "before": "USER-AGENT,Wallet*,DIRECT",
-      "index": 1300,
+      "index": 1301,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -843,7 +843,7 @@
     {
       "after": "user-agent, com.apple.Maps, direct",
       "before": "USER-AGENT,com.apple.Maps,DIRECT",
-      "index": 1301,
+      "index": 1302,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -853,7 +853,7 @@
     {
       "after": "user-agent, com.apple.appstored*, direct",
       "before": "USER-AGENT,com.apple.appstored*,DIRECT",
-      "index": 1302,
+      "index": 1303,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -863,7 +863,7 @@
     {
       "after": "user-agent, fmflocatord*, direct",
       "before": "USER-AGENT,fmflocatord*,DIRECT",
-      "index": 1303,
+      "index": 1304,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -873,7 +873,7 @@
     {
       "after": "user-agent, geod*, direct",
       "before": "USER-AGENT,geod*,DIRECT",
-      "index": 1304,
+      "index": 1305,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -883,7 +883,7 @@
     {
       "after": "user-agent, locationd*, direct",
       "before": "USER-AGENT,locationd*,DIRECT",
-      "index": 1305,
+      "index": 1306,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -893,7 +893,7 @@
     {
       "after": "user-agent, passd*, direct",
       "before": "USER-AGENT,passd*,DIRECT",
-      "index": 1306,
+      "index": 1307,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -903,7 +903,7 @@
     {
       "after": "user-agent, Music*, direct",
       "before": "USER-AGENT,Music*,DIRECT",
-      "index": 1307,
+      "index": 1308,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -913,7 +913,7 @@
     {
       "after": "user-agent, AppleNews*, direct",
       "before": "USER-AGENT,AppleNews*,DIRECT",
-      "index": 1308,
+      "index": 1309,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -923,7 +923,7 @@
     {
       "after": "user-agent, AppleTV*, direct",
       "before": "USER-AGENT,AppleTV*,DIRECT",
-      "index": 1309,
+      "index": 1310,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -933,7 +933,7 @@
     {
       "after": "user-agent, com.apple.news*, direct",
       "before": "USER-AGENT,com.apple.news*,DIRECT",
-      "index": 1310,
+      "index": 1311,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -943,7 +943,7 @@
     {
       "after": "user-agent, com.apple.trustd*, direct",
       "before": "USER-AGENT,com.apple.trustd*,DIRECT",
-      "index": 1311,
+      "index": 1312,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -953,7 +953,7 @@
     {
       "after": "user-agent, com.apple.tv*, direct",
       "before": "USER-AGENT,com.apple.tv*,DIRECT",
-      "index": 1312,
+      "index": 1313,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -963,7 +963,7 @@
     {
       "after": "ip-cidr, 139.178.128.0/18, direct",
       "before": "IP-CIDR,139.178.128.0/18,DIRECT,no-resolve",
-      "index": 1313,
+      "index": 1314,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -973,7 +973,7 @@
     {
       "after": "ip-cidr, 144.178.0.0/19, direct",
       "before": "IP-CIDR,144.178.0.0/19,DIRECT,no-resolve",
-      "index": 1314,
+      "index": 1315,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -983,7 +983,7 @@
     {
       "after": "ip-cidr, 144.178.36.0/22, direct",
       "before": "IP-CIDR,144.178.36.0/22,DIRECT,no-resolve",
-      "index": 1315,
+      "index": 1316,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -993,7 +993,7 @@
     {
       "after": "ip-cidr, 144.178.48.0/20, direct",
       "before": "IP-CIDR,144.178.48.0/20,DIRECT,no-resolve",
-      "index": 1316,
+      "index": 1317,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1003,7 +1003,7 @@
     {
       "after": "ip-cidr, 17.0.0.0/8, direct",
       "before": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
-      "index": 1317,
+      "index": 1318,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1013,7 +1013,7 @@
     {
       "after": "ip-cidr, 192.35.50.0/24, direct",
       "before": "IP-CIDR,192.35.50.0/24,DIRECT,no-resolve",
-      "index": 1318,
+      "index": 1319,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1023,7 +1023,7 @@
     {
       "after": "ip-cidr, 198.183.17.0/24, direct",
       "before": "IP-CIDR,198.183.17.0/24,DIRECT,no-resolve",
-      "index": 1319,
+      "index": 1320,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1033,7 +1033,7 @@
     {
       "after": "ip-cidr, 205.180.175.0/24, direct",
       "before": "IP-CIDR,205.180.175.0/24,DIRECT,no-resolve",
-      "index": 1320,
+      "index": 1321,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1043,7 +1043,7 @@
     {
       "after": "ip6-cidr, 2403:300::/32, direct",
       "before": "IP-CIDR,2403:300::/32,DIRECT,no-resolve",
-      "index": 1321,
+      "index": 1322,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -1054,7 +1054,7 @@
     {
       "after": "ip6-cidr, 2620:149::/32, direct",
       "before": "IP-CIDR,2620:149::/32,DIRECT,no-resolve",
-      "index": 1322,
+      "index": 1323,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -1065,7 +1065,7 @@
     {
       "after": "ip6-cidr, 2a01:b740::/32, direct",
       "before": "IP-CIDR,2a01:b740::/32,DIRECT,no-resolve",
-      "index": 1323,
+      "index": 1324,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -1076,7 +1076,7 @@
     {
       "after": "ip-cidr, 63.92.224.0/19, direct",
       "before": "IP-CIDR,63.92.224.0/19,DIRECT,no-resolve",
-      "index": 1324,
+      "index": 1325,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1086,7 +1086,7 @@
     {
       "after": "ip-cidr, 65.199.22.0/23, direct",
       "before": "IP-CIDR,65.199.22.0/23,DIRECT,no-resolve",
-      "index": 1325,
+      "index": 1326,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1096,7 +1096,7 @@
     {
       "after": "user-agent, Microsoft*, direct",
       "before": "USER-AGENT,Microsoft*,DIRECT",
-      "index": 3553,
+      "index": 3554,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1106,7 +1106,7 @@
     {
       "after": "user-agent, OneDrive*, direct",
       "before": "USER-AGENT,OneDrive*,DIRECT",
-      "index": 3554,
+      "index": 3555,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1116,7 +1116,7 @@
     {
       "after": "user-agent, OneDriveiOSApp*, direct",
       "before": "USER-AGENT,OneDriveiOSApp*,DIRECT",
-      "index": 3555,
+      "index": 3556,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1126,7 +1126,7 @@
     {
       "after": "user-agent, *bili*, direct",
       "before": "USER-AGENT,*bili*,DIRECT",
-      "index": 3671,
+      "index": 3672,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1136,7 +1136,7 @@
     {
       "after": "user-agent, Bilibili*, direct",
       "before": "USER-AGENT,Bilibili*,DIRECT",
-      "index": 3672,
+      "index": 3673,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1146,7 +1146,7 @@
     {
       "after": "user-agent, bili*, direct",
       "before": "USER-AGENT,bili*,DIRECT",
-      "index": 3673,
+      "index": 3674,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1156,7 +1156,7 @@
     {
       "after": "user-agent, bili-inter*, direct",
       "before": "USER-AGENT,bili-inter*,DIRECT",
-      "index": 3674,
+      "index": 3675,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1166,7 +1166,7 @@
     {
       "after": "ip-cidr, 106.75.74.76/32, direct",
       "before": "IP-CIDR,106.75.74.76/32,DIRECT,no-resolve",
-      "index": 3675,
+      "index": 3676,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1176,7 +1176,7 @@
     {
       "after": "ip-cidr, 111.206.25.147/32, direct",
       "before": "IP-CIDR,111.206.25.147/32,DIRECT,no-resolve",
-      "index": 3676,
+      "index": 3677,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1186,7 +1186,7 @@
     {
       "after": "ip-cidr, 119.3.238.64/32, direct",
       "before": "IP-CIDR,119.3.238.64/32,DIRECT,no-resolve",
-      "index": 3677,
+      "index": 3678,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1196,7 +1196,7 @@
     {
       "after": "ip-cidr, 120.92.108.182/32, direct",
       "before": "IP-CIDR,120.92.108.182/32,DIRECT,no-resolve",
-      "index": 3678,
+      "index": 3679,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1206,7 +1206,7 @@
     {
       "after": "ip-cidr, 120.92.113.99/32, direct",
       "before": "IP-CIDR,120.92.113.99/32,DIRECT,no-resolve",
-      "index": 3679,
+      "index": 3680,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1216,7 +1216,7 @@
     {
       "after": "ip-cidr, 120.92.153.217/32, direct",
       "before": "IP-CIDR,120.92.153.217/32,DIRECT,no-resolve",
-      "index": 3680,
+      "index": 3681,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1226,7 +1226,7 @@
     {
       "after": "ip-cidr, 134.175.207.130/32, direct",
       "before": "IP-CIDR,134.175.207.130/32,DIRECT,no-resolve",
-      "index": 3681,
+      "index": 3682,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1236,7 +1236,7 @@
     {
       "after": "ip-cidr, 203.107.1.0/24, direct",
       "before": "IP-CIDR,203.107.1.0/24,DIRECT,no-resolve",
-      "index": 3682,
+      "index": 3683,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1246,7 +1246,7 @@
     {
       "after": "user-agent, Duolingo*, proxy",
       "before": "USER-AGENT,Duolingo*,PROXY",
-      "index": 3705,
+      "index": 3706,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1256,7 +1256,7 @@
     {
       "after": "user-agent, OneDrive*, proxy",
       "before": "USER-AGENT,OneDrive*,PROXY",
-      "index": 3706,
+      "index": 3707,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1266,7 +1266,7 @@
     {
       "after": "user-agent, PayPal*, proxy",
       "before": "USER-AGENT,PayPal*,PROXY",
-      "index": 3707,
+      "index": 3708,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1276,7 +1276,7 @@
     {
       "after": "user-agent, Roam*, proxy",
       "before": "USER-AGENT,Roam*,PROXY",
-      "index": 3708,
+      "index": 3709,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1286,7 +1286,7 @@
     {
       "after": "user-agent, WhatsApp*, proxy",
       "before": "USER-AGENT,WhatsApp*,PROXY",
-      "index": 3709,
+      "index": 3710,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1296,7 +1296,7 @@
     {
       "after": "user-agent, battleroyale*, proxy",
       "before": "USER-AGENT,battleroyale*,PROXY",
-      "index": 3710,
+      "index": 3711,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1306,7 +1306,7 @@
     {
       "after": "user-agent, com.apple.trustd*, proxy",
       "before": "USER-AGENT,com.apple.trustd*,PROXY",
-      "index": 3711,
+      "index": 3712,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1316,7 +1316,7 @@
     {
       "after": "user-agent, hearthstone*, proxy",
       "before": "USER-AGENT,hearthstone*,PROXY",
-      "index": 3712,
+      "index": 3713,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -1326,7 +1326,7 @@
     {
       "after": "ip-cidr, 1.201.0.0/24, proxy",
       "before": "IP-CIDR,1.201.0.0/24,PROXY,no-resolve",
-      "index": 3713,
+      "index": 3714,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1336,7 +1336,7 @@
     {
       "after": "ip-cidr, 103.2.28.0/22, proxy",
       "before": "IP-CIDR,103.2.28.0/22,PROXY,no-resolve",
-      "index": 3714,
+      "index": 3715,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1346,7 +1346,7 @@
     {
       "after": "ip-cidr, 103.246.56.0/22, proxy",
       "before": "IP-CIDR,103.246.56.0/22,PROXY,no-resolve",
-      "index": 3715,
+      "index": 3716,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1356,7 +1356,7 @@
     {
       "after": "ip-cidr, 103.27.148.0/22, proxy",
       "before": "IP-CIDR,103.27.148.0/22,PROXY,no-resolve",
-      "index": 3716,
+      "index": 3717,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1366,7 +1366,7 @@
     {
       "after": "ip-cidr, 103.4.96.0/22, proxy",
       "before": "IP-CIDR,103.4.96.0/22,PROXY,no-resolve",
-      "index": 3717,
+      "index": 3718,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1376,7 +1376,7 @@
     {
       "after": "ip-cidr, 110.76.140.0/22, proxy",
       "before": "IP-CIDR,110.76.140.0/22,PROXY,no-resolve",
-      "index": 3718,
+      "index": 3719,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1386,7 +1386,7 @@
     {
       "after": "ip-cidr, 113.61.104.0/22, proxy",
       "before": "IP-CIDR,113.61.104.0/22,PROXY,no-resolve",
-      "index": 3719,
+      "index": 3720,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1396,7 +1396,7 @@
     {
       "after": "ip-cidr, 119.235.224.0/21, proxy",
       "before": "IP-CIDR,119.235.224.0/21,PROXY,no-resolve",
-      "index": 3720,
+      "index": 3721,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1406,7 +1406,7 @@
     {
       "after": "ip-cidr, 119.235.232.0/23, proxy",
       "before": "IP-CIDR,119.235.232.0/23,PROXY,no-resolve",
-      "index": 3721,
+      "index": 3722,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1416,7 +1416,7 @@
     {
       "after": "ip-cidr, 119.235.235.0/24, proxy",
       "before": "IP-CIDR,119.235.235.0/24,PROXY,no-resolve",
-      "index": 3722,
+      "index": 3723,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1426,7 +1426,7 @@
     {
       "after": "ip-cidr, 119.235.236.0/23, proxy",
       "before": "IP-CIDR,119.235.236.0/23,PROXY,no-resolve",
-      "index": 3723,
+      "index": 3724,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1436,7 +1436,7 @@
     {
       "after": "ip-cidr, 120.232.181.162/32, proxy",
       "before": "IP-CIDR,120.232.181.162/32,PROXY,no-resolve",
-      "index": 3724,
+      "index": 3725,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1446,7 +1446,7 @@
     {
       "after": "ip-cidr, 120.241.147.226/32, proxy",
       "before": "IP-CIDR,120.241.147.226/32,PROXY,no-resolve",
-      "index": 3725,
+      "index": 3726,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1456,7 +1456,7 @@
     {
       "after": "ip-cidr, 120.253.253.226/32, proxy",
       "before": "IP-CIDR,120.253.253.226/32,PROXY,no-resolve",
-      "index": 3726,
+      "index": 3727,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1466,7 +1466,7 @@
     {
       "after": "ip-cidr, 120.253.255.162/32, proxy",
       "before": "IP-CIDR,120.253.255.162/32,PROXY,no-resolve",
-      "index": 3727,
+      "index": 3728,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1476,7 +1476,7 @@
     {
       "after": "ip-cidr, 120.253.255.34/32, proxy",
       "before": "IP-CIDR,120.253.255.34/32,PROXY,no-resolve",
-      "index": 3728,
+      "index": 3729,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1486,7 +1486,7 @@
     {
       "after": "ip-cidr, 120.253.255.98/32, proxy",
       "before": "IP-CIDR,120.253.255.98/32,PROXY,no-resolve",
-      "index": 3729,
+      "index": 3730,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1496,7 +1496,7 @@
     {
       "after": "ip-cidr, 125.209.208.0/20, proxy",
       "before": "IP-CIDR,125.209.208.0/20,PROXY,no-resolve",
-      "index": 3730,
+      "index": 3731,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1506,7 +1506,7 @@
     {
       "after": "ip-cidr, 125.6.146.0/24, proxy",
       "before": "IP-CIDR,125.6.146.0/24,PROXY,no-resolve",
-      "index": 3731,
+      "index": 3732,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1516,7 +1516,7 @@
     {
       "after": "ip-cidr, 125.6.149.0/24, proxy",
       "before": "IP-CIDR,125.6.149.0/24,PROXY,no-resolve",
-      "index": 3732,
+      "index": 3733,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1526,7 +1526,7 @@
     {
       "after": "ip-cidr, 125.6.190.0/24, proxy",
       "before": "IP-CIDR,125.6.190.0/24,PROXY,no-resolve",
-      "index": 3733,
+      "index": 3734,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1536,7 +1536,7 @@
     {
       "after": "ip-cidr, 129.134.0.0/17, proxy",
       "before": "IP-CIDR,129.134.0.0/17,PROXY,no-resolve",
-      "index": 3734,
+      "index": 3735,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1546,7 +1546,7 @@
     {
       "after": "ip-cidr, 13.251.24.0/24, proxy",
       "before": "IP-CIDR,13.251.24.0/24,PROXY,no-resolve",
-      "index": 3735,
+      "index": 3736,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1556,7 +1556,7 @@
     {
       "after": "ip-cidr, 13.251.41.0/24, proxy",
       "before": "IP-CIDR,13.251.41.0/24,PROXY,no-resolve",
-      "index": 3736,
+      "index": 3737,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1566,7 +1566,7 @@
     {
       "after": "ip-cidr, 13.32.0.0/15, proxy",
       "before": "IP-CIDR,13.32.0.0/15,PROXY,no-resolve",
-      "index": 3737,
+      "index": 3738,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1576,7 +1576,7 @@
     {
       "after": "ip-cidr, 13.35.0.0/17, proxy",
       "before": "IP-CIDR,13.35.0.0/17,PROXY,no-resolve",
-      "index": 3738,
+      "index": 3739,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1586,7 +1586,7 @@
     {
       "after": "ip-cidr, 14.102.250.18/31, proxy",
       "before": "IP-CIDR,14.102.250.18/31,PROXY,no-resolve",
-      "index": 3739,
+      "index": 3740,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1596,7 +1596,7 @@
     {
       "after": "ip-cidr, 147.92.128.0/17, proxy",
       "before": "IP-CIDR,147.92.128.0/17,PROXY,no-resolve",
-      "index": 3740,
+      "index": 3741,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1606,7 +1606,7 @@
     {
       "after": "ip-cidr, 157.240.0.0/17, proxy",
       "before": "IP-CIDR,157.240.0.0/17,PROXY,no-resolve",
-      "index": 3741,
+      "index": 3742,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1616,7 +1616,7 @@
     {
       "after": "ip-cidr, 158.85.224.160/27, proxy",
       "before": "IP-CIDR,158.85.224.160/27,PROXY,no-resolve",
-      "index": 3742,
+      "index": 3743,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1626,7 +1626,7 @@
     {
       "after": "ip-cidr, 158.85.46.128/27, proxy",
       "before": "IP-CIDR,158.85.46.128/27,PROXY,no-resolve",
-      "index": 3743,
+      "index": 3744,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1636,7 +1636,7 @@
     {
       "after": "ip-cidr, 158.85.5.192/27, proxy",
       "before": "IP-CIDR,158.85.5.192/27,PROXY,no-resolve",
-      "index": 3744,
+      "index": 3745,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1646,7 +1646,7 @@
     {
       "after": "ip-cidr, 17.252.156.0/23, proxy",
       "before": "IP-CIDR,17.252.156.0/23,PROXY,no-resolve",
-      "index": 3745,
+      "index": 3746,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1656,7 +1656,7 @@
     {
       "after": "ip-cidr, 173.192.222.160/27, proxy",
       "before": "IP-CIDR,173.192.222.160/27,PROXY,no-resolve",
-      "index": 3746,
+      "index": 3747,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1666,7 +1666,7 @@
     {
       "after": "ip-cidr, 173.192.231.32/27, proxy",
       "before": "IP-CIDR,173.192.231.32/27,PROXY,no-resolve",
-      "index": 3747,
+      "index": 3748,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1676,7 +1676,7 @@
     {
       "after": "ip-cidr, 173.252.64.0/18, proxy",
       "before": "IP-CIDR,173.252.64.0/18,PROXY,no-resolve",
-      "index": 3748,
+      "index": 3749,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1686,7 +1686,7 @@
     {
       "after": "ip-cidr, 174.142.105.153/32, proxy",
       "before": "IP-CIDR,174.142.105.153/32,PROXY,no-resolve",
-      "index": 3749,
+      "index": 3750,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1696,7 +1696,7 @@
     {
       "after": "ip-cidr, 174.37.0.0/16, proxy",
       "before": "IP-CIDR,174.37.0.0/16,PROXY,no-resolve",
-      "index": 3750,
+      "index": 3751,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1706,7 +1706,7 @@
     {
       "after": "ip-cidr, 179.60.192.0/22, proxy",
       "before": "IP-CIDR,179.60.192.0/22,PROXY,no-resolve",
-      "index": 3751,
+      "index": 3752,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1716,7 +1716,7 @@
     {
       "after": "ip-cidr, 18.184.0.0/15, proxy",
       "before": "IP-CIDR,18.184.0.0/15,PROXY,no-resolve",
-      "index": 3752,
+      "index": 3753,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1726,7 +1726,7 @@
     {
       "after": "ip-cidr, 18.194.0.0/15, proxy",
       "before": "IP-CIDR,18.194.0.0/15,PROXY,no-resolve",
-      "index": 3753,
+      "index": 3754,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1736,7 +1736,7 @@
     {
       "after": "ip-cidr, 18.208.0.0/13, proxy",
       "before": "IP-CIDR,18.208.0.0/13,PROXY,no-resolve",
-      "index": 3754,
+      "index": 3755,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1746,7 +1746,7 @@
     {
       "after": "ip-cidr, 18.232.0.0/14, proxy",
       "before": "IP-CIDR,18.232.0.0/14,PROXY,no-resolve",
-      "index": 3755,
+      "index": 3756,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1756,7 +1756,7 @@
     {
       "after": "ip-cidr, 180.163.150.162/32, proxy",
       "before": "IP-CIDR,180.163.150.162/32,PROXY,no-resolve",
-      "index": 3756,
+      "index": 3757,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1766,7 +1766,7 @@
     {
       "after": "ip-cidr, 180.163.150.34/32, proxy",
       "before": "IP-CIDR,180.163.150.34/32,PROXY,no-resolve",
-      "index": 3757,
+      "index": 3758,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1776,7 +1776,7 @@
     {
       "after": "ip-cidr, 180.163.151.162/32, proxy",
       "before": "IP-CIDR,180.163.151.162/32,PROXY,no-resolve",
-      "index": 3758,
+      "index": 3759,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1786,7 +1786,7 @@
     {
       "after": "ip-cidr, 180.163.151.34/32, proxy",
       "before": "IP-CIDR,180.163.151.34/32,PROXY,no-resolve",
-      "index": 3759,
+      "index": 3760,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1796,7 +1796,7 @@
     {
       "after": "ip-cidr, 184.173.128.0/17, proxy",
       "before": "IP-CIDR,184.173.128.0/17,PROXY,no-resolve",
-      "index": 3760,
+      "index": 3761,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1806,7 +1806,7 @@
     {
       "after": "ip-cidr, 185.60.216.0/22, proxy",
       "before": "IP-CIDR,185.60.216.0/22,PROXY,no-resolve",
-      "index": 3761,
+      "index": 3762,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1816,7 +1816,7 @@
     {
       "after": "ip-cidr, 185.76.151.0/24, proxy",
       "before": "IP-CIDR,185.76.151.0/24,PROXY,no-resolve",
-      "index": 3762,
+      "index": 3763,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1826,7 +1826,7 @@
     {
       "after": "ip6-cidr, 2001:b28:f23d::/48, proxy",
       "before": "IP-CIDR,2001:b28:f23d::/48,PROXY,no-resolve",
-      "index": 3763,
+      "index": 3764,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -1837,7 +1837,7 @@
     {
       "after": "ip-cidr, 203.104.103.0/24, proxy",
       "before": "IP-CIDR,203.104.103.0/24,PROXY,no-resolve",
-      "index": 3764,
+      "index": 3765,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1847,7 +1847,7 @@
     {
       "after": "ip-cidr, 203.104.128.0/19, proxy",
       "before": "IP-CIDR,203.104.128.0/19,PROXY,no-resolve",
-      "index": 3765,
+      "index": 3766,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1857,7 +1857,7 @@
     {
       "after": "ip-cidr, 203.174.66.64/26, proxy",
       "before": "IP-CIDR,203.174.66.64/26,PROXY,no-resolve",
-      "index": 3766,
+      "index": 3767,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1867,7 +1867,7 @@
     {
       "after": "ip-cidr, 203.174.77.0/24, proxy",
       "before": "IP-CIDR,203.174.77.0/24,PROXY,no-resolve",
-      "index": 3767,
+      "index": 3768,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1877,7 +1877,7 @@
     {
       "after": "ip-cidr, 203.208.39.0/24, proxy",
       "before": "IP-CIDR,203.208.39.0/24,PROXY,no-resolve",
-      "index": 3768,
+      "index": 3769,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1887,7 +1887,7 @@
     {
       "after": "ip-cidr, 203.208.40.0/23, proxy",
       "before": "IP-CIDR,203.208.40.0/23,PROXY,no-resolve",
-      "index": 3769,
+      "index": 3770,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1897,7 +1897,7 @@
     {
       "after": "ip-cidr, 203.208.43.0/24, proxy",
       "before": "IP-CIDR,203.208.43.0/24,PROXY,no-resolve",
-      "index": 3770,
+      "index": 3771,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1907,7 +1907,7 @@
     {
       "after": "ip-cidr, 203.208.50.0/24, proxy",
       "before": "IP-CIDR,203.208.50.0/24,PROXY,no-resolve",
-      "index": 3771,
+      "index": 3772,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1917,7 +1917,7 @@
     {
       "after": "ip-cidr, 204.15.20.0/22, proxy",
       "before": "IP-CIDR,204.15.20.0/22,PROXY,no-resolve",
-      "index": 3772,
+      "index": 3773,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1927,7 +1927,7 @@
     {
       "after": "ip-cidr, 208.43.0.0/16, proxy",
       "before": "IP-CIDR,208.43.0.0/16,PROXY,no-resolve",
-      "index": 3773,
+      "index": 3774,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1937,7 +1937,7 @@
     {
       "after": "ip-cidr, 220.181.174.162/32, proxy",
       "before": "IP-CIDR,220.181.174.162/32,PROXY,no-resolve",
-      "index": 3774,
+      "index": 3775,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1947,7 +1947,7 @@
     {
       "after": "ip-cidr, 220.181.174.226/32, proxy",
       "before": "IP-CIDR,220.181.174.226/32,PROXY,no-resolve",
-      "index": 3775,
+      "index": 3776,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1957,7 +1957,7 @@
     {
       "after": "ip-cidr, 220.181.174.34/32, proxy",
       "before": "IP-CIDR,220.181.174.34/32,PROXY,no-resolve",
-      "index": 3776,
+      "index": 3777,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1967,7 +1967,7 @@
     {
       "after": "ip-cidr, 27.0.236.0/22, proxy",
       "before": "IP-CIDR,27.0.236.0/22,PROXY,no-resolve",
-      "index": 3777,
+      "index": 3778,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1977,7 +1977,7 @@
     {
       "after": "ip6-cidr, 2a0a:f280::/32, proxy",
       "before": "IP-CIDR,2a0a:f280::/32,PROXY,no-resolve",
-      "index": 3778,
+      "index": 3779,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -1988,7 +1988,7 @@
     {
       "after": "ip-cidr, 31.13.24.0/21, proxy",
       "before": "IP-CIDR,31.13.24.0/21,PROXY,no-resolve",
-      "index": 3779,
+      "index": 3780,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -1998,7 +1998,7 @@
     {
       "after": "ip-cidr, 31.13.64.0/18, proxy",
       "before": "IP-CIDR,31.13.64.0/18,PROXY,no-resolve",
-      "index": 3780,
+      "index": 3781,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2008,7 +2008,7 @@
     {
       "after": "ip-cidr, 34.224.0.0/12, proxy",
       "before": "IP-CIDR,34.224.0.0/12,PROXY,no-resolve",
-      "index": 3781,
+      "index": 3782,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2018,7 +2018,7 @@
     {
       "after": "ip-cidr, 45.64.40.0/22, proxy",
       "before": "IP-CIDR,45.64.40.0/22,PROXY,no-resolve",
-      "index": 3782,
+      "index": 3783,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2028,7 +2028,7 @@
     {
       "after": "ip-cidr, 50.22.198.204/30, proxy",
       "before": "IP-CIDR,50.22.198.204/30,PROXY,no-resolve",
-      "index": 3783,
+      "index": 3784,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2038,7 +2038,7 @@
     {
       "after": "ip-cidr, 52.200.0.0/13, proxy",
       "before": "IP-CIDR,52.200.0.0/13,PROXY,no-resolve",
-      "index": 3784,
+      "index": 3785,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2048,7 +2048,7 @@
     {
       "after": "ip-cidr, 52.58.0.0/15, proxy",
       "before": "IP-CIDR,52.58.0.0/15,PROXY,no-resolve",
-      "index": 3785,
+      "index": 3786,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2058,7 +2058,7 @@
     {
       "after": "ip-cidr, 52.74.0.0/16, proxy",
       "before": "IP-CIDR,52.74.0.0/16,PROXY,no-resolve",
-      "index": 3786,
+      "index": 3787,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2068,7 +2068,7 @@
     {
       "after": "ip-cidr, 52.77.0.0/16, proxy",
       "before": "IP-CIDR,52.77.0.0/16,PROXY,no-resolve",
-      "index": 3787,
+      "index": 3788,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2078,7 +2078,7 @@
     {
       "after": "ip-cidr, 52.84.0.0/15, proxy",
       "before": "IP-CIDR,52.84.0.0/15,PROXY,no-resolve",
-      "index": 3788,
+      "index": 3789,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2088,7 +2088,7 @@
     {
       "after": "ip-cidr, 54.156.0.0/14, proxy",
       "before": "IP-CIDR,54.156.0.0/14,PROXY,no-resolve",
-      "index": 3789,
+      "index": 3790,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2098,7 +2098,7 @@
     {
       "after": "ip-cidr, 54.226.0.0/15, proxy",
       "before": "IP-CIDR,54.226.0.0/15,PROXY,no-resolve",
-      "index": 3790,
+      "index": 3791,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2108,7 +2108,7 @@
     {
       "after": "ip-cidr, 54.230.156.0/22, proxy",
       "before": "IP-CIDR,54.230.156.0/22,PROXY,no-resolve",
-      "index": 3791,
+      "index": 3792,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2118,7 +2118,7 @@
     {
       "after": "ip-cidr, 54.242.0.0/15, proxy",
       "before": "IP-CIDR,54.242.0.0/15,PROXY,no-resolve",
-      "index": 3792,
+      "index": 3793,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2128,7 +2128,7 @@
     {
       "after": "ip-cidr, 54.93.0.0/16, proxy",
       "before": "IP-CIDR,54.93.0.0/16,PROXY,no-resolve",
-      "index": 3793,
+      "index": 3794,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2138,7 +2138,7 @@
     {
       "after": "ip-cidr, 66.220.144.0/20, proxy",
       "before": "IP-CIDR,66.220.144.0/20,PROXY,no-resolve",
-      "index": 3794,
+      "index": 3795,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2148,7 +2148,7 @@
     {
       "after": "ip-cidr, 67.220.91.15/32, proxy",
       "before": "IP-CIDR,67.220.91.15/32,PROXY,no-resolve",
-      "index": 3795,
+      "index": 3796,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2158,7 +2158,7 @@
     {
       "after": "ip-cidr, 67.220.91.18/32, proxy",
       "before": "IP-CIDR,67.220.91.18/32,PROXY,no-resolve",
-      "index": 3796,
+      "index": 3797,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2168,7 +2168,7 @@
     {
       "after": "ip-cidr, 67.220.91.23/32, proxy",
       "before": "IP-CIDR,67.220.91.23/32,PROXY,no-resolve",
-      "index": 3797,
+      "index": 3798,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2178,7 +2178,7 @@
     {
       "after": "ip-cidr, 69.171.224.0/19, proxy",
       "before": "IP-CIDR,69.171.224.0/19,PROXY,no-resolve",
-      "index": 3798,
+      "index": 3799,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2188,7 +2188,7 @@
     {
       "after": "ip-cidr, 69.63.176.0/20, proxy",
       "before": "IP-CIDR,69.63.176.0/20,PROXY,no-resolve",
-      "index": 3799,
+      "index": 3800,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2198,7 +2198,7 @@
     {
       "after": "ip-cidr, 69.65.19.160/32, proxy",
       "before": "IP-CIDR,69.65.19.160/32,PROXY,no-resolve",
-      "index": 3800,
+      "index": 3801,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2208,7 +2208,7 @@
     {
       "after": "ip-cidr, 72.52.81.22/32, proxy",
       "before": "IP-CIDR,72.52.81.22/32,PROXY,no-resolve",
-      "index": 3801,
+      "index": 3802,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2218,7 +2218,7 @@
     {
       "after": "ip-cidr, 74.119.76.0/22, proxy",
       "before": "IP-CIDR,74.119.76.0/22,PROXY,no-resolve",
-      "index": 3802,
+      "index": 3803,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2228,7 +2228,7 @@
     {
       "after": "ip-cidr, 74.86.0.0/16, proxy",
       "before": "IP-CIDR,74.86.0.0/16,PROXY,no-resolve",
-      "index": 3803,
+      "index": 3804,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2238,7 +2238,7 @@
     {
       "after": "ip-cidr, 75.126.0.0/16, proxy",
       "before": "IP-CIDR,75.126.0.0/16,PROXY,no-resolve",
-      "index": 3804,
+      "index": 3805,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2248,7 +2248,7 @@
     {
       "after": "ip-cidr, 91.105.192.0/23, proxy",
       "before": "IP-CIDR,91.105.192.0/23,PROXY,no-resolve",
-      "index": 3805,
+      "index": 3806,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2258,7 +2258,7 @@
     {
       "after": "user-agent, %E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*, direct",
       "before": "USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,DIRECT",
-      "index": 10434,
+      "index": 10435,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2268,7 +2268,7 @@
     {
       "after": "user-agent, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*, direct",
       "before": "USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*,DIRECT",
-      "index": 10435,
+      "index": 10436,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2278,7 +2278,7 @@
     {
       "after": "user-agent, %E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*, direct",
       "before": "USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT",
-      "index": 10436,
+      "index": 10437,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2288,7 +2288,7 @@
     {
       "after": "user-agent, %E4%BC%98%E9%85%B7*, direct",
       "before": "USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT",
-      "index": 10437,
+      "index": 10438,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2298,7 +2298,7 @@
     {
       "after": "user-agent, %E5%8D%B3%E5%88%BB*, direct",
       "before": "USER-AGENT,%E5%8D%B3%E5%88%BB*,DIRECT",
-      "index": 10438,
+      "index": 10439,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2308,7 +2308,7 @@
     {
       "after": "user-agent, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*, direct",
       "before": "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT",
-      "index": 10439,
+      "index": 10440,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2318,7 +2318,7 @@
     {
       "after": "user-agent, *Vainglory*, direct",
       "before": "USER-AGENT,*Vainglory*,DIRECT",
-      "index": 10440,
+      "index": 10441,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2328,7 +2328,7 @@
     {
       "after": "user-agent, AdBlock*, direct",
       "before": "USER-AGENT,AdBlock*,DIRECT",
-      "index": 10441,
+      "index": 10442,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2338,7 +2338,7 @@
     {
       "after": "user-agent, Best%20Trace*, direct",
       "before": "USER-AGENT,Best%20Trace*,DIRECT",
-      "index": 10442,
+      "index": 10443,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2348,7 +2348,7 @@
     {
       "after": "user-agent, MegaWerewolf*, direct",
       "before": "USER-AGENT,MegaWerewolf*,DIRECT",
-      "index": 10443,
+      "index": 10444,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2358,7 +2358,7 @@
     {
       "after": "user-agent, MicroMessenger%20Client, direct",
       "before": "USER-AGENT,MicroMessenger%20Client,DIRECT",
-      "index": 10444,
+      "index": 10445,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2368,7 +2368,7 @@
     {
       "after": "user-agent, MicroMessenger*, direct",
       "before": "USER-AGENT,MicroMessenger*,DIRECT",
-      "index": 10445,
+      "index": 10446,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2378,7 +2378,7 @@
     {
       "after": "user-agent, MicroMessengerClient*, direct",
       "before": "USER-AGENT,MicroMessengerClient*,DIRECT",
-      "index": 10446,
+      "index": 10447,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2388,7 +2388,7 @@
     {
       "after": "user-agent, Moke*, direct",
       "before": "USER-AGENT,Moke*,DIRECT",
-      "index": 10447,
+      "index": 10448,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2398,7 +2398,7 @@
     {
       "after": "user-agent, NeteaseMusic*, direct",
       "before": "USER-AGENT,NeteaseMusic*,DIRECT",
-      "index": 10448,
+      "index": 10449,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2408,7 +2408,7 @@
     {
       "after": "user-agent, QQ*, direct",
       "before": "USER-AGENT,QQ*,DIRECT",
-      "index": 10449,
+      "index": 10450,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2418,7 +2418,7 @@
     {
       "after": "user-agent, RemotePlay*, direct",
       "before": "USER-AGENT,RemotePlay*,DIRECT",
-      "index": 10450,
+      "index": 10451,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2428,7 +2428,7 @@
     {
       "after": "user-agent, TIM*, direct",
       "before": "USER-AGENT,TIM*,DIRECT",
-      "index": 10451,
+      "index": 10452,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2438,7 +2438,7 @@
     {
       "after": "user-agent, TeamViewer*, direct",
       "before": "USER-AGENT,TeamViewer*,DIRECT",
-      "index": 10452,
+      "index": 10453,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2448,7 +2448,7 @@
     {
       "after": "user-agent, WeChat*, direct",
       "before": "USER-AGENT,WeChat*,DIRECT",
-      "index": 10453,
+      "index": 10454,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2458,7 +2458,7 @@
     {
       "after": "user-agent, WebTorrent*, direct",
       "before": "USER-AGENT,WebTorrent*,DIRECT",
-      "index": 10454,
+      "index": 10455,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2468,7 +2468,7 @@
     {
       "after": "user-agent, YYeTs*, direct",
       "before": "USER-AGENT,YYeTs*,DIRECT",
-      "index": 10455,
+      "index": 10456,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2478,7 +2478,7 @@
     {
       "after": "user-agent, arrowio*, direct",
       "before": "USER-AGENT,arrowio*,DIRECT",
-      "index": 10456,
+      "index": 10457,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2488,7 +2488,7 @@
     {
       "after": "user-agent, balls*, direct",
       "before": "USER-AGENT,balls*,DIRECT",
-      "index": 10457,
+      "index": 10458,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2498,7 +2498,7 @@
     {
       "after": "user-agent, cmb*, direct",
       "before": "USER-AGENT,cmb*,DIRECT",
-      "index": 10458,
+      "index": 10459,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2508,7 +2508,7 @@
     {
       "after": "user-agent, cmblife*, direct",
       "before": "USER-AGENT,cmblife*,DIRECT",
-      "index": 10459,
+      "index": 10460,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2518,7 +2518,7 @@
     {
       "after": "user-agent, eusoft_ting_en_iphone, direct",
       "before": "USER-AGENT,eusoft_ting_en_iphone,DIRECT",
-      "index": 10460,
+      "index": 10461,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2528,7 +2528,7 @@
     {
       "after": "user-agent, hearthstone*, direct",
       "before": "USER-AGENT,hearthstone*,DIRECT",
-      "index": 10461,
+      "index": 10462,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2538,7 +2538,7 @@
     {
       "after": "user-agent, hide*, direct",
       "before": "USER-AGENT,hide*,DIRECT",
-      "index": 10462,
+      "index": 10463,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2548,7 +2548,7 @@
     {
       "after": "user-agent, ting_en, direct",
       "before": "USER-AGENT,ting_en,DIRECT",
-      "index": 10463,
+      "index": 10464,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2558,7 +2558,7 @@
     {
       "after": "ip-cidr, 1.255.62.0/24, direct",
       "before": "IP-CIDR,1.255.62.0/24,DIRECT,no-resolve",
-      "index": 10464,
+      "index": 10465,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2568,7 +2568,7 @@
     {
       "after": "ip-cidr, 101.32.104.0/21, direct",
       "before": "IP-CIDR,101.32.104.0/21,DIRECT,no-resolve",
-      "index": 10465,
+      "index": 10466,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2578,7 +2578,7 @@
     {
       "after": "ip-cidr, 101.32.118.0/23, direct",
       "before": "IP-CIDR,101.32.118.0/23,DIRECT,no-resolve",
-      "index": 10466,
+      "index": 10467,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2588,7 +2588,7 @@
     {
       "after": "ip-cidr, 101.32.96.0/20, direct",
       "before": "IP-CIDR,101.32.96.0/20,DIRECT,no-resolve",
-      "index": 10467,
+      "index": 10468,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2598,7 +2598,7 @@
     {
       "after": "ip-cidr, 119.28.28.28/32, direct",
       "before": "IP-CIDR,119.28.28.28/32,DIRECT,no-resolve",
-      "index": 10468,
+      "index": 10469,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2608,7 +2608,7 @@
     {
       "after": "ip-cidr, 120.195.181.180/32, direct",
       "before": "IP-CIDR,120.195.181.180/32,DIRECT,no-resolve",
-      "index": 10469,
+      "index": 10470,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2618,7 +2618,7 @@
     {
       "after": "ip-cidr, 129.226.0.0/16, direct",
       "before": "IP-CIDR,129.226.0.0/16,DIRECT,no-resolve",
-      "index": 10470,
+      "index": 10471,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2628,7 +2628,7 @@
     {
       "after": "ip-cidr, 182.254.116.0/24, direct",
       "before": "IP-CIDR,182.254.116.0/24,DIRECT,no-resolve",
-      "index": 10471,
+      "index": 10472,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2638,7 +2638,7 @@
     {
       "after": "ip-cidr, 183.128.0.0/11, direct",
       "before": "IP-CIDR,183.128.0.0/11,DIRECT,no-resolve",
-      "index": 10472,
+      "index": 10473,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2648,7 +2648,7 @@
     {
       "after": "ip-cidr, 183.131.48.0/20, direct",
       "before": "IP-CIDR,183.131.48.0/20,DIRECT,no-resolve",
-      "index": 10473,
+      "index": 10474,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2658,7 +2658,7 @@
     {
       "after": "ip-cidr, 185.188.32.0/22, direct",
       "before": "IP-CIDR,185.188.32.0/22,DIRECT,no-resolve",
-      "index": 10474,
+      "index": 10475,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2668,7 +2668,7 @@
     {
       "after": "ip-cidr, 185.188.32.0/24, direct",
       "before": "IP-CIDR,185.188.32.0/24,DIRECT,no-resolve",
-      "index": 10475,
+      "index": 10476,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2678,7 +2678,7 @@
     {
       "after": "ip-cidr, 185.188.33.0/24, direct",
       "before": "IP-CIDR,185.188.33.0/24,DIRECT,no-resolve",
-      "index": 10476,
+      "index": 10477,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2688,7 +2688,7 @@
     {
       "after": "ip-cidr, 185.188.34.0/24, direct",
       "before": "IP-CIDR,185.188.34.0/24,DIRECT,no-resolve",
-      "index": 10477,
+      "index": 10478,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2698,7 +2698,7 @@
     {
       "after": "ip-cidr, 185.188.35.0/24, direct",
       "before": "IP-CIDR,185.188.35.0/24,DIRECT,no-resolve",
-      "index": 10478,
+      "index": 10479,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2708,7 +2708,7 @@
     {
       "after": "ip-cidr, 203.205.238.0/23, direct",
       "before": "IP-CIDR,203.205.238.0/23,DIRECT,no-resolve",
-      "index": 10479,
+      "index": 10480,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2718,7 +2718,7 @@
     {
       "after": "ip-cidr, 203.205.254.0/23, direct",
       "before": "IP-CIDR,203.205.254.0/23,DIRECT,no-resolve",
-      "index": 10480,
+      "index": 10481,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2728,7 +2728,7 @@
     {
       "after": "ip6-cidr, 2a0b:b580::/48, direct",
       "before": "IP-CIDR,2a0b:b580::/48,DIRECT,no-resolve",
-      "index": 10481,
+      "index": 10482,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -2739,7 +2739,7 @@
     {
       "after": "ip6-cidr, 2a0b:b581::/48, direct",
       "before": "IP-CIDR,2a0b:b581::/48,DIRECT,no-resolve",
-      "index": 10482,
+      "index": 10483,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -2750,7 +2750,7 @@
     {
       "after": "ip6-cidr, 2a0b:b582::/48, direct",
       "before": "IP-CIDR,2a0b:b582::/48,DIRECT,no-resolve",
-      "index": 10483,
+      "index": 10484,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -2761,7 +2761,7 @@
     {
       "after": "ip6-cidr, 2a0b:b583::/48, direct",
       "before": "IP-CIDR,2a0b:b583::/48,DIRECT,no-resolve",
-      "index": 10484,
+      "index": 10485,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -2772,7 +2772,7 @@
     {
       "after": "final, proxy",
       "before": "FINAL,PROXY",
-      "index": 14116,
+      "index": 14117,
       "reasons": [
         "local bootstrap/final; template sync required"
       ],
@@ -2780,11 +2780,11 @@
       "target": "filter_local"
     }
   ],
-  "input_rules": 14116,
+  "input_rules": 14117,
   "input_types": {
     "DOMAIN": 169,
     "DOMAIN-KEYWORD": 57,
-    "DOMAIN-SUFFIX": 13621,
+    "DOMAIN-SUFFIX": 13622,
     "DOMAIN-WILDCARD": 1,
     "FINAL": 1,
     "GEOIP": 1,
@@ -2794,13 +2794,13 @@
   },
   "local_rules": 20,
   "minimum_client": "Quantumult X 1.5.5 build 914",
-  "native_rules": 14116,
+  "native_rules": 14117,
   "native_types": {
     "final": 1,
     "geoip": 1,
     "host": 169,
     "host-keyword": 57,
-    "host-suffix": 13621,
+    "host-suffix": 13622,
     "host-wildcard": 1,
     "ip-asn": 5,
     "ip-cidr": 172,
@@ -2808,7 +2808,7 @@
     "user-agent": 71
   },
   "no_resolve_removed": 195,
-  "remote_rules": 14096,
+  "remote_rules": 14097,
   "removed_native_duplicates": 0,
   "runtime_validation": "UNVERIFIED: iOS parsing, actual priority, DNS, IPv6, UDP, refresh",
   "schema_version": 1,
