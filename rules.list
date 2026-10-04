@@ -1317,9 +1317,9 @@ user-agent, locationd*, direct
 user-agent, passd*, direct
 user-agent, Music*, direct
 user-agent, AppleNews*, direct
-user-agent, AppleTV*, direct
 user-agent, com.apple.news*, direct
 user-agent, com.apple.trustd*, direct
+user-agent, AppleTV*, direct
 user-agent, com.apple.tv*, direct
 ip-cidr, 139.178.128.0/18, direct
 ip-cidr, 144.178.0.0/19, direct
@@ -9896,6 +9896,7 @@ host-suffix, wainao.me, proxy
 host-suffix, waiwaier.com, proxy
 host-suffix, walletconnect.com, proxy
 host-suffix, walletconnect.org, proxy
+host-suffix, wallhaven.cc, proxy
 host-suffix, wallmama.com, proxy
 host-suffix, wallornot.org, proxy
 host-suffix, wallpapercasa.com, proxy
@@ -10009,6 +10010,7 @@ host-suffix, wiki.kfd.me, proxy
 host-suffix, wikia.com, proxy
 host-suffix, wikibooks.org, proxy
 host-suffix, wikidata.org, proxy
+host-suffix, wikifunctions.org, proxy
 host-suffix, wikileaks-forum.com, proxy
 host-suffix, wikileaks.ch, proxy
 host-suffix, wikileaks.com, proxy
@@ -10021,12 +10023,14 @@ host-suffix, wikileaks.pl, proxy
 host-suffix, wikilivres.info, proxy
 host-suffix, wikimapia.org, proxy
 host-suffix, wikimedia.org, proxy
+host-suffix, wikimediafoundation.org, proxy
 host-suffix, wikinews.org, proxy
 host-suffix, wikipedia.com, proxy
 host-suffix, wikipedia.org, proxy
 host-suffix, wikiquote.org, proxy
 host-suffix, wikis.tw, proxy
 host-suffix, wikisource.org, proxy
+host-suffix, wikispecies.org, proxy
 host-suffix, wikiunblocked.org, proxy
 host-suffix, wikiversity.org, proxy
 host-suffix, wikivoyage.org, proxy
