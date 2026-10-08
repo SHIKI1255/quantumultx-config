@@ -2258,7 +2258,7 @@
     {
       "after": "user-agent, %E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*, direct",
       "before": "USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,DIRECT",
-      "index": 10439,
+      "index": 10471,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2268,7 +2268,7 @@
     {
       "after": "user-agent, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*, direct",
       "before": "USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*,DIRECT",
-      "index": 10440,
+      "index": 10472,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2278,7 +2278,7 @@
     {
       "after": "user-agent, %E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*, direct",
       "before": "USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT",
-      "index": 10441,
+      "index": 10473,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2288,7 +2288,7 @@
     {
       "after": "user-agent, %E4%BC%98%E9%85%B7*, direct",
       "before": "USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT",
-      "index": 10442,
+      "index": 10474,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2298,7 +2298,7 @@
     {
       "after": "user-agent, %E5%8D%B3%E5%88%BB*, direct",
       "before": "USER-AGENT,%E5%8D%B3%E5%88%BB*,DIRECT",
-      "index": 10443,
+      "index": 10475,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2308,7 +2308,7 @@
     {
       "after": "user-agent, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*, direct",
       "before": "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT",
-      "index": 10444,
+      "index": 10476,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2318,7 +2318,7 @@
     {
       "after": "user-agent, *Vainglory*, direct",
       "before": "USER-AGENT,*Vainglory*,DIRECT",
-      "index": 10445,
+      "index": 10477,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2328,7 +2328,7 @@
     {
       "after": "user-agent, AdBlock*, direct",
       "before": "USER-AGENT,AdBlock*,DIRECT",
-      "index": 10446,
+      "index": 10478,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2338,7 +2338,7 @@
     {
       "after": "user-agent, Best%20Trace*, direct",
       "before": "USER-AGENT,Best%20Trace*,DIRECT",
-      "index": 10447,
+      "index": 10479,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2348,7 +2348,7 @@
     {
       "after": "user-agent, MegaWerewolf*, direct",
       "before": "USER-AGENT,MegaWerewolf*,DIRECT",
-      "index": 10448,
+      "index": 10480,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2358,7 +2358,7 @@
     {
       "after": "user-agent, MicroMessenger%20Client, direct",
       "before": "USER-AGENT,MicroMessenger%20Client,DIRECT",
-      "index": 10449,
+      "index": 10481,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2368,7 +2368,7 @@
     {
       "after": "user-agent, MicroMessenger*, direct",
       "before": "USER-AGENT,MicroMessenger*,DIRECT",
-      "index": 10450,
+      "index": 10482,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2378,7 +2378,7 @@
     {
       "after": "user-agent, MicroMessengerClient*, direct",
       "before": "USER-AGENT,MicroMessengerClient*,DIRECT",
-      "index": 10451,
+      "index": 10483,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2388,7 +2388,7 @@
     {
       "after": "user-agent, Moke*, direct",
       "before": "USER-AGENT,Moke*,DIRECT",
-      "index": 10452,
+      "index": 10484,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2398,7 +2398,7 @@
     {
       "after": "user-agent, NeteaseMusic*, direct",
       "before": "USER-AGENT,NeteaseMusic*,DIRECT",
-      "index": 10453,
+      "index": 10485,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2408,7 +2408,7 @@
     {
       "after": "user-agent, QQ*, direct",
       "before": "USER-AGENT,QQ*,DIRECT",
-      "index": 10454,
+      "index": 10486,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2418,7 +2418,7 @@
     {
       "after": "user-agent, RemotePlay*, direct",
       "before": "USER-AGENT,RemotePlay*,DIRECT",
-      "index": 10455,
+      "index": 10487,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2428,7 +2428,7 @@
     {
       "after": "user-agent, TIM*, direct",
       "before": "USER-AGENT,TIM*,DIRECT",
-      "index": 10456,
+      "index": 10488,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2438,7 +2438,7 @@
     {
       "after": "user-agent, TeamViewer*, direct",
       "before": "USER-AGENT,TeamViewer*,DIRECT",
-      "index": 10457,
+      "index": 10489,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2448,7 +2448,7 @@
     {
       "after": "user-agent, WeChat*, direct",
       "before": "USER-AGENT,WeChat*,DIRECT",
-      "index": 10458,
+      "index": 10490,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2458,7 +2458,7 @@
     {
       "after": "user-agent, WebTorrent*, direct",
       "before": "USER-AGENT,WebTorrent*,DIRECT",
-      "index": 10459,
+      "index": 10491,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2468,7 +2468,7 @@
     {
       "after": "user-agent, YYeTs*, direct",
       "before": "USER-AGENT,YYeTs*,DIRECT",
-      "index": 10460,
+      "index": 10492,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2478,7 +2478,7 @@
     {
       "after": "user-agent, arrowio*, direct",
       "before": "USER-AGENT,arrowio*,DIRECT",
-      "index": 10461,
+      "index": 10493,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2488,7 +2488,7 @@
     {
       "after": "user-agent, balls*, direct",
       "before": "USER-AGENT,balls*,DIRECT",
-      "index": 10462,
+      "index": 10494,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2498,7 +2498,7 @@
     {
       "after": "user-agent, cmb*, direct",
       "before": "USER-AGENT,cmb*,DIRECT",
-      "index": 10463,
+      "index": 10495,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2508,7 +2508,7 @@
     {
       "after": "user-agent, cmblife*, direct",
       "before": "USER-AGENT,cmblife*,DIRECT",
-      "index": 10464,
+      "index": 10496,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2518,7 +2518,7 @@
     {
       "after": "user-agent, eusoft_ting_en_iphone, direct",
       "before": "USER-AGENT,eusoft_ting_en_iphone,DIRECT",
-      "index": 10465,
+      "index": 10497,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2528,7 +2528,7 @@
     {
       "after": "user-agent, hearthstone*, direct",
       "before": "USER-AGENT,hearthstone*,DIRECT",
-      "index": 10466,
+      "index": 10498,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2538,7 +2538,7 @@
     {
       "after": "user-agent, hide*, direct",
       "before": "USER-AGENT,hide*,DIRECT",
-      "index": 10467,
+      "index": 10499,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2548,7 +2548,7 @@
     {
       "after": "user-agent, ting_en, direct",
       "before": "USER-AGENT,ting_en,DIRECT",
-      "index": 10468,
+      "index": 10500,
       "reasons": [
         "lower priority than host in Quantumult X"
       ],
@@ -2558,7 +2558,7 @@
     {
       "after": "ip-cidr, 1.255.62.0/24, direct",
       "before": "IP-CIDR,1.255.62.0/24,DIRECT,no-resolve",
-      "index": 10469,
+      "index": 10501,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2568,7 +2568,7 @@
     {
       "after": "ip-cidr, 101.32.104.0/21, direct",
       "before": "IP-CIDR,101.32.104.0/21,DIRECT,no-resolve",
-      "index": 10470,
+      "index": 10502,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2578,7 +2578,7 @@
     {
       "after": "ip-cidr, 101.32.118.0/23, direct",
       "before": "IP-CIDR,101.32.118.0/23,DIRECT,no-resolve",
-      "index": 10471,
+      "index": 10503,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2588,7 +2588,7 @@
     {
       "after": "ip-cidr, 101.32.96.0/20, direct",
       "before": "IP-CIDR,101.32.96.0/20,DIRECT,no-resolve",
-      "index": 10472,
+      "index": 10504,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2598,7 +2598,7 @@
     {
       "after": "ip-cidr, 119.28.28.28/32, direct",
       "before": "IP-CIDR,119.28.28.28/32,DIRECT,no-resolve",
-      "index": 10473,
+      "index": 10505,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2608,7 +2608,7 @@
     {
       "after": "ip-cidr, 120.195.181.180/32, direct",
       "before": "IP-CIDR,120.195.181.180/32,DIRECT,no-resolve",
-      "index": 10474,
+      "index": 10506,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2618,7 +2618,7 @@
     {
       "after": "ip-cidr, 129.226.0.0/16, direct",
       "before": "IP-CIDR,129.226.0.0/16,DIRECT,no-resolve",
-      "index": 10475,
+      "index": 10507,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2628,7 +2628,7 @@
     {
       "after": "ip-cidr, 182.254.116.0/24, direct",
       "before": "IP-CIDR,182.254.116.0/24,DIRECT,no-resolve",
-      "index": 10476,
+      "index": 10508,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2638,7 +2638,7 @@
     {
       "after": "ip-cidr, 183.128.0.0/11, direct",
       "before": "IP-CIDR,183.128.0.0/11,DIRECT,no-resolve",
-      "index": 10477,
+      "index": 10509,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2648,7 +2648,7 @@
     {
       "after": "ip-cidr, 183.131.48.0/20, direct",
       "before": "IP-CIDR,183.131.48.0/20,DIRECT,no-resolve",
-      "index": 10478,
+      "index": 10510,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2658,7 +2658,7 @@
     {
       "after": "ip-cidr, 185.188.32.0/22, direct",
       "before": "IP-CIDR,185.188.32.0/22,DIRECT,no-resolve",
-      "index": 10479,
+      "index": 10511,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2668,7 +2668,7 @@
     {
       "after": "ip-cidr, 185.188.32.0/24, direct",
       "before": "IP-CIDR,185.188.32.0/24,DIRECT,no-resolve",
-      "index": 10480,
+      "index": 10512,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2678,7 +2678,7 @@
     {
       "after": "ip-cidr, 185.188.33.0/24, direct",
       "before": "IP-CIDR,185.188.33.0/24,DIRECT,no-resolve",
-      "index": 10481,
+      "index": 10513,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2688,7 +2688,7 @@
     {
       "after": "ip-cidr, 185.188.34.0/24, direct",
       "before": "IP-CIDR,185.188.34.0/24,DIRECT,no-resolve",
-      "index": 10482,
+      "index": 10514,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2698,7 +2698,7 @@
     {
       "after": "ip-cidr, 185.188.35.0/24, direct",
       "before": "IP-CIDR,185.188.35.0/24,DIRECT,no-resolve",
-      "index": 10483,
+      "index": 10515,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2708,7 +2708,7 @@
     {
       "after": "ip-cidr, 203.205.238.0/23, direct",
       "before": "IP-CIDR,203.205.238.0/23,DIRECT,no-resolve",
-      "index": 10484,
+      "index": 10516,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2718,7 +2718,7 @@
     {
       "after": "ip-cidr, 203.205.254.0/23, direct",
       "before": "IP-CIDR,203.205.254.0/23,DIRECT,no-resolve",
-      "index": 10485,
+      "index": 10517,
       "reasons": [
         "no-resolve removed; native DNS semantics"
       ],
@@ -2728,7 +2728,7 @@
     {
       "after": "ip6-cidr, 2a0b:b580::/48, direct",
       "before": "IP-CIDR,2a0b:b580::/48,DIRECT,no-resolve",
-      "index": 10486,
+      "index": 10518,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -2739,7 +2739,7 @@
     {
       "after": "ip6-cidr, 2a0b:b581::/48, direct",
       "before": "IP-CIDR,2a0b:b581::/48,DIRECT,no-resolve",
-      "index": 10487,
+      "index": 10519,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -2750,7 +2750,7 @@
     {
       "after": "ip6-cidr, 2a0b:b582::/48, direct",
       "before": "IP-CIDR,2a0b:b582::/48,DIRECT,no-resolve",
-      "index": 10488,
+      "index": 10520,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -2761,7 +2761,7 @@
     {
       "after": "ip6-cidr, 2a0b:b583::/48, direct",
       "before": "IP-CIDR,2a0b:b583::/48,DIRECT,no-resolve",
-      "index": 10489,
+      "index": 10521,
       "reasons": [
         "no-resolve removed; native DNS semantics",
         "IPv6 rule family corrected"
@@ -2772,7 +2772,7 @@
     {
       "after": "final, proxy",
       "before": "FINAL,PROXY",
-      "index": 14121,
+      "index": 14153,
       "reasons": [
         "local bootstrap/final; template sync required"
       ],
@@ -2780,11 +2780,11 @@
       "target": "filter_local"
     }
   ],
-  "input_rules": 14121,
+  "input_rules": 14153,
   "input_types": {
     "DOMAIN": 169,
     "DOMAIN-KEYWORD": 57,
-    "DOMAIN-SUFFIX": 13626,
+    "DOMAIN-SUFFIX": 13658,
     "DOMAIN-WILDCARD": 1,
     "FINAL": 1,
     "GEOIP": 1,
@@ -2794,13 +2794,13 @@
   },
   "local_rules": 20,
   "minimum_client": "Quantumult X 1.5.5 build 914",
-  "native_rules": 14121,
+  "native_rules": 14153,
   "native_types": {
     "final": 1,
     "geoip": 1,
     "host": 169,
     "host-keyword": 57,
-    "host-suffix": 13626,
+    "host-suffix": 13658,
     "host-wildcard": 1,
     "ip-asn": 5,
     "ip-cidr": 172,
@@ -2808,7 +2808,7 @@
     "user-agent": 71
   },
   "no_resolve_removed": 195,
-  "remote_rules": 14101,
+  "remote_rules": 14133,
   "removed_native_duplicates": 0,
   "runtime_validation": "UNVERIFIED: iOS parsing, actual priority, DNS, IPv6, UDP, refresh",
   "schema_version": 1,
