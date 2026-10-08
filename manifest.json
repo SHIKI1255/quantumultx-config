@@ -300,6 +300,71 @@
     {
       "actual": {
         "policy": "PROXY",
+        "rule": "DOMAIN,services.bingapis.com,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,services.bingapis.com,PROXY",
+      "input": {
+        "domain": "services.bingapis.com"
+      },
+      "name": "Copilot services",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,gateway.bingviz.microsoft.net,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,gateway.bingviz.microsoft.net,PROXY",
+      "input": {
+        "domain": "gateway.bingviz.microsoft.net"
+      },
+      "name": "Copilot Microsoft gateway",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,gateway.bingviz.microsoftapp.net,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,gateway.bingviz.microsoftapp.net,PROXY",
+      "input": {
+        "domain": "gateway.bingviz.microsoftapp.net"
+      },
+      "name": "Copilot Microsoftapp gateway",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,frontend-apps-multi-region.workos.com,PROXY",
+        "source": "custom"
+      },
+      "expected_rule": "DOMAIN,frontend-apps-multi-region.workos.com,PROXY",
+      "input": {
+        "domain": "frontend-apps-multi-region.workos.com"
+      },
+      "name": "WorkOS frontend",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+        "source": "custom"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+      "input": {
+        "domain": "js.intercomcdn.com"
+      },
+      "name": "Intercom CDN",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
         "rule": "DOMAIN-SUFFIX,openai.com,PROXY",
         "source": "openai"
       },
@@ -373,8 +438,9 @@
       "actual": {
         "policy": "PROXY",
         "rule": "DOMAIN-WILDCARD,chatgpt-async-webps-prod-*.webpubsub.azure.com,PROXY",
-        "source": "custom"
+        "source": "openai"
       },
+      "expected_rule": "DOMAIN-WILDCARD,chatgpt-async-webps-prod-*.webpubsub.azure.com,PROXY",
       "input": {
         "domain": "chatgpt-async-webps-prod-eastus-1.webpubsub.azure.com"
       },
@@ -793,8 +859,9 @@
       "actual": {
         "policy": "PROXY",
         "rule": "DOMAIN,sydney.bing.com,PROXY",
-        "source": "custom"
+        "source": "copilot"
       },
+      "expected_rule": "DOMAIN,sydney.bing.com,PROXY",
       "input": {
         "domain": "sydney.bing.com"
       },
@@ -1316,10 +1383,75 @@
   "public_files_sha256": {
     "quantumultx.conf": "e4665b2eafc8364e431f0c532a591dc4648f3f8549588d85be9fd782191e6fa5",
     "rewrite.list": "c7ea734dd2d32d043e606bff60acc3bf3497cb116a22fbeb8c00a378d71c3e27",
-    "rules.list": "2b0fdd4489d6121fe3103ef0ddc0e63879f3944f97be750f6b25a2a95d0af020"
+    "rules.list": "d44f793db2f10a796b420429e8e25fc2bb1d7e4971b68061dc88cd3a107e3b5d"
   },
-  "removed_exact_duplicates": 262,
+  "removed_exact_duplicates": 257,
   "routing_cases": [
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,services.bingapis.com,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,services.bingapis.com,PROXY",
+      "input": {
+        "domain": "services.bingapis.com"
+      },
+      "name": "Copilot services",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,gateway.bingviz.microsoft.net,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,gateway.bingviz.microsoft.net,PROXY",
+      "input": {
+        "domain": "gateway.bingviz.microsoft.net"
+      },
+      "name": "Copilot Microsoft gateway",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,gateway.bingviz.microsoftapp.net,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,gateway.bingviz.microsoftapp.net,PROXY",
+      "input": {
+        "domain": "gateway.bingviz.microsoftapp.net"
+      },
+      "name": "Copilot Microsoftapp gateway",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,frontend-apps-multi-region.workos.com,PROXY",
+        "source": "custom"
+      },
+      "expected_rule": "DOMAIN,frontend-apps-multi-region.workos.com,PROXY",
+      "input": {
+        "domain": "frontend-apps-multi-region.workos.com"
+      },
+      "name": "WorkOS frontend",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+        "source": "custom"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+      "input": {
+        "domain": "js.intercomcdn.com"
+      },
+      "name": "Intercom CDN",
+      "policy": "PROXY"
+    },
     {
       "actual": {
         "policy": "PROXY",
@@ -1396,8 +1528,9 @@
       "actual": {
         "policy": "PROXY",
         "rule": "DOMAIN-WILDCARD,chatgpt-async-webps-prod-*.webpubsub.azure.com,PROXY",
-        "source": "custom"
+        "source": "openai"
       },
+      "expected_rule": "DOMAIN-WILDCARD,chatgpt-async-webps-prod-*.webpubsub.azure.com,PROXY",
       "input": {
         "domain": "chatgpt-async-webps-prod-eastus-1.webpubsub.azure.com"
       },
@@ -1816,8 +1949,9 @@
       "actual": {
         "policy": "PROXY",
         "rule": "DOMAIN,sydney.bing.com,PROXY",
-        "source": "custom"
+        "source": "copilot"
       },
+      "expected_rule": "DOMAIN,sydney.bing.com,PROXY",
       "input": {
         "domain": "sydney.bing.com"
       },
@@ -2341,10 +2475,10 @@
     "config/base.conf": "e2bc1b7185ba24e94590b16e767f1736fe5e3b535ea80648a36655138794613d",
     "config/sources.yaml": "d048170f9c48c629570d22bd6985fb3df0874615d6ccdf407222f6f6df23b48b",
     "docs/third_party.md": "aef1effde52b8974e10018411b0efba3a5fd81e630bf340acaf82570b5836f4b",
-    "rules/custom.list": "aff72c2a9c60ed8af35a25ccfaac87b5b94a265c423d0273a09bcf269a1cc76c",
-    "scripts/build.py": "164691abac3ec864d8e96207447415a011443747bd3c50fc1078c8eccca6a335",
+    "rules/custom.list": "b3f44a82835ff0cc27ebcb6198a45f5eafd6cb3e073ecb4ed50b5715eb7af145",
+    "scripts/build.py": "a8e9948162d6a00eaa2f64aed3183225759f824662f32582baabc09d361849a5",
     "scripts/quantumult.py": "748b751164ab6cb8a91e6a765428bd897037d285cbbd80599afcf988e73c3299",
-    "tests/routing_cases.json": "dc581723ff374ac26b94f181607a65ea107b467e2dd5b6e190690a2b08a3b979",
+    "tests/routing_cases.json": "f1751ac11ad9bbf4c10996d8a0df0229146d42509039631dd3897cc37a49a1a8",
     "tests/source_baseline.json": "e047df6092a2a9c89b3fcee0c3469e64497f44b6c68a01e398a753204573d9d1"
   },
   "validation": "static only; Quantumult X iOS parsing and live access unverified",
