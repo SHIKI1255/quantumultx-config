@@ -28,6 +28,21 @@ class QuantumultTests(unittest.TestCase):
                           'ip-asn, 15169, proxy', 'host-wildcard, chatgpt-*.azure.com, proxy'])
         for r in rules: self.assertEqual(q.parse_native(r.line).line, r.line)
 
+    def test_native_expected_rule_guards_after_conversion(self):
+        cases = json.loads((b.ROOT/'tests/routing_cases.json').read_text())
+        for case in (c for c in cases if 'expected_rule' in c):
+            domain = case['input']['domain']
+            good = self.native(case['expected_rule'])
+            b.check_case_result(case, q.route_native(good, **case['input']), context='Native routing')
+            variants = {
+                'missing': self.native('FINAL,PROXY'),
+                'broader_same_policy': self.native('DOMAIN-SUFFIX,' + domain.rsplit('.', 1)[-1] + ',PROXY'),
+                'earlier_direct': self.native('DOMAIN,' + domain + ',DIRECT', case['expected_rule']),
+            }
+            for reason, rr in variants.items():
+                with self.subTest(case=case['name'], reason=reason), self.assertRaises(b.BuildError):
+                    b.check_case_result(case, q.route_native(rr, **case['input']), context='Native routing')
+
     def test_native_unknown_format_family_policy_or_options_fail(self):
         for line in ['ip-cidr, ::1/128, direct', 'ip6-cidr, 1.2.3.4/32, proxy',
                      'host, example.com, proxy, no-resolve', 'host, x.com, secret',

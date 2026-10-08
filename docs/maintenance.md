@@ -10,6 +10,16 @@ main 保存源文件和测试，release 保存配置、规则、重写、migrati
 
 本地使用 PowerShell 7：先运行 `python -B -m unittest discover -s tests -v`；使用 artifact.ps1 登记外部输出目录，再执行 `python -B scripts/build.py --output <空目录>`。用 `--replay <已有发布目录> --output <另一空目录>` 离线重建，比较完整 SHA256SUMS。输出不能写入源码仓库，不覆盖已有发布目录。
 
+## 关键规则保障（2026-10-08 复核）
+
+本轮核对 [OpenAI 官方网络要求](https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps)，补充精确端点 `frontend-apps-multi-region.workos.com`。官方要求是允许访问；PROXY 是本配置沿用的分流选择。
+
+四条 Copilot 精确入口（sydney.bing.com、services.bingapis.com、gateway.bingviz.microsoft.net、gateway.bingviz.microsoftapp.net）由现有过滤后的 Copilot 源维护。Azure 通配由 OpenAI 源生成，必须保留 sources.yaml 中已审阅的 regex_overrides。js.intercomcdn.com 由 intercomcdn.com 后缀规则覆盖。GitHub 下载与 byteoversea/ibytedtos 的手写项作为优先匹配保障保留。
+
+分流用例的可选 `expected_rule` 使用完整、规范化的大写规则行；七个关键用例同时检查策略和实际命中规则。Quantumult X 转换后也按规范化规则检查；若将来为 IP 用例添加此字段，需注意其原生规则会移除 no-resolve。未填写此字段的旧用例仍只检查策略。报告继续记录 actual.rule 和 actual.source，不强制固定来源名字。
+
+上游删除、扩大关键规则或出现提前直连时必须停止发布，不能直接删除 expected_rule 或改预期值消除失败。应先检查来源和顺序，确认等价覆盖后才调整测试，或恢复必要的本地保障。维护精简不代表提速，也不替代手机网络验收。
+
 ## 30 天保活
 
 每日工作流最后运行维护任务；距上次维护记录满 30 天才更新 `.github/maintenance.json`，首次运行初始化记录。内容含 UTC 时间、真实验证/发布结果、运行链接与当前已发布版本。上游失败时可以保活，但工作流继续显示失败、release 不变。
