@@ -294,11 +294,18 @@ def route(rules: list[Rule], *, domain="", ip="", country="", asn="", user_agent
     return {"policy": "UNRESOLVED", "rule": "", "source": ""}
 
 
+def check_case_result(case: dict, actual: dict, context="Routing"):
+    require(actual["policy"] == case["policy"], f"{context} regression {case['name']}: {actual}")
+    if "expected_rule" in case:
+        require(actual["rule"] == case["expected_rule"],
+                f"{context} rule regression {case['name']}: expected {case['expected_rule']!r}, got {actual}")
+
+
 def check_cases(rules: list[Rule], cases: list[dict]) -> list[dict]:
     results = []
     for case in cases:
         actual = route(rules, **case["input"])
-        require(actual["policy"] == case["policy"], f"Routing regression {case['name']}: {actual}")
+        check_case_result(case, actual)
         results.append({**case, "actual": actual})
     return results
 
@@ -411,7 +418,7 @@ def build(root: Path, conf: dict, lock: dict, inputs: dict, previous=None, audit
     native_results = []
     for case in cases:
         actual = route_native(native, **case["input"])
-        require(actual["policy"] == case["policy"], f"Native routing regression {case['name']}: {actual}")
+        check_case_result(case, actual, context="Native routing")
         native_results.append({**case, "actual": actual})
     require(all(route_native(native, ip=str(ipaddress.ip_network(r.value).network_address))["policy"] == "PROXY"
                 for r in voice), "Native voice IP routing regression")
