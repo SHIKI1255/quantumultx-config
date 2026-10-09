@@ -34,10 +34,11 @@ class QuantumultTests(unittest.TestCase):
             domain = case['input']['domain']
             good = self.native(case['expected_rule'])
             b.check_case_result(case, q.route_native(good, **case['input']), context='Native routing')
+            opposite = 'DIRECT' if case['policy'] == 'PROXY' else 'PROXY'
             variants = {
-                'missing': self.native('FINAL,PROXY'),
-                'broader_same_policy': self.native('DOMAIN-SUFFIX,' + domain.rsplit('.', 1)[-1] + ',PROXY'),
-                'earlier_direct': self.native('DOMAIN,' + domain + ',DIRECT', case['expected_rule']),
+                'missing': self.native('FINAL,' + opposite),
+                'broader_same_policy': self.native('DOMAIN-KEYWORD,' + domain.rsplit('.', 1)[-1] + ',' + case['policy']),
+                'earlier_opposite': self.native('DOMAIN,' + domain + ',' + opposite, case['expected_rule']),
             }
             for reason, rr in variants.items():
                 with self.subTest(case=case['name'], reason=reason), self.assertRaises(b.BuildError):
