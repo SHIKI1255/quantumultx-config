@@ -22,12 +22,18 @@
 | 入口 | 修改内容 |
 | --- | --- |
 | `config/base.conf` | DNS、IPv6、基础设置、资源引用、两条重写模板 |
-| `rules/custom.list` | 个人例外和兼容规则，沿用大写 Shadowrocket **源码格式**，由生成器转换 |
+| `rules/custom.list` | 局域网、关键端点和兼容规则，沿用大写 Shadowrocket **源码格式**，由生成器转换 |
 | `config/sources.yaml` | 上游来源、顺序、过滤与异常阈值；采用 JSON 语法的 YAML 1.2 子集 |
 
 例如在 `rules/custom.list` 添加 `DOMAIN-SUFFIX,example.com,DIRECT`，检查通过后推送，等待 CI 和手机资源刷新。前 19 条局域网/DNS 启动保护规则会进入主配置，改动这些规则仍需同步模板。生成的 `release` 文件不要直接编辑。
 
-保持 blackmatrix7 通用分类、v2fly AI/TikTok 及 OpenAI 官方语音 IP；不新增广告拦截、脚本、MITM 或区域策略组。`checkout.mzxnyysm.com` 保留个人直连例外，运营方和具体用途未核实。
+保持 blackmatrix7 通用分类、v2fly AI/TikTok 及 OpenAI 官方语音 IP；不新增广告拦截、脚本、MITM 或区域策略组。2026-10-09 已删除用途未确认的 `checkout.mzxnyysm.com` 个人直连例外，该域名及子域名恢复正常分流，不新增拒绝或强制代理规则。
+
+本次复核保留 61 条手写规则，与 Shadowrocket 的规则源码一致。GitHub 下载保障、`byteoversea.com`、`ibytedtos.com` 刻意前置；相同上游记录生成时去重。五条 Arkose/Statsig/Featuregates 记录是历史登录兼容，当前必要性未实机确认，不标为官方必需项。[OpenAI 官方清单](https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps)的 30 个域名模式及 `ws.chatgpt.com` 已有明确覆盖。上游来源、过滤和顺序保持原样，不新增共享 CDN 或历史 Apple 域名排除项。
+
+DNS 保持 AliDNS/DoH.pub 双 DoH，以及局域网、localhost 和网络认证域名的系统解析例外。双 DoH 是并发查询，不是主备顺序；不承诺二者失败后自动回退系统 DNS。代理目标由节点侧解析，本地结果用于规则判断和直连；参见 [Quantumult X 官方示例](https://github.com/crossutility/Quantumult-X/blob/master/sample.conf)。本次不改变 DNS、IPv6、UDP、节点或重写，也不加入 GeekSpeed Hosts。已有用户仅需刷新远程分流资源，无需重导主配置。
+
+本次 98 个分流用例在源码及原生转换后均检查，53 个同时核对实际命中规则；原有 42 项已登记冲突不变。同一上游快照下总规则从 14,153 条减为 14,152 条。需要临时回退时，将现有远程分流资源 URL 改为[变更前固定 rules.list](https://raw.githubusercontent.com/SHIKI1255/quantumultx-config/bab3539cefb4066a28a8c13f56fe99cad4039e8a/rules.list)，保持原资源参数、不重复添加；恢复时改回 release 地址。主配置和重写无需回退。
 
 本仓库独立保存生成器和来源配置，不在线引用 Shadowrocket 仓库的发布配置。首次迁移共 14,111 条规则：主配置 20 条（19 条保护规则和最终兜底），远程资源 14,091 条。运行版本以 [manifest](https://raw.githubusercontent.com/SHIKI1255/quantumultx-config/release/manifest.json) 为准。
 
