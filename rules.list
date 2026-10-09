@@ -3,7 +3,6 @@ host, time.apple.com, direct
 host, time-ios.apple.com, direct
 host, localhost.ptlogin2.qq.com, direct
 host-suffix, pool.ntp.org, direct
-host-suffix, checkout.mzxnyysm.com, direct
 host-suffix, apple-relay.akamaized.net, proxy
 host-suffix, apple-relay.apple.com, proxy
 host-suffix, apple-relay.cloudflare.com, proxy
