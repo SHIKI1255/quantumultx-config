@@ -1,8 +1,22 @@
-# custom
+# local_direct | 本机与基础保护
 host, time.apple.com, direct
 host, time-ios.apple.com, direct
 host, localhost.ptlogin2.qq.com, direct
 host-suffix, pool.ntp.org, direct
+
+# personal_direct | 个人直连
+host-suffix, erp.lingxing.com, direct
+host-suffix, feishu.cn, direct
+host-suffix, feishu.net, direct
+host-suffix, larkoffice.com, direct
+host-suffix, feishucdn.com, direct
+host-suffix, ziniao.com, direct
+host-suffix, uuyc.163.com, direct
+host-suffix, uu.163.com, direct
+host-suffix, snssdk.com, direct
+host-suffix, bytedapm.com, direct
+
+# personal_proxy | 个人代理
 host-suffix, apple-relay.akamaized.net, proxy
 host-suffix, apple-relay.apple.com, proxy
 host-suffix, apple-relay.cloudflare.com, proxy
@@ -42,7 +56,7 @@ host-suffix, ibytedtos.com, proxy
 host-suffix, ipstatp.com, proxy
 host-keyword, tiktokcdn, proxy
 
-# openai
+# openai | OpenAI
 host-suffix, chat.com, proxy
 host-suffix, chatgpt.com, proxy
 host-suffix, chatgpt.site, proxy
@@ -64,7 +78,7 @@ host-suffix, chatgpt.livekit.cloud, proxy
 host-suffix, host.livekit.cloud, proxy
 host-suffix, turn.livekit.cloud, proxy
 
-# claude
+# claude | Claude
 host-suffix, anthropic.com, proxy
 host-suffix, clau.de, proxy
 host-suffix, claude.ai, proxy
@@ -75,7 +89,7 @@ host-suffix, claudemcpcontent.com, proxy
 host-suffix, claudeusercontent.com, proxy
 host, servd-anthropic-website.b-cdn.net, proxy
 
-# gemini
+# gemini | Gemini
 host-suffix, deepmind.com, proxy
 host-suffix, deepmind.google, proxy
 host-suffix, geller-pa.googleapis.com, proxy
@@ -123,7 +137,7 @@ host-suffix, antigravity.google, proxy
 host-suffix, antigravity-unleash.goog, proxy
 host-suffix, stitch.withgoogle.com, proxy
 
-# voice
+# voice | ChatGPT 语音
 ip-cidr, 102.37.57.54/32, proxy
 ip-cidr, 13.71.25.29/32, proxy
 ip-cidr, 135.220.40.201/32, proxy
@@ -148,7 +162,7 @@ ip-cidr, 68.155.152.41/32, proxy
 ip-cidr, 72.146.20.246/32, proxy
 ip-cidr, 74.248.148.7/32, proxy
 
-# copilot
+# copilot | Copilot
 host, api.msn.com, proxy
 host, assets.msn.com, proxy
 host, copilot.microsoft.com, proxy
@@ -166,7 +180,7 @@ host-suffix, api.microsoftapp.net, proxy
 host-suffix, bing-shopping.microsoft-falcon.io, proxy
 host-suffix, edgeservices.bing.com, proxy
 
-# github
+# github | GitHub
 host-suffix, atom.io, proxy
 host-suffix, dependabot.com, proxy
 host-suffix, ghcr.io, proxy
@@ -198,7 +212,7 @@ host-suffix, repo.new, proxy
 host-suffix, thegithubshop.com, proxy
 host-keyword, github, proxy
 
-# telegram
+# telegram | Telegram
 host, api.imem.app, proxy
 host, api.swiftgram.app, proxy
 host-suffix, cdn-telegram.org, proxy
@@ -240,7 +254,7 @@ ip-asn, 59930, proxy
 ip-asn, 62014, proxy
 ip-asn, 62041, proxy
 
-# google
+# google | Google
 host, voice.telephony.goog, proxy
 host-suffix, 0emm.com, proxy
 host-suffix, 1e100.net, proxy
@@ -939,7 +953,7 @@ ip-cidr, 216.73.80.0/20, proxy
 ip6-cidr, 2620:120:e000::/40, proxy
 ip-cidr, 74.125.0.0/16, proxy
 
-# twitter
+# twitter | X（Twitter）
 host-suffix, ads-twitter.com, proxy
 host-suffix, cms-twdigitalassets.com, proxy
 host-suffix, grok.com, proxy
@@ -974,7 +988,7 @@ ip-cidr, 202.160.128.0/22, proxy
 ip-cidr, 209.237.192.0/19, proxy
 ip-cidr, 69.195.160.0/19, proxy
 
-# tiktok
+# tiktok | TikTok
 host-suffix, muscdn.com, proxy
 host-suffix, musical.ly, proxy
 host-suffix, tik-tokapi.com, proxy
@@ -1011,7 +1025,7 @@ host, roovza.inapps.appsflyersdk.com, proxy
 host, roovza.launches.appsflyersdk.com, proxy
 host, roovza.skadsdk.appsflyersdk.com, proxy
 
-# crypto
+# crypto | 加密货币服务
 host, token-api.metaswap.codefi.network, proxy
 host-suffix, 1inch.io, proxy
 host-suffix, 1ml.com, proxy
@@ -1214,7 +1228,7 @@ host-keyword, huobi, proxy
 host-keyword, metamask, proxy
 host-keyword, okx, proxy
 
-# steam_cn
+# steam_cn | Steam 国内
 host, csgo.wmsj.cn, direct
 host, dl.steam.clngaa.com, direct
 host, dl.steam.ksyna.com, direct
@@ -1233,7 +1247,7 @@ host-suffix, steamcontent.com, direct
 host-suffix, steamserver.net, direct
 host-suffix, steamusercontent.com, direct
 
-# steam
+# steam | Steam 国际
 host-suffix, cdn-ali.content.steamchina.com, proxy
 host-suffix, cdn-qc.content.steamchina.com, proxy
 host-suffix, cdn-ws.content.steamchina.com, proxy
@@ -1289,7 +1303,7 @@ host-keyword, steambroadcast, proxy
 host-keyword, steamstore, proxy
 host-keyword, steamuserimages, proxy
 
-# apple
+# apple | Apple
 host-keyword, apple-support.akadns.net, direct
 host-keyword, apple.com.akadns.net, direct
 host-keyword, apple.com.edgekey.net, direct
@@ -1333,8 +1347,6 @@ ip6-cidr, 2620:149::/32, direct
 ip6-cidr, 2a01:b740::/32, direct
 ip-cidr, 63.92.224.0/19, direct
 ip-cidr, 65.199.22.0/23, direct
-
-# apple_domains
 host-suffix, 100beatscheap.com, direct
 host-suffix, 12diasdepresentesdeitunes.com, direct
 host-suffix, 12diasderegalosdeitunes.cl, direct
@@ -2896,7 +2908,7 @@ host, icons.axm-usercontent-apple.com, direct
 host, lookup-api.apple.com.edgekey.net, direct
 host, p-events-delivery.akamaized.net, direct
 
-# microsoft
+# microsoft | Microsoft
 host, vsmarketplacebadge.apphb.com, direct
 host-suffix, 1drv.ms, direct
 host-suffix, 21vbc.com, direct
@@ -3568,7 +3580,7 @@ user-agent, Microsoft*, direct
 user-agent, OneDrive*, direct
 user-agent, OneDriveiOSApp*, direct
 
-# bilibili
+# bilibili | 哔哩哔哩
 host, 0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com, direct
 host, 0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com, direct
 host, 0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com, direct
@@ -3697,7 +3709,7 @@ ip-cidr, 120.92.153.217/32, direct
 ip-cidr, 134.175.207.130/32, direct
 ip-cidr, 203.107.1.0/24, direct
 
-# proxy
+# proxy | 通用代理
 host-keyword, 1drv, proxy
 host-keyword, 1e100, proxy
 host-keyword, abema, proxy
@@ -3821,8 +3833,6 @@ ip-cidr, 74.119.76.0/22, proxy
 ip-cidr, 74.86.0.0/16, proxy
 ip-cidr, 75.126.0.0/16, proxy
 ip-cidr, 91.105.192.0/23, proxy
-
-# proxy_domains
 host-suffix, 000webhost.com, proxy
 host-suffix, 030buy.com, proxy
 host-suffix, 0rz.tw, proxy
@@ -10478,7 +10488,7 @@ host, developer.apple.com, proxy
 host, login.microsoftonline.com, proxy
 host, testflight.apple.com, proxy
 
-# china
+# china | 国内直连
 host-suffix, cn, direct
 host-suffix, ms, direct
 host-keyword, .tmall.com, direct
@@ -10540,8 +10550,6 @@ ip6-cidr, 2a0b:b580::/48, direct
 ip6-cidr, 2a0b:b581::/48, direct
 ip6-cidr, 2a0b:b582::/48, direct
 ip6-cidr, 2a0b:b583::/48, direct
-
-# china_domains
 host-suffix, 00cdn.com, direct
 host-suffix, 0123456789.com, direct
 host-suffix, 0379home.com, direct
@@ -11121,7 +11129,6 @@ host-suffix, byted.org, direct
 host-suffix, bytedance.com, direct
 host-suffix, bytedance.net, direct
 host-suffix, bytedanceapi.com, direct
-host-suffix, bytedapm.com, direct
 host-suffix, bytedns.net, direct
 host-suffix, bytedns1.com, direct
 host-suffix, bytednsdoc.com, direct
@@ -11806,8 +11813,6 @@ host-suffix, feihuo.com, direct
 host-suffix, feiliao.com, direct
 host-suffix, feimaoyun.com, direct
 host-suffix, feiniaomy.com, direct
-host-suffix, feishu.net, direct
-host-suffix, feishucdn.com, direct
 host-suffix, feishupkg.com, direct
 host-suffix, feizhu.com, direct
 host-suffix, feng.com, direct
@@ -13309,7 +13314,6 @@ host-suffix, snapdrop.net, direct
 host-suffix, snimay.com, direct
 host-suffix, snodehome.com, direct
 host-suffix, snowballsecurities.com, direct
-host-suffix, snssdk.com, direct
 host-suffix, snwx.com, direct
 host-suffix, so.com, direct
 host-suffix, sobot.com, direct
@@ -14173,5 +14177,5 @@ host, weixin.com, direct
 host, www.libvideo.com, direct
 host, www.yxssp.com, direct
 
-# fallback
+# geoip_cn | 国内 IP 兜底
 geoip, cn, direct

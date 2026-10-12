@@ -1,2816 +1,2634 @@
 {
-  "changes": [
+  "conflicts": [
     {
-      "after": "host, localhost, direct",
-      "before": "DOMAIN,localhost,DIRECT",
-      "index": 1,
-      "reasons": [
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "DIRECT",
+      "later_source": "apple",
+      "selector": "DOMAIN-SUFFIX,crashlytics.com",
+      "winner": "PROXY",
+      "winner_source": "google"
     },
     {
-      "after": "host-suffix, lan, direct",
-      "before": "DOMAIN-SUFFIX,lan,DIRECT",
-      "index": 2,
-      "reasons": [
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "DIRECT",
+      "later_source": "china",
+      "selector": "DOMAIN-SUFFIX,tiktokd.net",
+      "winner": "PROXY",
+      "winner_source": "tiktok"
     },
     {
-      "after": "host-suffix, local, direct",
-      "before": "DOMAIN-SUFFIX,local,DIRECT",
-      "index": 3,
-      "reasons": [
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "DIRECT",
+      "later_source": "china",
+      "selector": "DOMAIN-SUFFIX,tiktokd.org",
+      "winner": "PROXY",
+      "winner_source": "tiktok"
     },
     {
-      "after": "host-suffix, home.arpa, direct",
-      "before": "DOMAIN-SUFFIX,home.arpa,DIRECT",
-      "index": 4,
-      "reasons": [
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "DIRECT",
+      "later_source": "china",
+      "selector": "USER-AGENT,hearthstone*",
+      "winner": "PROXY",
+      "winner_source": "proxy"
     },
     {
-      "after": "ip-cidr, 10.0.0.0/8, direct",
-      "before": "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve",
-      "index": 5,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-KEYWORD,1drv",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 127.0.0.0/8, direct",
-      "before": "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve",
-      "index": 6,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-KEYWORD,onedrive",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 169.254.0.0/16, direct",
-      "before": "IP-CIDR,169.254.0.0/16,DIRECT,no-resolve",
-      "index": 7,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-KEYWORD,skydrive",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 172.16.0.0/12, direct",
-      "before": "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve",
-      "index": 8,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,apple-dns.net",
+      "winner": "DIRECT",
+      "winner_source": "apple"
     },
     {
-      "after": "ip-cidr, 192.168.0.0/16, direct",
-      "before": "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve",
-      "index": 9,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,appsto.re",
+      "winner": "DIRECT",
+      "winner_source": "apple"
     },
     {
-      "after": "ip-cidr, 224.0.0.0/4, direct",
-      "before": "IP-CIDR,224.0.0.0/4,DIRECT,no-resolve",
-      "index": 10,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,aspnetcdn.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 255.255.255.255/32, direct",
-      "before": "IP-CIDR,255.255.255.255/32,DIRECT,no-resolve",
-      "index": 11,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,azure.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip6-cidr, ::1/128, direct",
-      "before": "IP-CIDR,::1/128,DIRECT,no-resolve",
-      "index": 12,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,azureedge.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip6-cidr, fc00::/7, direct",
-      "before": "IP-CIDR,fc00::/7,DIRECT,no-resolve",
-      "index": 13,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,azurewebsites.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip6-cidr, fe80::/10, direct",
-      "before": "IP-CIDR,fe80::/10,DIRECT,no-resolve",
-      "index": 14,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,bing.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip6-cidr, ff00::/8, direct",
-      "before": "IP-CIDR,ff00::/8,DIRECT,no-resolve",
-      "index": 15,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected",
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,bing.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "host, captive.apple.com, direct",
-      "before": "DOMAIN,captive.apple.com,DIRECT",
-      "index": 16,
-      "reasons": [
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,bingapis.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "host, dns.alidns.com, direct",
-      "before": "DOMAIN,dns.alidns.com,DIRECT",
-      "index": 17,
-      "reasons": [
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,digicert.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
     },
     {
-      "after": "host, doh.pub, direct",
-      "before": "DOMAIN,doh.pub,DIRECT",
-      "index": 18,
-      "reasons": [
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,edgesuite.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "host, dns.pub, direct",
-      "before": "DOMAIN,dns.pub,DIRECT",
-      "index": 19,
-      "reasons": [
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "custom",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,fabric.io",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 102.37.57.54/32, proxy",
-      "before": "IP-CIDR,102.37.57.54/32,PROXY,no-resolve",
-      "index": 137,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,gfx.ms",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 13.71.25.29/32, proxy",
-      "before": "IP-CIDR,13.71.25.29/32,PROXY,no-resolve",
-      "index": 138,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,helpshift.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 135.220.40.201/32, proxy",
-      "before": "IP-CIDR,135.220.40.201/32,PROXY,no-resolve",
-      "index": 139,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,here.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 172.203.39.49/32, proxy",
-      "before": "IP-CIDR,172.203.39.49/32,PROXY,no-resolve",
-      "index": 140,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,hockeyapp.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 172.207.173.200/32, proxy",
-      "before": "IP-CIDR,172.207.173.200/32,PROXY,no-resolve",
-      "index": 141,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,itun.es",
+      "winner": "DIRECT",
+      "winner_source": "apple"
     },
     {
-      "after": "ip-cidr, 172.214.226.198/32, proxy",
-      "before": "IP-CIDR,172.214.226.198/32,PROXY,no-resolve",
-      "index": 142,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,live.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 191.233.251.27/32, proxy",
-      "before": "IP-CIDR,191.233.251.27/32,PROXY,no-resolve",
-      "index": 143,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,live.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 20.162.96.163/32, proxy",
-      "before": "IP-CIDR,20.162.96.163/32,PROXY,no-resolve",
-      "index": 144,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,livefilestore.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 20.168.48.117/32, proxy",
-      "before": "IP-CIDR,20.168.48.117/32,PROXY,no-resolve",
-      "index": 145,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoft-falcon.io",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 20.184.36.134/32, proxy",
-      "before": "IP-CIDR,20.184.36.134/32,PROXY,no-resolve",
-      "index": 146,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoft.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 20.203.144.245/32, proxy",
-      "before": "IP-CIDR,20.203.144.245/32,PROXY,no-resolve",
-      "index": 147,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftapp.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 20.74.221.21/32, proxy",
-      "before": "IP-CIDR,20.74.221.21/32,PROXY,no-resolve",
-      "index": 148,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftpersonalcontent.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 4.151.200.38/32, proxy",
-      "before": "IP-CIDR,4.151.200.38/32,PROXY,no-resolve",
-      "index": 149,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsofttranslator.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 4.155.146.196/32, proxy",
-      "before": "IP-CIDR,4.155.146.196/32,PROXY,no-resolve",
-      "index": 150,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,msedge.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 4.197.172.116/32, proxy",
-      "before": "IP-CIDR,4.197.172.116/32,PROXY,no-resolve",
-      "index": 151,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,msn.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 4.217.235.100/32, proxy",
-      "before": "IP-CIDR,4.217.235.100/32,PROXY,no-resolve",
-      "index": 152,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,msn.com.tw",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 4.245.198.13/32, proxy",
-      "before": "IP-CIDR,4.245.198.13/32,PROXY,no-resolve",
-      "index": 153,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,onenote.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 40.118.236.137/32, proxy",
-      "before": "IP-CIDR,40.118.236.137/32,PROXY,no-resolve",
-      "index": 154,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,sfx.ms",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 51.4.112.173/32, proxy",
-      "before": "IP-CIDR,51.4.112.173/32,PROXY,no-resolve",
-      "index": 155,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,shazam.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
     },
     {
-      "after": "ip-cidr, 52.143.181.161/32, proxy",
-      "before": "IP-CIDR,52.143.181.161/32,PROXY,no-resolve",
-      "index": 156,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,skype.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 68.155.152.41/32, proxy",
-      "before": "IP-CIDR,68.155.152.41/32,PROXY,no-resolve",
-      "index": 157,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,tenor.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 72.146.20.246/32, proxy",
-      "before": "IP-CIDR,72.146.20.246/32,PROXY,no-resolve",
-      "index": 158,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "USER-AGENT,OneDrive*",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     },
     {
-      "after": "ip-cidr, 74.248.148.7/32, proxy",
-      "before": "IP-CIDR,74.248.148.7/32,PROXY,no-resolve",
-      "index": 159,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "voice",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 109.239.140.0/24, proxy",
-      "before": "IP-CIDR,109.239.140.0/24,PROXY,no-resolve",
-      "index": 231,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 139.59.210.98/32, proxy",
-      "before": "IP-CIDR,139.59.210.98/32,PROXY,no-resolve",
-      "index": 232,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 149.154.160.0/20, proxy",
-      "before": "IP-CIDR,149.154.160.0/20,PROXY,no-resolve",
-      "index": 233,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 196.55.216.167/32, proxy",
-      "before": "IP-CIDR,196.55.216.167/32,PROXY,no-resolve",
-      "index": 234,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2001:67c:4e8::/48, proxy",
-      "before": "IP-CIDR,2001:67c:4e8::/48,PROXY,no-resolve",
-      "index": 235,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2001:b28:f23c::/47, proxy",
-      "before": "IP-CIDR,2001:b28:f23c::/47,PROXY,no-resolve",
-      "index": 236,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2001:b28:f23f::/48, proxy",
-      "before": "IP-CIDR,2001:b28:f23f::/48,PROXY,no-resolve",
-      "index": 237,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2a0a:f280::/29, proxy",
-      "before": "IP-CIDR,2a0a:f280::/29,PROXY,no-resolve",
-      "index": 238,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 5.28.192.0/18, proxy",
-      "before": "IP-CIDR,5.28.192.0/18,PROXY,no-resolve",
-      "index": 239,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 91.108.0.0/16, proxy",
-      "before": "IP-CIDR,91.108.0.0/16,PROXY,no-resolve",
-      "index": 240,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-asn, 211157, proxy",
-      "before": "IP-ASN,211157,PROXY,no-resolve",
-      "index": 241,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-asn, 44907, proxy",
-      "before": "IP-ASN,44907,PROXY,no-resolve",
-      "index": 242,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-asn, 59930, proxy",
-      "before": "IP-ASN,59930,PROXY,no-resolve",
-      "index": 243,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-asn, 62014, proxy",
-      "before": "IP-ASN,62014,PROXY,no-resolve",
-      "index": 244,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-asn, 62041, proxy",
-      "before": "IP-ASN,62041,PROXY,no-resolve",
-      "index": 245,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "telegram",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, %E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*, proxy",
-      "before": "USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,PROXY",
-      "index": 935,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "google",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, *com.google.Drive*, proxy",
-      "before": "USER-AGENT,*com.google.Drive*,PROXY",
-      "index": 936,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "google",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Google.Drive*, proxy",
-      "before": "USER-AGENT,Google.Drive*,PROXY",
-      "index": 937,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "google",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 172.110.32.0/21, proxy",
-      "before": "IP-CIDR,172.110.32.0/21,PROXY,no-resolve",
-      "index": 938,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "google",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 173.194.0.0/16, proxy",
-      "before": "IP-CIDR,173.194.0.0/16,PROXY,no-resolve",
-      "index": 939,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "google",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 216.73.80.0/20, proxy",
-      "before": "IP-CIDR,216.73.80.0/20,PROXY,no-resolve",
-      "index": 940,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "google",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2620:120:e000::/40, proxy",
-      "before": "IP-CIDR,2620:120:e000::/40,PROXY,no-resolve",
-      "index": 941,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "google",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 74.125.0.0/16, proxy",
-      "before": "IP-CIDR,74.125.0.0/16,PROXY,no-resolve",
-      "index": 942,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "google",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 192.133.76.0/22, proxy",
-      "before": "IP-CIDR,192.133.76.0/22,PROXY,no-resolve",
-      "index": 970,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "twitter",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 199.59.148.0/22, proxy",
-      "before": "IP-CIDR,199.59.148.0/22,PROXY,no-resolve",
-      "index": 971,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "twitter",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 199.96.56.0/21, proxy",
-      "before": "IP-CIDR,199.96.56.0/21,PROXY,no-resolve",
-      "index": 972,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "twitter",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 202.160.128.0/22, proxy",
-      "before": "IP-CIDR,202.160.128.0/22,PROXY,no-resolve",
-      "index": 973,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "twitter",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 209.237.192.0/19, proxy",
-      "before": "IP-CIDR,209.237.192.0/19,PROXY,no-resolve",
-      "index": 974,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "twitter",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 69.195.160.0/19, proxy",
-      "before": "IP-CIDR,69.195.160.0/19,PROXY,no-resolve",
-      "index": 975,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "twitter",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, *FindMyiPhone?, direct",
-      "before": "USER-AGENT,*FindMyiPhone?,DIRECT",
-      "index": 1290,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, *Music?, direct",
-      "before": "USER-AGENT,*Music?,DIRECT",
-      "index": 1291,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, *WeatherFoundation*, direct",
-      "before": "USER-AGENT,*WeatherFoundation*,DIRECT",
-      "index": 1292,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, *com.apple.Maps?, direct",
-      "before": "USER-AGENT,*com.apple.Maps?,DIRECT",
-      "index": 1293,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, *com.apple.mobileme.fmip1, direct",
-      "before": "USER-AGENT,*com.apple.mobileme.fmip1,DIRECT",
-      "index": 1294,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, FMDClient*, direct",
-      "before": "USER-AGENT,FMDClient*,DIRECT",
-      "index": 1295,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, FMFD*, direct",
-      "before": "USER-AGENT,FMFD*,DIRECT",
-      "index": 1296,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, FindMyFriends*, direct",
-      "before": "USER-AGENT,FindMyFriends*,DIRECT",
-      "index": 1297,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, FindMyiPhone*, direct",
-      "before": "USER-AGENT,FindMyiPhone*,DIRECT",
-      "index": 1298,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Maps*, direct",
-      "before": "USER-AGENT,Maps*,DIRECT",
-      "index": 1299,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Wallet*, direct",
-      "before": "USER-AGENT,Wallet*,DIRECT",
-      "index": 1300,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, com.apple.Maps, direct",
-      "before": "USER-AGENT,com.apple.Maps,DIRECT",
-      "index": 1301,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, com.apple.appstored*, direct",
-      "before": "USER-AGENT,com.apple.appstored*,DIRECT",
-      "index": 1302,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, fmflocatord*, direct",
-      "before": "USER-AGENT,fmflocatord*,DIRECT",
-      "index": 1303,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, geod*, direct",
-      "before": "USER-AGENT,geod*,DIRECT",
-      "index": 1304,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, locationd*, direct",
-      "before": "USER-AGENT,locationd*,DIRECT",
-      "index": 1305,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, passd*, direct",
-      "before": "USER-AGENT,passd*,DIRECT",
-      "index": 1306,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Music*, direct",
-      "before": "USER-AGENT,Music*,DIRECT",
-      "index": 1307,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, AppleNews*, direct",
-      "before": "USER-AGENT,AppleNews*,DIRECT",
-      "index": 1308,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, com.apple.news*, direct",
-      "before": "USER-AGENT,com.apple.news*,DIRECT",
-      "index": 1309,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, com.apple.trustd*, direct",
-      "before": "USER-AGENT,com.apple.trustd*,DIRECT",
-      "index": 1310,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, AppleTV*, direct",
-      "before": "USER-AGENT,AppleTV*,DIRECT",
-      "index": 1311,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, com.apple.tv*, direct",
-      "before": "USER-AGENT,com.apple.tv*,DIRECT",
-      "index": 1312,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 139.178.128.0/18, direct",
-      "before": "IP-CIDR,139.178.128.0/18,DIRECT,no-resolve",
-      "index": 1313,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 144.178.0.0/19, direct",
-      "before": "IP-CIDR,144.178.0.0/19,DIRECT,no-resolve",
-      "index": 1314,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 144.178.36.0/22, direct",
-      "before": "IP-CIDR,144.178.36.0/22,DIRECT,no-resolve",
-      "index": 1315,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 144.178.48.0/20, direct",
-      "before": "IP-CIDR,144.178.48.0/20,DIRECT,no-resolve",
-      "index": 1316,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 17.0.0.0/8, direct",
-      "before": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
-      "index": 1317,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 192.35.50.0/24, direct",
-      "before": "IP-CIDR,192.35.50.0/24,DIRECT,no-resolve",
-      "index": 1318,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 198.183.17.0/24, direct",
-      "before": "IP-CIDR,198.183.17.0/24,DIRECT,no-resolve",
-      "index": 1319,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 205.180.175.0/24, direct",
-      "before": "IP-CIDR,205.180.175.0/24,DIRECT,no-resolve",
-      "index": 1320,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2403:300::/32, direct",
-      "before": "IP-CIDR,2403:300::/32,DIRECT,no-resolve",
-      "index": 1321,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2620:149::/32, direct",
-      "before": "IP-CIDR,2620:149::/32,DIRECT,no-resolve",
-      "index": 1322,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2a01:b740::/32, direct",
-      "before": "IP-CIDR,2a01:b740::/32,DIRECT,no-resolve",
-      "index": 1323,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 63.92.224.0/19, direct",
-      "before": "IP-CIDR,63.92.224.0/19,DIRECT,no-resolve",
-      "index": 1324,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 65.199.22.0/23, direct",
-      "before": "IP-CIDR,65.199.22.0/23,DIRECT,no-resolve",
-      "index": 1325,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "apple",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Microsoft*, direct",
-      "before": "USER-AGENT,Microsoft*,DIRECT",
-      "index": 3553,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "microsoft",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, OneDrive*, direct",
-      "before": "USER-AGENT,OneDrive*,DIRECT",
-      "index": 3554,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "microsoft",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, OneDriveiOSApp*, direct",
-      "before": "USER-AGENT,OneDriveiOSApp*,DIRECT",
-      "index": 3555,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "microsoft",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, *bili*, direct",
-      "before": "USER-AGENT,*bili*,DIRECT",
-      "index": 3671,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Bilibili*, direct",
-      "before": "USER-AGENT,Bilibili*,DIRECT",
-      "index": 3672,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, bili*, direct",
-      "before": "USER-AGENT,bili*,DIRECT",
-      "index": 3673,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, bili-inter*, direct",
-      "before": "USER-AGENT,bili-inter*,DIRECT",
-      "index": 3674,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 106.75.74.76/32, direct",
-      "before": "IP-CIDR,106.75.74.76/32,DIRECT,no-resolve",
-      "index": 3675,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 111.206.25.147/32, direct",
-      "before": "IP-CIDR,111.206.25.147/32,DIRECT,no-resolve",
-      "index": 3676,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 119.3.238.64/32, direct",
-      "before": "IP-CIDR,119.3.238.64/32,DIRECT,no-resolve",
-      "index": 3677,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.92.108.182/32, direct",
-      "before": "IP-CIDR,120.92.108.182/32,DIRECT,no-resolve",
-      "index": 3678,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.92.113.99/32, direct",
-      "before": "IP-CIDR,120.92.113.99/32,DIRECT,no-resolve",
-      "index": 3679,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.92.153.217/32, direct",
-      "before": "IP-CIDR,120.92.153.217/32,DIRECT,no-resolve",
-      "index": 3680,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 134.175.207.130/32, direct",
-      "before": "IP-CIDR,134.175.207.130/32,DIRECT,no-resolve",
-      "index": 3681,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.107.1.0/24, direct",
-      "before": "IP-CIDR,203.107.1.0/24,DIRECT,no-resolve",
-      "index": 3682,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "bilibili",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Duolingo*, proxy",
-      "before": "USER-AGENT,Duolingo*,PROXY",
-      "index": 3705,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, OneDrive*, proxy",
-      "before": "USER-AGENT,OneDrive*,PROXY",
-      "index": 3706,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, PayPal*, proxy",
-      "before": "USER-AGENT,PayPal*,PROXY",
-      "index": 3707,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Roam*, proxy",
-      "before": "USER-AGENT,Roam*,PROXY",
-      "index": 3708,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, WhatsApp*, proxy",
-      "before": "USER-AGENT,WhatsApp*,PROXY",
-      "index": 3709,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, battleroyale*, proxy",
-      "before": "USER-AGENT,battleroyale*,PROXY",
-      "index": 3710,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, com.apple.trustd*, proxy",
-      "before": "USER-AGENT,com.apple.trustd*,PROXY",
-      "index": 3711,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, hearthstone*, proxy",
-      "before": "USER-AGENT,hearthstone*,PROXY",
-      "index": 3712,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 1.201.0.0/24, proxy",
-      "before": "IP-CIDR,1.201.0.0/24,PROXY,no-resolve",
-      "index": 3713,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 103.2.28.0/22, proxy",
-      "before": "IP-CIDR,103.2.28.0/22,PROXY,no-resolve",
-      "index": 3714,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 103.246.56.0/22, proxy",
-      "before": "IP-CIDR,103.246.56.0/22,PROXY,no-resolve",
-      "index": 3715,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 103.27.148.0/22, proxy",
-      "before": "IP-CIDR,103.27.148.0/22,PROXY,no-resolve",
-      "index": 3716,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 103.4.96.0/22, proxy",
-      "before": "IP-CIDR,103.4.96.0/22,PROXY,no-resolve",
-      "index": 3717,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 110.76.140.0/22, proxy",
-      "before": "IP-CIDR,110.76.140.0/22,PROXY,no-resolve",
-      "index": 3718,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 113.61.104.0/22, proxy",
-      "before": "IP-CIDR,113.61.104.0/22,PROXY,no-resolve",
-      "index": 3719,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 119.235.224.0/21, proxy",
-      "before": "IP-CIDR,119.235.224.0/21,PROXY,no-resolve",
-      "index": 3720,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 119.235.232.0/23, proxy",
-      "before": "IP-CIDR,119.235.232.0/23,PROXY,no-resolve",
-      "index": 3721,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 119.235.235.0/24, proxy",
-      "before": "IP-CIDR,119.235.235.0/24,PROXY,no-resolve",
-      "index": 3722,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 119.235.236.0/23, proxy",
-      "before": "IP-CIDR,119.235.236.0/23,PROXY,no-resolve",
-      "index": 3723,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.232.181.162/32, proxy",
-      "before": "IP-CIDR,120.232.181.162/32,PROXY,no-resolve",
-      "index": 3724,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.241.147.226/32, proxy",
-      "before": "IP-CIDR,120.241.147.226/32,PROXY,no-resolve",
-      "index": 3725,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.253.253.226/32, proxy",
-      "before": "IP-CIDR,120.253.253.226/32,PROXY,no-resolve",
-      "index": 3726,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.253.255.162/32, proxy",
-      "before": "IP-CIDR,120.253.255.162/32,PROXY,no-resolve",
-      "index": 3727,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.253.255.34/32, proxy",
-      "before": "IP-CIDR,120.253.255.34/32,PROXY,no-resolve",
-      "index": 3728,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.253.255.98/32, proxy",
-      "before": "IP-CIDR,120.253.255.98/32,PROXY,no-resolve",
-      "index": 3729,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 125.209.208.0/20, proxy",
-      "before": "IP-CIDR,125.209.208.0/20,PROXY,no-resolve",
-      "index": 3730,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 125.6.146.0/24, proxy",
-      "before": "IP-CIDR,125.6.146.0/24,PROXY,no-resolve",
-      "index": 3731,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 125.6.149.0/24, proxy",
-      "before": "IP-CIDR,125.6.149.0/24,PROXY,no-resolve",
-      "index": 3732,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 125.6.190.0/24, proxy",
-      "before": "IP-CIDR,125.6.190.0/24,PROXY,no-resolve",
-      "index": 3733,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 129.134.0.0/17, proxy",
-      "before": "IP-CIDR,129.134.0.0/17,PROXY,no-resolve",
-      "index": 3734,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 13.251.24.0/24, proxy",
-      "before": "IP-CIDR,13.251.24.0/24,PROXY,no-resolve",
-      "index": 3735,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 13.251.41.0/24, proxy",
-      "before": "IP-CIDR,13.251.41.0/24,PROXY,no-resolve",
-      "index": 3736,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 13.32.0.0/15, proxy",
-      "before": "IP-CIDR,13.32.0.0/15,PROXY,no-resolve",
-      "index": 3737,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 13.35.0.0/17, proxy",
-      "before": "IP-CIDR,13.35.0.0/17,PROXY,no-resolve",
-      "index": 3738,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 14.102.250.18/31, proxy",
-      "before": "IP-CIDR,14.102.250.18/31,PROXY,no-resolve",
-      "index": 3739,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 147.92.128.0/17, proxy",
-      "before": "IP-CIDR,147.92.128.0/17,PROXY,no-resolve",
-      "index": 3740,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 157.240.0.0/17, proxy",
-      "before": "IP-CIDR,157.240.0.0/17,PROXY,no-resolve",
-      "index": 3741,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 158.85.224.160/27, proxy",
-      "before": "IP-CIDR,158.85.224.160/27,PROXY,no-resolve",
-      "index": 3742,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 158.85.46.128/27, proxy",
-      "before": "IP-CIDR,158.85.46.128/27,PROXY,no-resolve",
-      "index": 3743,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 158.85.5.192/27, proxy",
-      "before": "IP-CIDR,158.85.5.192/27,PROXY,no-resolve",
-      "index": 3744,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 17.252.156.0/23, proxy",
-      "before": "IP-CIDR,17.252.156.0/23,PROXY,no-resolve",
-      "index": 3745,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 173.192.222.160/27, proxy",
-      "before": "IP-CIDR,173.192.222.160/27,PROXY,no-resolve",
-      "index": 3746,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 173.192.231.32/27, proxy",
-      "before": "IP-CIDR,173.192.231.32/27,PROXY,no-resolve",
-      "index": 3747,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 173.252.64.0/18, proxy",
-      "before": "IP-CIDR,173.252.64.0/18,PROXY,no-resolve",
-      "index": 3748,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 174.142.105.153/32, proxy",
-      "before": "IP-CIDR,174.142.105.153/32,PROXY,no-resolve",
-      "index": 3749,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 174.37.0.0/16, proxy",
-      "before": "IP-CIDR,174.37.0.0/16,PROXY,no-resolve",
-      "index": 3750,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 179.60.192.0/22, proxy",
-      "before": "IP-CIDR,179.60.192.0/22,PROXY,no-resolve",
-      "index": 3751,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 18.184.0.0/15, proxy",
-      "before": "IP-CIDR,18.184.0.0/15,PROXY,no-resolve",
-      "index": 3752,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 18.194.0.0/15, proxy",
-      "before": "IP-CIDR,18.194.0.0/15,PROXY,no-resolve",
-      "index": 3753,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 18.208.0.0/13, proxy",
-      "before": "IP-CIDR,18.208.0.0/13,PROXY,no-resolve",
-      "index": 3754,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 18.232.0.0/14, proxy",
-      "before": "IP-CIDR,18.232.0.0/14,PROXY,no-resolve",
-      "index": 3755,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 180.163.150.162/32, proxy",
-      "before": "IP-CIDR,180.163.150.162/32,PROXY,no-resolve",
-      "index": 3756,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 180.163.150.34/32, proxy",
-      "before": "IP-CIDR,180.163.150.34/32,PROXY,no-resolve",
-      "index": 3757,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 180.163.151.162/32, proxy",
-      "before": "IP-CIDR,180.163.151.162/32,PROXY,no-resolve",
-      "index": 3758,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 180.163.151.34/32, proxy",
-      "before": "IP-CIDR,180.163.151.34/32,PROXY,no-resolve",
-      "index": 3759,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 184.173.128.0/17, proxy",
-      "before": "IP-CIDR,184.173.128.0/17,PROXY,no-resolve",
-      "index": 3760,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 185.60.216.0/22, proxy",
-      "before": "IP-CIDR,185.60.216.0/22,PROXY,no-resolve",
-      "index": 3761,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 185.76.151.0/24, proxy",
-      "before": "IP-CIDR,185.76.151.0/24,PROXY,no-resolve",
-      "index": 3762,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2001:b28:f23d::/48, proxy",
-      "before": "IP-CIDR,2001:b28:f23d::/48,PROXY,no-resolve",
-      "index": 3763,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.104.103.0/24, proxy",
-      "before": "IP-CIDR,203.104.103.0/24,PROXY,no-resolve",
-      "index": 3764,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.104.128.0/19, proxy",
-      "before": "IP-CIDR,203.104.128.0/19,PROXY,no-resolve",
-      "index": 3765,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.174.66.64/26, proxy",
-      "before": "IP-CIDR,203.174.66.64/26,PROXY,no-resolve",
-      "index": 3766,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.174.77.0/24, proxy",
-      "before": "IP-CIDR,203.174.77.0/24,PROXY,no-resolve",
-      "index": 3767,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.208.39.0/24, proxy",
-      "before": "IP-CIDR,203.208.39.0/24,PROXY,no-resolve",
-      "index": 3768,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.208.40.0/23, proxy",
-      "before": "IP-CIDR,203.208.40.0/23,PROXY,no-resolve",
-      "index": 3769,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.208.43.0/24, proxy",
-      "before": "IP-CIDR,203.208.43.0/24,PROXY,no-resolve",
-      "index": 3770,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.208.50.0/24, proxy",
-      "before": "IP-CIDR,203.208.50.0/24,PROXY,no-resolve",
-      "index": 3771,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 204.15.20.0/22, proxy",
-      "before": "IP-CIDR,204.15.20.0/22,PROXY,no-resolve",
-      "index": 3772,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 208.43.0.0/16, proxy",
-      "before": "IP-CIDR,208.43.0.0/16,PROXY,no-resolve",
-      "index": 3773,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 220.181.174.162/32, proxy",
-      "before": "IP-CIDR,220.181.174.162/32,PROXY,no-resolve",
-      "index": 3774,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 220.181.174.226/32, proxy",
-      "before": "IP-CIDR,220.181.174.226/32,PROXY,no-resolve",
-      "index": 3775,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 220.181.174.34/32, proxy",
-      "before": "IP-CIDR,220.181.174.34/32,PROXY,no-resolve",
-      "index": 3776,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 27.0.236.0/22, proxy",
-      "before": "IP-CIDR,27.0.236.0/22,PROXY,no-resolve",
-      "index": 3777,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2a0a:f280::/32, proxy",
-      "before": "IP-CIDR,2a0a:f280::/32,PROXY,no-resolve",
-      "index": 3778,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 31.13.24.0/21, proxy",
-      "before": "IP-CIDR,31.13.24.0/21,PROXY,no-resolve",
-      "index": 3779,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 31.13.64.0/18, proxy",
-      "before": "IP-CIDR,31.13.64.0/18,PROXY,no-resolve",
-      "index": 3780,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 34.224.0.0/12, proxy",
-      "before": "IP-CIDR,34.224.0.0/12,PROXY,no-resolve",
-      "index": 3781,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 45.64.40.0/22, proxy",
-      "before": "IP-CIDR,45.64.40.0/22,PROXY,no-resolve",
-      "index": 3782,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 50.22.198.204/30, proxy",
-      "before": "IP-CIDR,50.22.198.204/30,PROXY,no-resolve",
-      "index": 3783,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 52.200.0.0/13, proxy",
-      "before": "IP-CIDR,52.200.0.0/13,PROXY,no-resolve",
-      "index": 3784,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 52.58.0.0/15, proxy",
-      "before": "IP-CIDR,52.58.0.0/15,PROXY,no-resolve",
-      "index": 3785,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 52.74.0.0/16, proxy",
-      "before": "IP-CIDR,52.74.0.0/16,PROXY,no-resolve",
-      "index": 3786,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 52.77.0.0/16, proxy",
-      "before": "IP-CIDR,52.77.0.0/16,PROXY,no-resolve",
-      "index": 3787,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 52.84.0.0/15, proxy",
-      "before": "IP-CIDR,52.84.0.0/15,PROXY,no-resolve",
-      "index": 3788,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 54.156.0.0/14, proxy",
-      "before": "IP-CIDR,54.156.0.0/14,PROXY,no-resolve",
-      "index": 3789,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 54.226.0.0/15, proxy",
-      "before": "IP-CIDR,54.226.0.0/15,PROXY,no-resolve",
-      "index": 3790,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 54.230.156.0/22, proxy",
-      "before": "IP-CIDR,54.230.156.0/22,PROXY,no-resolve",
-      "index": 3791,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 54.242.0.0/15, proxy",
-      "before": "IP-CIDR,54.242.0.0/15,PROXY,no-resolve",
-      "index": 3792,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 54.93.0.0/16, proxy",
-      "before": "IP-CIDR,54.93.0.0/16,PROXY,no-resolve",
-      "index": 3793,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 66.220.144.0/20, proxy",
-      "before": "IP-CIDR,66.220.144.0/20,PROXY,no-resolve",
-      "index": 3794,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 67.220.91.15/32, proxy",
-      "before": "IP-CIDR,67.220.91.15/32,PROXY,no-resolve",
-      "index": 3795,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 67.220.91.18/32, proxy",
-      "before": "IP-CIDR,67.220.91.18/32,PROXY,no-resolve",
-      "index": 3796,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 67.220.91.23/32, proxy",
-      "before": "IP-CIDR,67.220.91.23/32,PROXY,no-resolve",
-      "index": 3797,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 69.171.224.0/19, proxy",
-      "before": "IP-CIDR,69.171.224.0/19,PROXY,no-resolve",
-      "index": 3798,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 69.63.176.0/20, proxy",
-      "before": "IP-CIDR,69.63.176.0/20,PROXY,no-resolve",
-      "index": 3799,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 69.65.19.160/32, proxy",
-      "before": "IP-CIDR,69.65.19.160/32,PROXY,no-resolve",
-      "index": 3800,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 72.52.81.22/32, proxy",
-      "before": "IP-CIDR,72.52.81.22/32,PROXY,no-resolve",
-      "index": 3801,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 74.119.76.0/22, proxy",
-      "before": "IP-CIDR,74.119.76.0/22,PROXY,no-resolve",
-      "index": 3802,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 74.86.0.0/16, proxy",
-      "before": "IP-CIDR,74.86.0.0/16,PROXY,no-resolve",
-      "index": 3803,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 75.126.0.0/16, proxy",
-      "before": "IP-CIDR,75.126.0.0/16,PROXY,no-resolve",
-      "index": 3804,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 91.105.192.0/23, proxy",
-      "before": "IP-CIDR,91.105.192.0/23,PROXY,no-resolve",
-      "index": 3805,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "proxy",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, %E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*, direct",
-      "before": "USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,DIRECT",
-      "index": 10470,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, %E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*, direct",
-      "before": "USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*,DIRECT",
-      "index": 10471,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, %E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*, direct",
-      "before": "USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT",
-      "index": 10472,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, %E4%BC%98%E9%85%B7*, direct",
-      "before": "USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT",
-      "index": 10473,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, %E5%8D%B3%E5%88%BB*, direct",
-      "before": "USER-AGENT,%E5%8D%B3%E5%88%BB*,DIRECT",
-      "index": 10474,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*, direct",
-      "before": "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT",
-      "index": 10475,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, *Vainglory*, direct",
-      "before": "USER-AGENT,*Vainglory*,DIRECT",
-      "index": 10476,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, AdBlock*, direct",
-      "before": "USER-AGENT,AdBlock*,DIRECT",
-      "index": 10477,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Best%20Trace*, direct",
-      "before": "USER-AGENT,Best%20Trace*,DIRECT",
-      "index": 10478,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, MegaWerewolf*, direct",
-      "before": "USER-AGENT,MegaWerewolf*,DIRECT",
-      "index": 10479,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, MicroMessenger%20Client, direct",
-      "before": "USER-AGENT,MicroMessenger%20Client,DIRECT",
-      "index": 10480,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, MicroMessenger*, direct",
-      "before": "USER-AGENT,MicroMessenger*,DIRECT",
-      "index": 10481,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, MicroMessengerClient*, direct",
-      "before": "USER-AGENT,MicroMessengerClient*,DIRECT",
-      "index": 10482,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, Moke*, direct",
-      "before": "USER-AGENT,Moke*,DIRECT",
-      "index": 10483,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, NeteaseMusic*, direct",
-      "before": "USER-AGENT,NeteaseMusic*,DIRECT",
-      "index": 10484,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, QQ*, direct",
-      "before": "USER-AGENT,QQ*,DIRECT",
-      "index": 10485,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, RemotePlay*, direct",
-      "before": "USER-AGENT,RemotePlay*,DIRECT",
-      "index": 10486,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, TIM*, direct",
-      "before": "USER-AGENT,TIM*,DIRECT",
-      "index": 10487,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, TeamViewer*, direct",
-      "before": "USER-AGENT,TeamViewer*,DIRECT",
-      "index": 10488,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, WeChat*, direct",
-      "before": "USER-AGENT,WeChat*,DIRECT",
-      "index": 10489,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, WebTorrent*, direct",
-      "before": "USER-AGENT,WebTorrent*,DIRECT",
-      "index": 10490,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, YYeTs*, direct",
-      "before": "USER-AGENT,YYeTs*,DIRECT",
-      "index": 10491,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, arrowio*, direct",
-      "before": "USER-AGENT,arrowio*,DIRECT",
-      "index": 10492,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, balls*, direct",
-      "before": "USER-AGENT,balls*,DIRECT",
-      "index": 10493,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, cmb*, direct",
-      "before": "USER-AGENT,cmb*,DIRECT",
-      "index": 10494,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, cmblife*, direct",
-      "before": "USER-AGENT,cmblife*,DIRECT",
-      "index": 10495,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, eusoft_ting_en_iphone, direct",
-      "before": "USER-AGENT,eusoft_ting_en_iphone,DIRECT",
-      "index": 10496,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, hearthstone*, direct",
-      "before": "USER-AGENT,hearthstone*,DIRECT",
-      "index": 10497,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, hide*, direct",
-      "before": "USER-AGENT,hide*,DIRECT",
-      "index": 10498,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "user-agent, ting_en, direct",
-      "before": "USER-AGENT,ting_en,DIRECT",
-      "index": 10499,
-      "reasons": [
-        "lower priority than host in Quantumult X"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 1.255.62.0/24, direct",
-      "before": "IP-CIDR,1.255.62.0/24,DIRECT,no-resolve",
-      "index": 10500,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 101.32.104.0/21, direct",
-      "before": "IP-CIDR,101.32.104.0/21,DIRECT,no-resolve",
-      "index": 10501,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 101.32.118.0/23, direct",
-      "before": "IP-CIDR,101.32.118.0/23,DIRECT,no-resolve",
-      "index": 10502,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 101.32.96.0/20, direct",
-      "before": "IP-CIDR,101.32.96.0/20,DIRECT,no-resolve",
-      "index": 10503,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 119.28.28.28/32, direct",
-      "before": "IP-CIDR,119.28.28.28/32,DIRECT,no-resolve",
-      "index": 10504,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 120.195.181.180/32, direct",
-      "before": "IP-CIDR,120.195.181.180/32,DIRECT,no-resolve",
-      "index": 10505,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 129.226.0.0/16, direct",
-      "before": "IP-CIDR,129.226.0.0/16,DIRECT,no-resolve",
-      "index": 10506,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 182.254.116.0/24, direct",
-      "before": "IP-CIDR,182.254.116.0/24,DIRECT,no-resolve",
-      "index": 10507,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 183.128.0.0/11, direct",
-      "before": "IP-CIDR,183.128.0.0/11,DIRECT,no-resolve",
-      "index": 10508,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 183.131.48.0/20, direct",
-      "before": "IP-CIDR,183.131.48.0/20,DIRECT,no-resolve",
-      "index": 10509,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 185.188.32.0/22, direct",
-      "before": "IP-CIDR,185.188.32.0/22,DIRECT,no-resolve",
-      "index": 10510,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 185.188.32.0/24, direct",
-      "before": "IP-CIDR,185.188.32.0/24,DIRECT,no-resolve",
-      "index": 10511,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 185.188.33.0/24, direct",
-      "before": "IP-CIDR,185.188.33.0/24,DIRECT,no-resolve",
-      "index": 10512,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 185.188.34.0/24, direct",
-      "before": "IP-CIDR,185.188.34.0/24,DIRECT,no-resolve",
-      "index": 10513,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 185.188.35.0/24, direct",
-      "before": "IP-CIDR,185.188.35.0/24,DIRECT,no-resolve",
-      "index": 10514,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.205.238.0/23, direct",
-      "before": "IP-CIDR,203.205.238.0/23,DIRECT,no-resolve",
-      "index": 10515,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip-cidr, 203.205.254.0/23, direct",
-      "before": "IP-CIDR,203.205.254.0/23,DIRECT,no-resolve",
-      "index": 10516,
-      "reasons": [
-        "no-resolve removed; native DNS semantics"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2a0b:b580::/48, direct",
-      "before": "IP-CIDR,2a0b:b580::/48,DIRECT,no-resolve",
-      "index": 10517,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2a0b:b581::/48, direct",
-      "before": "IP-CIDR,2a0b:b581::/48,DIRECT,no-resolve",
-      "index": 10518,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2a0b:b582::/48, direct",
-      "before": "IP-CIDR,2a0b:b582::/48,DIRECT,no-resolve",
-      "index": 10519,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "ip6-cidr, 2a0b:b583::/48, direct",
-      "before": "IP-CIDR,2a0b:b583::/48,DIRECT,no-resolve",
-      "index": 10520,
-      "reasons": [
-        "no-resolve removed; native DNS semantics",
-        "IPv6 rule family corrected"
-      ],
-      "source": "china",
-      "target": "rules.list"
-    },
-    {
-      "after": "final, proxy",
-      "before": "FINAL,PROXY",
-      "index": 14152,
-      "reasons": [
-        "local bootstrap/final; template sync required"
-      ],
-      "source": "fallback",
-      "target": "filter_local"
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "USER-AGENT,com.apple.trustd*",
+      "winner": "DIRECT",
+      "winner_source": "apple"
     }
   ],
-  "input_rules": 14152,
-  "input_types": {
-    "DOMAIN": 169,
-    "DOMAIN-KEYWORD": 57,
-    "DOMAIN-SUFFIX": 13657,
-    "DOMAIN-WILDCARD": 1,
-    "FINAL": 1,
-    "GEOIP": 1,
-    "IP-ASN": 5,
-    "IP-CIDR": 190,
-    "USER-AGENT": 71
-  },
   "local_rules": 20,
-  "minimum_client": "Quantumult X 1.5.5 build 914",
-  "native_rules": 14152,
-  "native_types": {
-    "final": 1,
-    "geoip": 1,
-    "host": 169,
-    "host-keyword": 57,
-    "host-suffix": 13657,
-    "host-wildcard": 1,
-    "ip-asn": 5,
-    "ip-cidr": 172,
-    "ip6-cidr": 18,
-    "user-agent": 71
-  },
+  "native_rules": 14158,
   "no_resolve_removed": 195,
-  "remote_rules": 14132,
+  "remote_rules": 14138,
+  "removed_exact_duplicates": 261,
   "removed_native_duplicates": 0,
-  "runtime_validation": "UNVERIFIED: iOS parsing, actual priority, DNS, IPv6, UDP, refresh",
-  "schema_version": 1,
-  "user_agent_priority_changes": 71
+  "routing_cases": [
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,services.bingapis.com,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,services.bingapis.com,PROXY",
+      "input": {
+        "domain": "services.bingapis.com"
+      },
+      "name": "Copilot services",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,gateway.bingviz.microsoft.net,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,gateway.bingviz.microsoft.net,PROXY",
+      "input": {
+        "domain": "gateway.bingviz.microsoft.net"
+      },
+      "name": "Copilot Microsoft gateway",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,gateway.bingviz.microsoftapp.net,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,gateway.bingviz.microsoftapp.net,PROXY",
+      "input": {
+        "domain": "gateway.bingviz.microsoftapp.net"
+      },
+      "name": "Copilot Microsoftapp gateway",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,frontend-apps-multi-region.workos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,frontend-apps-multi-region.workos.com,PROXY",
+      "input": {
+        "domain": "frontend-apps-multi-region.workos.com"
+      },
+      "name": "WorkOS frontend",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+      "input": {
+        "domain": "js.intercomcdn.com"
+      },
+      "name": "Intercom CDN",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,openai.com,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "auth.openai.com"
+      },
+      "name": "ChatGPT login",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,chatgpt.com,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "chatgpt.com"
+      },
+      "name": "ChatGPT",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,chatgpt.com,PROXY",
+        "source": "openai"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,chatgpt.com,PROXY",
+      "input": {
+        "domain": "ws.chatgpt.com"
+      },
+      "name": "ChatGPT WebSocket",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,oaiusercontent.com,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "files.oaiusercontent.com"
+      },
+      "name": "ChatGPT upload",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,oaistatic.com,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "cdn.oaistatic.com"
+      },
+      "name": "OpenAI static",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,oaistatsig.com,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "ab.oaistatsig.com"
+      },
+      "name": "OpenAI stats",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-WILDCARD,chatgpt-async-webps-prod-*.webpubsub.azure.com,PROXY",
+        "source": "openai"
+      },
+      "expected_rule": "DOMAIN-WILDCARD,chatgpt-async-webps-prod-*.webpubsub.azure.com,PROXY",
+      "input": {
+        "domain": "chatgpt-async-webps-prod-eastus-1.webpubsub.azure.com"
+      },
+      "name": "ChatGPT Azure",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,chatgpt.livekit.cloud,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "chatgpt.livekit.cloud"
+      },
+      "name": "Voice ChatGPT",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,turn.livekit.cloud,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "turn.livekit.cloud"
+      },
+      "name": "Voice relay",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,host.livekit.cloud,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "host.livekit.cloud"
+      },
+      "name": "Voice host",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,chatgpt.site,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "chatgpt.site"
+      },
+      "name": "OpenAI sites",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,crixet.com,PROXY",
+        "source": "openai"
+      },
+      "input": {
+        "domain": "crixet.com"
+      },
+      "name": "Prism legacy",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,cdn.openaimerge.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,cdn.openaimerge.com,PROXY",
+      "input": {
+        "domain": "cdn.openaimerge.com"
+      },
+      "name": "OpenAI merge",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,cdn.workos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,cdn.workos.com,PROXY",
+      "input": {
+        "domain": "cdn.workos.com"
+      },
+      "name": "WorkOS cdn",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,forwarder.workos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,forwarder.workos.com,PROXY",
+      "input": {
+        "domain": "forwarder.workos.com"
+      },
+      "name": "WorkOS forwarder",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,setup.workos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,setup.workos.com,PROXY",
+      "input": {
+        "domain": "setup.workos.com"
+      },
+      "name": "WorkOS setup",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,images.workoscdn.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,images.workoscdn.com,PROXY",
+      "input": {
+        "domain": "images.workoscdn.com"
+      },
+      "name": "WorkOS images",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,workos.imgix.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,workos.imgix.net,PROXY",
+      "input": {
+        "domain": "workos.imgix.net"
+      },
+      "name": "WorkOS imgix",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,challenges.cloudflare.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,challenges.cloudflare.com,PROXY",
+      "input": {
+        "domain": "challenges.cloudflare.com"
+      },
+      "name": "Challenge",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,js.stripe.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,js.stripe.com,PROXY",
+      "input": {
+        "domain": "js.stripe.com"
+      },
+      "name": "Stripe js",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,o207216.ingest.sentry.io,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,o207216.ingest.sentry.io,PROXY",
+      "input": {
+        "domain": "o207216.ingest.sentry.io"
+      },
+      "name": "Sentry OpenAI",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,o33249.ingest.sentry.io,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,o33249.ingest.sentry.io,PROXY",
+      "input": {
+        "domain": "o33249.ingest.sentry.io"
+      },
+      "name": "Sentry ChatGPT",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,rum.browser-intake-datadoghq.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,rum.browser-intake-datadoghq.com,PROXY",
+      "input": {
+        "domain": "rum.browser-intake-datadoghq.com"
+      },
+      "name": "Datadog exact helper",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,ct.sendgrid.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,ct.sendgrid.net,PROXY",
+      "input": {
+        "domain": "click.ct.sendgrid.net"
+      },
+      "name": "Email link",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,openai-api.arkoselabs.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,openai-api.arkoselabs.com,PROXY",
+      "input": {
+        "domain": "openai-api.arkoselabs.com"
+      },
+      "name": "Arkose legacy",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,client-api.arkoselabs.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,client-api.arkoselabs.com,PROXY",
+      "input": {
+        "domain": "client-api.arkoselabs.com"
+      },
+      "name": "Arkose client legacy",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,api.statsig.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,api.statsig.com,PROXY",
+      "input": {
+        "domain": "api.statsig.com"
+      },
+      "name": "Statsig legacy",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,events.statsigapi.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,events.statsigapi.net,PROXY",
+      "input": {
+        "domain": "events.statsigapi.net"
+      },
+      "name": "Statsig events",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,featuregates.org,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,featuregates.org,PROXY",
+      "input": {
+        "domain": "featuregates.org"
+      },
+      "name": "Featuregates legacy",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,claude.ai,PROXY",
+        "source": "claude"
+      },
+      "input": {
+        "domain": "claude.ai"
+      },
+      "name": "Claude",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,claude.com,PROXY",
+        "source": "claude"
+      },
+      "input": {
+        "domain": "claude.com"
+      },
+      "name": "Claude new entry",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,claudeusercontent.com,PROXY",
+        "source": "claude"
+      },
+      "input": {
+        "domain": "files.claudeusercontent.com"
+      },
+      "name": "Claude upload",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,claudemcpcontent.com,PROXY",
+        "source": "claude"
+      },
+      "input": {
+        "domain": "claudemcpcontent.com"
+      },
+      "name": "Claude MCP content",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,servd-anthropic-website.b-cdn.net,PROXY",
+        "source": "claude"
+      },
+      "input": {
+        "domain": "servd-anthropic-website.b-cdn.net"
+      },
+      "name": "Claude CDN",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,gemini.google.com,PROXY",
+        "source": "gemini"
+      },
+      "input": {
+        "domain": "gemini.google.com"
+      },
+      "name": "Gemini",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,aistudio.google.com,PROXY",
+        "source": "gemini"
+      },
+      "input": {
+        "domain": "aistudio.google.com"
+      },
+      "name": "AI Studio",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,generativelanguage.googleapis.com,PROXY",
+        "source": "gemini"
+      },
+      "input": {
+        "domain": "generativelanguage.googleapis.com"
+      },
+      "name": "Gemini API",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,ai.google.dev,PROXY",
+        "source": "gemini"
+      },
+      "input": {
+        "domain": "ai.google.dev"
+      },
+      "name": "Gemini docs",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,copilot.com,PROXY",
+      "input": {
+        "domain": "copilot.com"
+      },
+      "name": "Copilot new",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.cloud.microsoft,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,copilot.cloud.microsoft,PROXY",
+      "input": {
+        "domain": "copilot.cloud.microsoft"
+      },
+      "name": "Copilot cloud",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.microsoft.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,copilot.microsoft.com,PROXY",
+      "input": {
+        "domain": "copilot.microsoft.com"
+      },
+      "name": "Copilot original",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,sydney.bing.com,PROXY",
+        "source": "copilot"
+      },
+      "expected_rule": "DOMAIN,sydney.bing.com,PROXY",
+      "input": {
+        "domain": "sydney.bing.com"
+      },
+      "name": "Copilot Bing",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.apple.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.apple.com,PROXY",
+      "input": {
+        "domain": "apple-relay.apple.com"
+      },
+      "name": "Apple Intelligence relay",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY",
+      "input": {
+        "domain": "apple-relay.cloudflare.com"
+      },
+      "name": "Apple Intelligence cloudflare",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,cp4.cloudflare.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,cp4.cloudflare.com,PROXY",
+      "input": {
+        "domain": "cp4.cloudflare.com"
+      },
+      "name": "Apple Intelligence cp4",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,humb.apple.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,humb.apple.com,PROXY",
+      "input": {
+        "domain": "humb.apple.com"
+      },
+      "name": "Apple shared helper",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "source": "apple"
+      },
+      "input": {
+        "domain": "www.apple.com"
+      },
+      "name": "Apple ordinary",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,microsoftonline.com,DIRECT",
+        "source": "microsoft"
+      },
+      "input": {
+        "domain": "login.microsoftonline.com"
+      },
+      "name": "Microsoft ordinary",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,azure.com,DIRECT",
+        "source": "microsoft"
+      },
+      "input": {
+        "domain": "example.azure.com"
+      },
+      "name": "Azure ordinary",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,githubusercontent.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,githubusercontent.com,PROXY",
+      "input": {
+        "domain": "raw.githubusercontent.com"
+      },
+      "name": "GitHub update",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,telegram.org,PROXY",
+        "source": "telegram"
+      },
+      "input": {
+        "domain": "api.telegram.org"
+      },
+      "name": "Telegram",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,x.com,PROXY",
+        "source": "twitter"
+      },
+      "input": {
+        "domain": "x.com"
+      },
+      "name": "Twitter",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,tiktok.com,PROXY",
+        "source": "tiktok"
+      },
+      "input": {
+        "domain": "tiktok.com"
+      },
+      "name": "TikTok",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-KEYWORD,tiktokcdn,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-KEYWORD,tiktokcdn,PROXY",
+      "input": {
+        "domain": "tiktokcdn.com"
+      },
+      "name": "TikTok media",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,tiktokv.us,PROXY",
+        "source": "tiktok"
+      },
+      "input": {
+        "domain": "tiktokv.us"
+      },
+      "name": "TikTok USA",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,byteoversea.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,byteoversea.com,PROXY",
+      "input": {
+        "domain": "byteoversea.com"
+      },
+      "name": "TikTok legacy byteoversea",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,ibytedtos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,ibytedtos.com,PROXY",
+      "input": {
+        "domain": "ibytedtos.com"
+      },
+      "name": "TikTok legacy ibytedtos",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,ipstatp.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,ipstatp.com,PROXY",
+      "input": {
+        "domain": "ipstatp.com"
+      },
+      "name": "TikTok legacy ipstatp",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,snssdk.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "input": {
+        "domain": "snssdk.com"
+      },
+      "name": "Domestic ByteDance snssdk",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,bytedapm.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "input": {
+        "domain": "bytedapm.com"
+      },
+      "name": "Domestic ByteDance bytedapm",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,bilibili.com,DIRECT",
+        "source": "bilibili"
+      },
+      "input": {
+        "domain": "www.bilibili.com"
+      },
+      "name": "BiliBili",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-KEYWORD,baidu,DIRECT",
+        "source": "china"
+      },
+      "input": {
+        "domain": "www.baidu.com"
+      },
+      "name": "Baidu",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-KEYWORD,taobao,DIRECT",
+        "source": "china"
+      },
+      "input": {
+        "domain": "www.taobao.com"
+      },
+      "name": "Taobao",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,steamserver.net,DIRECT",
+        "source": "steam_cn"
+      },
+      "input": {
+        "domain": "steamserver.net"
+      },
+      "name": "Steam China",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,steampowered.com,PROXY",
+        "source": "steam"
+      },
+      "input": {
+        "domain": "store.steampowered.com"
+      },
+      "name": "Steam international",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,lan,DIRECT",
+        "source": "local_direct"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,lan,DIRECT",
+      "input": {
+        "domain": "nas.lan"
+      },
+      "name": "LAN",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,local,DIRECT",
+        "source": "local_direct"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,local,DIRECT",
+      "input": {
+        "domain": "printer.local"
+      },
+      "name": "Local",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,home.arpa,DIRECT",
+        "source": "local_direct"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,home.arpa,DIRECT",
+      "input": {
+        "domain": "router.home.arpa"
+      },
+      "name": "Home arpa",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN,captive.apple.com,DIRECT",
+        "source": "local_direct"
+      },
+      "expected_rule": "DOMAIN,captive.apple.com,DIRECT",
+      "input": {
+        "domain": "captive.apple.com"
+      },
+      "name": "Captive portal",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,pool.ntp.org,DIRECT",
+        "source": "local_direct"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,pool.ntp.org,DIRECT",
+      "input": {
+        "domain": "0.pool.ntp.org"
+      },
+      "name": "NTP",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN,time.apple.com,DIRECT",
+        "source": "local_direct"
+      },
+      "expected_rule": "DOMAIN,time.apple.com,DIRECT",
+      "input": {
+        "domain": "time.apple.com"
+      },
+      "name": "Apple time",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN,dns.alidns.com,DIRECT",
+        "source": "local_direct"
+      },
+      "expected_rule": "DOMAIN,dns.alidns.com,DIRECT",
+      "input": {
+        "domain": "dns.alidns.com"
+      },
+      "name": "Direct DNS",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,dns.google,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,dns.google,PROXY",
+      "input": {
+        "domain": "dns.google"
+      },
+      "name": "Proxy DNS",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "GEOIP,CN,DIRECT",
+        "source": "geoip_cn"
+      },
+      "expected_rule": "GEOIP,CN,DIRECT",
+      "input": {
+        "asn": "9999",
+        "country": "CN",
+        "domain": "checkout.mzxnyysm.com",
+        "ip": "1.2.3.4"
+      },
+      "name": "Removed personal exception checkout.mzxnyysm.com CN",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "FINAL,PROXY",
+        "source": "final_proxy"
+      },
+      "expected_rule": "FINAL,PROXY",
+      "input": {
+        "asn": "9999",
+        "country": "US",
+        "domain": "checkout.mzxnyysm.com",
+        "ip": "8.8.4.4"
+      },
+      "name": "Removed personal exception checkout.mzxnyysm.com foreign",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "UNRESOLVED",
+        "rule": "FINAL,PROXY",
+        "source": "final_proxy"
+      },
+      "input": {
+        "domain": "checkout.mzxnyysm.com"
+      },
+      "name": "Removed personal exception checkout.mzxnyysm.com unresolved",
+      "policy": "UNRESOLVED"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "GEOIP,CN,DIRECT",
+        "source": "geoip_cn"
+      },
+      "expected_rule": "GEOIP,CN,DIRECT",
+      "input": {
+        "asn": "9999",
+        "country": "CN",
+        "domain": "sub.checkout.mzxnyysm.com",
+        "ip": "1.2.3.4"
+      },
+      "name": "Removed personal exception sub.checkout.mzxnyysm.com CN",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "FINAL,PROXY",
+        "source": "final_proxy"
+      },
+      "expected_rule": "FINAL,PROXY",
+      "input": {
+        "asn": "9999",
+        "country": "US",
+        "domain": "sub.checkout.mzxnyysm.com",
+        "ip": "8.8.4.4"
+      },
+      "name": "Removed personal exception sub.checkout.mzxnyysm.com foreign",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "UNRESOLVED",
+        "rule": "FINAL,PROXY",
+        "source": "final_proxy"
+      },
+      "input": {
+        "domain": "sub.checkout.mzxnyysm.com"
+      },
+      "name": "Removed personal exception sub.checkout.mzxnyysm.com unresolved",
+      "policy": "UNRESOLVED"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "IP-CIDR,127.0.0.0/8,DIRECT",
+        "source": "local_direct"
+      },
+      "input": {
+        "ip": "127.0.0.1"
+      },
+      "name": "Local IP 127.0.0.1",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "IP-CIDR,192.168.0.0/16,DIRECT",
+        "source": "local_direct"
+      },
+      "input": {
+        "ip": "192.168.1.1"
+      },
+      "name": "Local IP 192.168.1.1",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "IP-CIDR,10.0.0.0/8,DIRECT",
+        "source": "local_direct"
+      },
+      "input": {
+        "ip": "10.0.0.1"
+      },
+      "name": "Local IP 10.0.0.1",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "IP-CIDR,172.16.0.0/12,DIRECT",
+        "source": "local_direct"
+      },
+      "input": {
+        "ip": "172.16.3.1"
+      },
+      "name": "Local IP 172.16.3.1",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "IP-CIDR,169.254.0.0/16,DIRECT",
+        "source": "local_direct"
+      },
+      "input": {
+        "ip": "169.254.1.1"
+      },
+      "name": "Local IP 169.254.1.1",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "IP-CIDR,::1/128,DIRECT",
+        "source": "local_direct"
+      },
+      "input": {
+        "ip": "::1"
+      },
+      "name": "Local IP ::1",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "IP-CIDR,fc00::/7,DIRECT",
+        "source": "local_direct"
+      },
+      "input": {
+        "ip": "fd00::1"
+      },
+      "name": "Local IP fd00::1",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "IP-CIDR,fe80::/10,DIRECT",
+        "source": "local_direct"
+      },
+      "input": {
+        "ip": "fe80::1"
+      },
+      "name": "Local IP fe80::1",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "GEOIP,CN,DIRECT",
+        "source": "geoip_cn"
+      },
+      "input": {
+        "asn": "9999",
+        "country": "CN",
+        "domain": "unknown.example",
+        "ip": "1.2.3.4"
+      },
+      "name": "CN fallback",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "FINAL,PROXY",
+        "source": "final_proxy"
+      },
+      "input": {
+        "asn": "15169",
+        "country": "US",
+        "domain": "unknown.example",
+        "ip": "8.8.4.4"
+      },
+      "name": "Other fallback",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN,doh.pub,DIRECT",
+        "source": "local_direct"
+      },
+      "expected_rule": "DOMAIN,doh.pub,DIRECT",
+      "input": {
+        "domain": "doh.pub"
+      },
+      "name": "Direct DNS DoH.pub",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN,dns.pub,DIRECT",
+        "source": "local_direct"
+      },
+      "expected_rule": "DOMAIN,dns.pub,DIRECT",
+      "input": {
+        "domain": "dns.pub"
+      },
+      "name": "Direct DNS DNSPod",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,cloudflare-dns.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN,cloudflare-dns.com,PROXY",
+      "input": {
+        "domain": "cloudflare-dns.com"
+      },
+      "name": "Proxy DNS Cloudflare",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY",
+      "input": {
+        "domain": "apple-relay.fastly-edge.com"
+      },
+      "name": "Apple Intelligence Fastly",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,erp.lingxing.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,erp.lingxing.com,DIRECT",
+      "input": {
+        "domain": "erp.lingxing.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX erp.lingxing.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,erp.lingxing.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,erp.lingxing.com,DIRECT",
+      "input": {
+        "domain": "child.erp.lingxing.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.erp.lingxing.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,feishu.cn,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,feishu.cn,DIRECT",
+      "input": {
+        "domain": "feishu.cn"
+      },
+      "name": "Unified DOMAIN-SUFFIX feishu.cn",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,feishu.cn,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,feishu.cn,DIRECT",
+      "input": {
+        "domain": "child.feishu.cn"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.feishu.cn",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,feishu.net,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,feishu.net,DIRECT",
+      "input": {
+        "domain": "feishu.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX feishu.net",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,feishu.net,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,feishu.net,DIRECT",
+      "input": {
+        "domain": "child.feishu.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.feishu.net",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,larkoffice.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,larkoffice.com,DIRECT",
+      "input": {
+        "domain": "larkoffice.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX larkoffice.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,larkoffice.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,larkoffice.com,DIRECT",
+      "input": {
+        "domain": "child.larkoffice.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.larkoffice.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,feishucdn.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,feishucdn.com,DIRECT",
+      "input": {
+        "domain": "feishucdn.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX feishucdn.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,feishucdn.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,feishucdn.com,DIRECT",
+      "input": {
+        "domain": "child.feishucdn.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.feishucdn.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,ziniao.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,ziniao.com,DIRECT",
+      "input": {
+        "domain": "ziniao.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX ziniao.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,ziniao.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,ziniao.com,DIRECT",
+      "input": {
+        "domain": "child.ziniao.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.ziniao.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,uuyc.163.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,uuyc.163.com,DIRECT",
+      "input": {
+        "domain": "uuyc.163.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX uuyc.163.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,uuyc.163.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,uuyc.163.com,DIRECT",
+      "input": {
+        "domain": "child.uuyc.163.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.uuyc.163.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,uu.163.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,uu.163.com,DIRECT",
+      "input": {
+        "domain": "uu.163.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX uu.163.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,uu.163.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,uu.163.com,DIRECT",
+      "input": {
+        "domain": "child.uu.163.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.uu.163.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,snssdk.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,snssdk.com,DIRECT",
+      "input": {
+        "domain": "snssdk.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX snssdk.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,snssdk.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,snssdk.com,DIRECT",
+      "input": {
+        "domain": "child.snssdk.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.snssdk.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,bytedapm.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,bytedapm.com,DIRECT",
+      "input": {
+        "domain": "bytedapm.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX bytedapm.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,bytedapm.com,DIRECT",
+        "source": "personal_direct"
+      },
+      "expected_category": "personal_direct",
+      "expected_rule": "DOMAIN-SUFFIX,bytedapm.com,DIRECT",
+      "input": {
+        "domain": "child.bytedapm.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.bytedapm.com",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.akamaized.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.akamaized.net,PROXY",
+      "input": {
+        "domain": "apple-relay.akamaized.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX apple-relay.akamaized.net",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.akamaized.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.akamaized.net,PROXY",
+      "input": {
+        "domain": "child.apple-relay.akamaized.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.apple-relay.akamaized.net",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.apple.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.apple.com,PROXY",
+      "input": {
+        "domain": "apple-relay.apple.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX apple-relay.apple.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.apple.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.apple.com,PROXY",
+      "input": {
+        "domain": "child.apple-relay.apple.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.apple-relay.apple.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY",
+      "input": {
+        "domain": "apple-relay.cloudflare.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX apple-relay.cloudflare.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY",
+      "input": {
+        "domain": "child.apple-relay.cloudflare.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.apple-relay.cloudflare.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY",
+      "input": {
+        "domain": "apple-relay.fastly-edge.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX apple-relay.fastly-edge.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY",
+      "input": {
+        "domain": "child.apple-relay.fastly-edge.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.apple-relay.fastly-edge.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,PROXY",
+      "input": {
+        "domain": "apple-relay.mask.apple-dns.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX apple-relay.mask.apple-dns.net",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,PROXY",
+      "input": {
+        "domain": "child.apple-relay.mask.apple-dns.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.apple-relay.mask.apple-dns.net",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,cp4.cloudflare.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,cp4.cloudflare.com,PROXY",
+      "input": {
+        "domain": "cp4.cloudflare.com"
+      },
+      "name": "Unified DOMAIN cp4.cloudflare.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.microsoft.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,copilot.microsoft.com,PROXY",
+      "input": {
+        "domain": "copilot.microsoft.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX copilot.microsoft.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.microsoft.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,copilot.microsoft.com,PROXY",
+      "input": {
+        "domain": "child.copilot.microsoft.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.copilot.microsoft.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.bing.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,copilot.bing.com,PROXY",
+      "input": {
+        "domain": "copilot.bing.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX copilot.bing.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.bing.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,copilot.bing.com,PROXY",
+      "input": {
+        "domain": "child.copilot.bing.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.copilot.bing.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,copilot.com,PROXY",
+      "input": {
+        "domain": "copilot.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX copilot.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,copilot.com,PROXY",
+      "input": {
+        "domain": "child.copilot.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.copilot.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.cloud.microsoft,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,copilot.cloud.microsoft,PROXY",
+      "input": {
+        "domain": "copilot.cloud.microsoft"
+      },
+      "name": "Unified DOMAIN-SUFFIX copilot.cloud.microsoft",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,copilot.cloud.microsoft,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,copilot.cloud.microsoft,PROXY",
+      "input": {
+        "domain": "child.copilot.cloud.microsoft"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.copilot.cloud.microsoft",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,githubusercontent.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,githubusercontent.com,PROXY",
+      "input": {
+        "domain": "githubusercontent.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX githubusercontent.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,githubusercontent.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,githubusercontent.com,PROXY",
+      "input": {
+        "domain": "child.githubusercontent.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.githubusercontent.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,cloudflare-dns.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,cloudflare-dns.com,PROXY",
+      "input": {
+        "domain": "cloudflare-dns.com"
+      },
+      "name": "Unified DOMAIN cloudflare-dns.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,dns.google,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,dns.google,PROXY",
+      "input": {
+        "domain": "dns.google"
+      },
+      "name": "Unified DOMAIN dns.google",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,ct.sendgrid.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,ct.sendgrid.net,PROXY",
+      "input": {
+        "domain": "ct.sendgrid.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX ct.sendgrid.net",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,ct.sendgrid.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,ct.sendgrid.net,PROXY",
+      "input": {
+        "domain": "child.ct.sendgrid.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.ct.sendgrid.net",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,intercom.io,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,intercom.io,PROXY",
+      "input": {
+        "domain": "intercom.io"
+      },
+      "name": "Unified DOMAIN-SUFFIX intercom.io",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,intercom.io,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,intercom.io,PROXY",
+      "input": {
+        "domain": "child.intercom.io"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.intercom.io",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+      "input": {
+        "domain": "intercomcdn.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX intercomcdn.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,intercomcdn.com,PROXY",
+      "input": {
+        "domain": "child.intercomcdn.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.intercomcdn.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,cdn.openaimerge.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,cdn.openaimerge.com,PROXY",
+      "input": {
+        "domain": "cdn.openaimerge.com"
+      },
+      "name": "Unified DOMAIN cdn.openaimerge.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,cdn.workos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,cdn.workos.com,PROXY",
+      "input": {
+        "domain": "cdn.workos.com"
+      },
+      "name": "Unified DOMAIN cdn.workos.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,challenges.cloudflare.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,challenges.cloudflare.com,PROXY",
+      "input": {
+        "domain": "challenges.cloudflare.com"
+      },
+      "name": "Unified DOMAIN challenges.cloudflare.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,forwarder.workos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,forwarder.workos.com,PROXY",
+      "input": {
+        "domain": "forwarder.workos.com"
+      },
+      "name": "Unified DOMAIN forwarder.workos.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,frontend-apps-multi-region.workos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,frontend-apps-multi-region.workos.com,PROXY",
+      "input": {
+        "domain": "frontend-apps-multi-region.workos.com"
+      },
+      "name": "Unified DOMAIN frontend-apps-multi-region.workos.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,images.workoscdn.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,images.workoscdn.com,PROXY",
+      "input": {
+        "domain": "images.workoscdn.com"
+      },
+      "name": "Unified DOMAIN images.workoscdn.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,js.stripe.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,js.stripe.com,PROXY",
+      "input": {
+        "domain": "js.stripe.com"
+      },
+      "name": "Unified DOMAIN js.stripe.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,o207216.ingest.sentry.io,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,o207216.ingest.sentry.io,PROXY",
+      "input": {
+        "domain": "o207216.ingest.sentry.io"
+      },
+      "name": "Unified DOMAIN o207216.ingest.sentry.io",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,o33249.ingest.sentry.io,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,o33249.ingest.sentry.io,PROXY",
+      "input": {
+        "domain": "o33249.ingest.sentry.io"
+      },
+      "name": "Unified DOMAIN o33249.ingest.sentry.io",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,rum.browser-intake-datadoghq.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,rum.browser-intake-datadoghq.com,PROXY",
+      "input": {
+        "domain": "rum.browser-intake-datadoghq.com"
+      },
+      "name": "Unified DOMAIN rum.browser-intake-datadoghq.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,setup.workos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,setup.workos.com,PROXY",
+      "input": {
+        "domain": "setup.workos.com"
+      },
+      "name": "Unified DOMAIN setup.workos.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,workos.imgix.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,workos.imgix.net,PROXY",
+      "input": {
+        "domain": "workos.imgix.net"
+      },
+      "name": "Unified DOMAIN workos.imgix.net",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,humb.apple.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,humb.apple.com,PROXY",
+      "input": {
+        "domain": "humb.apple.com"
+      },
+      "name": "Unified DOMAIN humb.apple.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,openai-api.arkoselabs.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,openai-api.arkoselabs.com,PROXY",
+      "input": {
+        "domain": "openai-api.arkoselabs.com"
+      },
+      "name": "Unified DOMAIN openai-api.arkoselabs.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,client-api.arkoselabs.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,client-api.arkoselabs.com,PROXY",
+      "input": {
+        "domain": "client-api.arkoselabs.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX client-api.arkoselabs.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,client-api.arkoselabs.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,client-api.arkoselabs.com,PROXY",
+      "input": {
+        "domain": "child.client-api.arkoselabs.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.client-api.arkoselabs.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,api.statsig.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN,api.statsig.com,PROXY",
+      "input": {
+        "domain": "api.statsig.com"
+      },
+      "name": "Unified DOMAIN api.statsig.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,events.statsigapi.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,events.statsigapi.net,PROXY",
+      "input": {
+        "domain": "events.statsigapi.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX events.statsigapi.net",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,events.statsigapi.net,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,events.statsigapi.net,PROXY",
+      "input": {
+        "domain": "child.events.statsigapi.net"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.events.statsigapi.net",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,featuregates.org,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,featuregates.org,PROXY",
+      "input": {
+        "domain": "featuregates.org"
+      },
+      "name": "Unified DOMAIN-SUFFIX featuregates.org",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,featuregates.org,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,featuregates.org,PROXY",
+      "input": {
+        "domain": "child.featuregates.org"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.featuregates.org",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,byteoversea.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,byteoversea.com,PROXY",
+      "input": {
+        "domain": "byteoversea.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX byteoversea.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,byteoversea.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,byteoversea.com,PROXY",
+      "input": {
+        "domain": "child.byteoversea.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.byteoversea.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,ibytedtos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,ibytedtos.com,PROXY",
+      "input": {
+        "domain": "ibytedtos.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX ibytedtos.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,ibytedtos.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,ibytedtos.com,PROXY",
+      "input": {
+        "domain": "child.ibytedtos.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.ibytedtos.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,ipstatp.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,ipstatp.com,PROXY",
+      "input": {
+        "domain": "ipstatp.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX ipstatp.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,ipstatp.com,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-SUFFIX,ipstatp.com,PROXY",
+      "input": {
+        "domain": "child.ipstatp.com"
+      },
+      "name": "Unified DOMAIN-SUFFIX child.ipstatp.com",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-KEYWORD,tiktokcdn,PROXY",
+        "source": "personal_proxy"
+      },
+      "expected_category": "personal_proxy",
+      "expected_rule": "DOMAIN-KEYWORD,tiktokcdn,PROXY",
+      "input": {
+        "domain": "media.tiktokcdn.example"
+      },
+      "name": "Unified DOMAIN-KEYWORD media.tiktokcdn.example",
+      "policy": "PROXY"
+    }
+  ],
+  "rules": 14158,
+  "user_agent_priority_changes": 71,
+  "voice_ip_cases": 23
 }
