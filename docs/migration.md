@@ -1,3 +1,5 @@
+> 历史迁移记录：以下描述对应统一前版本。当前维护入口和对齐变更以[公共说明](https://github.com/SHIKI1255/shadowrocket-config/tree/main/shared)为准。
+
 # Shadowrocket 到 Quantumult X 的迁移差异
 
 基准：SHIKI1255/shadowrocket-config 源码提交 `4e77c7727e5ef1e1b9d6a2e63f3a855c17bf574e`，配置 SHA-256 `70c49c0fb6b7b4521d41268946724ff02e5c0b0bccf606775e182353aaafb503`。首次转换使用相同上游版本；后续每日更新独立进行。

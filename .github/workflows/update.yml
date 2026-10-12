@@ -13,8 +13,8 @@ on:
         required: false
         type: string
   schedule:
-    # UTC 22:17 = Asia/Shanghai 06:17 the following day. GitHub may delay scheduled jobs.
-    - cron: '17 22 * * *'
+    # UTC 22:47 = Asia/Shanghai 06:47 the following day. GitHub may delay scheduled jobs.
+    - cron: '47 22 * * *'
 
 permissions:
   contents: read
