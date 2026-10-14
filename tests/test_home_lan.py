@@ -19,6 +19,8 @@ class HomeLanTemplate(unittest.TestCase):
         files = renderer.quantumult(self.base, self.data)
         text = files['quantumultx.conf'].decode()
         self.assertEqual(text.count(renderer.HOME_LAN_NODE), 1)
+        self.assertTrue(renderer.HOME_LAN_NODE.endswith('tag=Home-LAN'))
+        self.assertIn('udp-relay=true', renderer.HOME_LAN_NODE)
         self.assertEqual(files['rules.list'].decode(), self.data['rules_text'])
         self.assertIn('final, proxy', text)
         self.assertIn('fallback_udp_policy = reject', text)
@@ -30,7 +32,8 @@ class HomeLanTemplate(unittest.TestCase):
         changes = [node + '\n' + node, '', node.replace('192.168.5.4', '203.0.113.1'),
                    node.replace('7897', '1080'), node.replace('socks5=', 'http='),
                    node + ', username=user, password=secret', node + ', over-tls=true',
-                   node.replace('udp-relay=false', 'udp-relay=true'),
+                   node.replace('udp-relay=true', 'udp-relay=false'),
+                   node.replace('Home-LAN', 'other'),
                    node.replace('fast-open=false', 'fast-open=true'),
                    node + '\nsocks5=192.168.5.5:7897, tag=other']
         for changed in changes:

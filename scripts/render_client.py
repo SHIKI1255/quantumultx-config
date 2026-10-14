@@ -2,7 +2,7 @@
 import json,re
 from shared_data import require,json_bytes,records,digest,deterministic_zip
 
-HOME_LAN_NODE = 'socks5=192.168.5.4:7897, fast-open=false, udp-relay=false, tag=家庭局域网'
+HOME_LAN_NODE = 'socks5=192.168.5.4:7897, fast-open=false, udp-relay=true, tag=Home-LAN'
 
 
 def quantumult(base, data):
