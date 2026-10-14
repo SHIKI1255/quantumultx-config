@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
-  "shared_version": "e9b07d7aeb539cb09c2829a5acaff9cf69f2e599e0b25d74b3d64ed9fcab7bc5",
+  "shared_version": "d3c1582b8401cdb58e683ba601aea75a0add2908ba33a70dab4efe5b48042f34",
   "upstreams": {
     "blackmatrix7": {
-      "commit": "19c84682407580056d0ae2f27e406f70db679de1",
+      "commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
       "license": "GPL-2.0",
       "ref": "master",
       "repo": "blackmatrix7/ios_rule_script"
