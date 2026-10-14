@@ -1,5 +1,5 @@
 {
-  "config_sha256": "fb735ae7aa6962fd1a955c0159d8e39ed3b3b75ee2229622fade27a60aa95cf6",
+  "config_sha256": "7ddfe64a220f092a37d6768d3d04ad91ecaaff32c3853bb8bfef11c3bf59f1e1",
   "conflicts": [
     {
       "later": "DIRECT",
@@ -300,7 +300,7 @@
   "native_rules": 14158,
   "no_resolve_removed": 195,
   "public_files_sha256": {
-    "quantumultx.conf": "fb735ae7aa6962fd1a955c0159d8e39ed3b3b75ee2229622fade27a60aa95cf6",
+    "quantumultx.conf": "7ddfe64a220f092a37d6768d3d04ad91ecaaff32c3853bb8bfef11c3bf59f1e1",
     "rewrite.list": "c7ea734dd2d32d043e606bff60acc3bf3497cb116a22fbeb8c00a378d71c3e27",
     "rules.list": "183ccfd9829e3db735c3d9d94d61a720451736d998063337a4d3a4e2a5c21e1d"
   },
@@ -2638,15 +2638,16 @@
   "schema_version": 2,
   "shared_version": "d3c1582b8401cdb58e683ba601aea75a0add2908ba33a70dab4efe5b48042f34",
   "source_files_sha256": {
-    "config/base.conf": "f391858055f8f36b71e1374c5e69a4db32a6c70351b0ac76e5db45ea733ed540",
+    "config/base.conf": "177e2be05807e695875b4df5eb2f417352072d6e865e52a06713c847527bfbdc",
     "config/shared.json": "bfda71b310e83788c179b5b375c4c74c82c9787842db557e75e9df5531bf352a",
     "docs/third_party.md": "aef1effde52b8974e10018411b0efba3a5fd81e630bf340acaf82570b5836f4b",
     "scripts/build.py": "d3615016780ebaf28436d340c7fb1c59392cc97169a10946f631442184473a81",
     "scripts/keepalive.py": "56a4e12ebba72d8e2b49d2222cdf697040c4d7bdcd9132f21357f067ddc5cf8a",
     "scripts/publish.py": "37816c89a4842e4a7730c65aea896f9178f2c27d36ffbe7b9e22d34e79772327",
-    "scripts/render_client.py": "316631bd5507a4ae302ea0ef7ef13ee8c6c8de4fc4a6aeba1cd99bac3ba386c1",
+    "scripts/render_client.py": "4673e9b57fe2068612404e235d86eefa6d98b5384200874beaf4d157fed9ccaf",
     "scripts/shared_data.py": "3aa79718d4e135e46b8adfd53e03d9cfefc879e7aa73bf81e7ed4b413b720fbe",
     "tests/test_consumer.py": "7b5824b4a59dfae5ee51e2f909153e55c80a1207efce2e7a6a939c132003eacc",
+    "tests/test_home_lan.py": "ae491deda6125f71456662cf9ff2ec30e30aa92f78b8a417c314b0fef4cd9b32",
     "tests/test_keepalive.py": "4c9762a4d21499309161dd30ebc1ed3dbac43535333cdd03ed5111a265fbb3e4",
     "tests/test_publish.py": "6783ffded680ec1878f956789db5c6a6cb7a3769aec381205dfcf6a22f537532"
   },
