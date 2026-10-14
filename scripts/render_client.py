@@ -2,14 +2,20 @@
 import json,re
 from shared_data import require,json_bytes,records,digest,deterministic_zip
 
+HOME_LAN_NODE = 'socks5=192.168.5.4:7897, fast-open=false, udp-relay=false, tag=家庭局域网'
+
+
 def quantumult(base, data):
     sections = ['general','dns','policy','server_remote','server_local','filter_remote','filter_local',
                 'rewrite_remote','rewrite_local','task_local','http_backend','mitm']
     require(re.findall(r'^\[([^]]+)\]$',base,re.M) == sections, 'Missing/duplicate Quantumult X modules')
     require(base.count('{{BOOTSTRAP_RULES}}') == 1, 'Missing bootstrap marker')
-    for name in ('policy','server_remote','server_local','task_local','http_backend','mitm'):
+    for name in ('policy','server_remote','task_local','http_backend','mitm'):
         section = base.split('['+name+']\n',1)[1].split('\n[',1)[0]
         require(not list(records(section)), 'Unexpected active private/MITM section')
+    # One explicitly approved, credential-free LAN endpoint; other nodes stay private.
+    nodes=base.split('[server_local]\n',1)[1].split('\n[',1)[0]
+    require([line for _,line in records(nodes)]==[HOME_LAN_NODE], 'Unexpected proxy node or credentials')
     for filename, section in [('rules.list','filter_remote'),('rewrite.list','rewrite_remote')]:
         active = [s for _,s in records(base.split('['+section+']\n',1)[1].split('\n[',1)[0])]
         tag = 'SHIKI1255-Rules' if filename == 'rules.list' else 'SHIKI1255-Rewrite'
