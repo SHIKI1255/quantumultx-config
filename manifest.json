@@ -302,7 +302,7 @@
   "public_files_sha256": {
     "quantumultx.conf": "1424b5c313db47e4d9aca6cd3fa56b0c327d98172527d93099ce46782601219b",
     "rewrite.list": "c7ea734dd2d32d043e606bff60acc3bf3497cb116a22fbeb8c00a378d71c3e27",
-    "rules.list": "183ccfd9829e3db735c3d9d94d61a720451736d998063337a4d3a4e2a5c21e1d"
+    "rules.list": "9a55c4d620fc0587431c99bb6e183434d02b420c237c4520cb22dde81180ff34"
   },
   "remote_rules": 14138,
   "removed_exact_duplicates": 261,
@@ -2636,7 +2636,7 @@
   ],
   "rules": 14158,
   "schema_version": 2,
-  "shared_version": "d3c1582b8401cdb58e683ba601aea75a0add2908ba33a70dab4efe5b48042f34",
+  "shared_version": "211eac73d36768bc5a93546a2c4577e2f858f030032475589ba5d42f20a348f1",
   "source_files_sha256": {
     "config/base.conf": "25dfbcbef03aa2bdebafbeab760436f4721a31b3ee42a2460c4d022380ed80b4",
     "config/shared.json": "bfda71b310e83788c179b5b375c4c74c82c9787842db557e75e9df5531bf352a",
