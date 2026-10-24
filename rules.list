@@ -1265,6 +1265,7 @@ host-suffix, cdn-ws.content.steamchina.com, proxy
 host-suffix, csgo.wmsj.cn, proxy
 host-suffix, dl.steam.clngaa.com, proxy
 host-suffix, dl.steam.ksyna.com, proxy
+host-suffix, dota2.com, proxy
 host-suffix, dota2.wmsj.cn, proxy
 host-suffix, edge.steam-dns.top.comcast.net, proxy
 host-suffix, f3b7q2p3.ssl.hwcdn.net, proxy
@@ -1290,6 +1291,7 @@ host-suffix, steambroadcast.akamaized.net, proxy
 host-suffix, steamcdn-a.akamaihd.net, proxy
 host-suffix, steamcommunity-a.akamaihd.net, proxy
 host-suffix, steamcommunity.com, proxy
+host-suffix, steamconnecttest.com, proxy
 host-suffix, steamcontent.tnkjmec.com, proxy
 host-suffix, steamdeck.com, proxy
 host-suffix, steamgames.com, proxy
@@ -1308,11 +1310,24 @@ host-suffix, steamusercontent-a.akamaihd.net, proxy
 host-suffix, steamuserimages-a.akamaihd.net, proxy
 host-suffix, steamvideo-a.akamaihd.net, proxy
 host-suffix, underlords.com, proxy
+host-suffix, valve.net, proxy
 host-suffix, valvesoftware.com, proxy
 host-suffix, wmsjsteam.com, proxy
 host-keyword, steambroadcast, proxy
 host-keyword, steamstore, proxy
 host-keyword, steamuserimages, proxy
+ip-cidr, 103.10.124.0/23, proxy
+ip-cidr, 103.28.54.0/24, proxy
+ip-cidr, 146.66.152.0/24, proxy
+ip-cidr, 146.66.155.0/24, proxy
+ip-cidr, 155.133.224.0/19, proxy
+ip-cidr, 162.254.192.0/21, proxy
+ip-cidr, 185.25.180.0/22, proxy
+ip-cidr, 192.69.96.0/22, proxy
+ip-cidr, 205.196.6.0/24, proxy
+ip-cidr, 208.64.200.0/22, proxy
+ip-cidr, 208.78.164.0/22, proxy
+ip-cidr, 45.121.184.0/24, proxy
 
 # apple | Apple
 host-keyword, apple-support.akadns.net, direct
