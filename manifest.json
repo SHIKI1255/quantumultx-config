@@ -297,14 +297,14 @@
     }
   ],
   "local_rules": 20,
-  "native_rules": 14187,
-  "no_resolve_removed": 207,
+  "native_rules": 14333,
+  "no_resolve_removed": 334,
   "public_files_sha256": {
     "quantumultx.conf": "1424b5c313db47e4d9aca6cd3fa56b0c327d98172527d93099ce46782601219b",
     "rewrite.list": "c7ea734dd2d32d043e606bff60acc3bf3497cb116a22fbeb8c00a378d71c3e27",
-    "rules.list": "f296400e86051ff15a5a4d24a536a534c1cc0c80c974753c31ceff178c6831e6"
+    "rules.list": "9c05ccbea652475e32033b85da8e3ba45deb26d1e74d5ce0d21851bb9042ec93"
   },
-  "remote_rules": 14167,
+  "remote_rules": 14313,
   "removed_exact_duplicates": 261,
   "removed_native_duplicates": 0,
   "routing_cases": [
@@ -2914,9 +2914,9 @@
       "policy": "PROXY"
     }
   ],
-  "rules": 14187,
+  "rules": 14333,
   "schema_version": 2,
-  "shared_version": "8e65822205600da5e8f4a3937d8163c6e6321f61bc6fe6c0037d7cc7a9117f2d",
+  "shared_version": "3660ca4704bdd8105f77d72b3be15bff6bdbede830f19e67051861e462eaae52",
   "source_files_sha256": {
     "config/base.conf": "25dfbcbef03aa2bdebafbeab760436f4721a31b3ee42a2460c4d022380ed80b4",
     "config/shared.json": "bfda71b310e83788c179b5b375c4c74c82c9787842db557e75e9df5531bf352a",
@@ -2933,5 +2933,5 @@
   },
   "user_agent_priority_changes": 71,
   "validation": "Static generation verified; client parsing and real network acceptance are separate.",
-  "voice_ip_cases": 23
+  "voice_ip_cases": 150
 }
