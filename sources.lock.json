@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "shared_version": "3660ca4704bdd8105f77d72b3be15bff6bdbede830f19e67051861e462eaae52",
+  "shared_version": "a7a3cbd49d9840fe885beb4b7d7ea63729d5d53328ce8a3687e847e22c0355e2",
   "upstreams": {
     "blackmatrix7": {
       "commit": "9b29c945b9164a02c7018ed333cb9b5bc1bcb417",
@@ -9,7 +9,7 @@
       "repo": "blackmatrix7/ios_rule_script"
     },
     "v2fly": {
-      "commit": "664598567e92d797bea11bb83cf939d1f37e9512",
+      "commit": "fa3cb96fbc210b8d6466251a1d71b4a6e63a9c85",
       "license": "MIT",
       "ref": "master",
       "repo": "v2fly/domain-list-community"
