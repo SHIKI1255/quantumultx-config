@@ -1,15 +1,15 @@
 {
   "schema_version": 3,
-  "shared_version": "a7a3cbd49d9840fe885beb4b7d7ea63729d5d53328ce8a3687e847e22c0355e2",
+  "shared_version": "25002784a35c45a3af923bb5ada2b0885e913862ec0773cf49c4edbf5137d493",
   "upstreams": {
     "blackmatrix7": {
-      "commit": "9b29c945b9164a02c7018ed333cb9b5bc1bcb417",
+      "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
       "license": "GPL-2.0",
       "ref": "master",
       "repo": "blackmatrix7/ios_rule_script"
     },
     "v2fly": {
-      "commit": "fa3cb96fbc210b8d6466251a1d71b4a6e63a9c85",
+      "commit": "1b81d3cd34096e5d8cac6bca5935e80f30e990f0",
       "license": "MIT",
       "ref": "master",
       "repo": "v2fly/domain-list-community"
