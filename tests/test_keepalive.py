@@ -100,7 +100,7 @@ class KeepaliveTests(unittest.TestCase):
     def test_workflow_runs_after_publish_and_has_narrow_write_permissions(self):
         workflow = (b.ROOT/'.github/workflows/update.yml').read_text()
         block = workflow.split('  maintenance:', 1)[1]
-        self.assertIn('needs: [validate, publish]', block)
+        self.assertIn('needs: [probe, validate, publish, monitor]', block)
         self.assertIn("github.ref == 'refs/heads/main'", block)
         self.assertIn('contents: write', block)
         self.assertIn("paths-ignore: ['.github/maintenance.json']", workflow)
