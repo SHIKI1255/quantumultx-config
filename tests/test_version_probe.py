@@ -52,4 +52,3 @@ class VersionProbeTests(unittest.TestCase):
         self.assertIn("needs: [probe, validate, publish, monitor]",text)
 
 if __name__ == "__main__":unittest.main()
-
