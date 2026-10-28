@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-09-28T03:56:41Z",
+  "checked_at_utc": "2026-10-28T06:52:47Z",
   "note": "Maintenance activity only; failed validation never authorizes a release.",
   "publication_result": "success",
-  "published_release_commit": "4bc9106b4cd270106603074ce82993b11be7499c",
-  "run_url": "https://github.com/SHIKI1255/quantumultx-config/actions/runs/36375627482",
+  "published_release_commit": "ebad47d02d983803f3f2dab560b46b91bf51f5f7",
+  "run_url": "https://github.com/SHIKI1255/quantumultx-config/actions/runs/40646437929",
   "schema_version": 1,
-  "source_commit": "82f53283d45235050e5753c2f71e0da9b0f6e5f0",
+  "source_commit": "f9068a3cc878448b43591589357ffe38ea1f9255",
   "validation_result": "success"
 }
