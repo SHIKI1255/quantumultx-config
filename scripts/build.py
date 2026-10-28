@@ -59,11 +59,12 @@ def main():
     p.add_argument('--replay',type=Path)
     p.add_argument('--replay-commit',default='')
     p.add_argument('--shared-dir',type=Path,help='Explicit local data package, for validation only')
+    p.add_argument('--shared-release',default='',help='Immutable producer revision selected by version probe')
     p.add_argument('--previous-release',action='store_true')
     p.add_argument('--audit',action='store_true')
     a=p.parse_args()
     try:
-        require(sum(bool(x) for x in (a.replay,a.replay_commit,a.shared_dir))<=1,'Choose one input method')
+        require(sum(bool(x) for x in (a.replay,a.replay_commit,a.shared_dir,a.shared_release))<=1,'Choose one input method')
         require(not a.audit or CLIENT=='shadowrocket','Audit is performed only by the common producer')
         if CLIENT=='shadowrocket':
             require(not a.shared_dir,'Producer cannot consume another package')
@@ -78,7 +79,7 @@ def main():
                 print(json.dumps({'status':'audit_candidate'}));return 0
             manifest,payload=verify(inputs['shared/manifest.json'],inputs['shared/bundle.json'])
         else:
-            manifest,payload,inputs=load(a.shared_dir or a.replay,a.replay_commit,
+            manifest,payload,inputs=load(a.shared_dir or a.replay,a.shared_release or a.replay_commit,
                                         REPOSITORY if a.replay_commit else None)
         files=build(manifest,payload,inputs)
         write_files(a.output.resolve(),files)

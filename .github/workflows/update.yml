@@ -12,9 +12,14 @@ on:
         description: 'Optional full release commit SHA to rebuild archived inputs (rollback/reproduction)'
         required: false
         type: string
+      probe_only:
+        description: 'Exercise the hourly no-change/version-check path without forcing a rebuild'
+        required: false
+        type: boolean
+        default: false
   schedule:
-    # UTC 22:47 = Asia/Shanghai 06:47 the following day. GitHub may delay scheduled jobs.
-    - cron: '47 22 * * *'
+    # Hourly data check; a full build runs only for a new version or required recovery.
+    - cron: '47 * * * *'
 
 permissions:
   contents: read
@@ -28,12 +33,39 @@ defaults:
     shell: pwsh
 
 jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      issues: read
+    outputs:
+      changed: ${{ steps.version.outputs.changed }}
+      shared_release: ${{ steps.version.outputs.shared_release }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - id: version
+        name: Check immutable shared version
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PROBE_ONLY: ${{ inputs.probe_only }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python -B scripts/check_update.py
+
   validate:
+    needs: probe
+    if: needs.probe.outputs.changed == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
       PYTHONDONTWRITEBYTECODE: '1'
       REPLAY_COMMIT: ${{ inputs.replay_commit }}
+      SHARED_RELEASE: ${{ needs.probe.outputs.shared_release }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -49,6 +81,7 @@ jobs:
         run: |
           $argsList = @('-B', 'scripts/build.py', '--output', "$env:RUNNER_TEMP/release", '--previous-release')
           if ($env:REPLAY_COMMIT) { $argsList += @('--replay-commit', $env:REPLAY_COMMIT) }
+          else { $argsList += @('--shared-release', $env:SHARED_RELEASE) }
           & python @argsList
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Offline reproducibility check
@@ -88,11 +121,39 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONDONTWRITEBYTECODE: '1'
         run: python -B scripts/publish.py "$env:RUNNER_TEMP/release"
+      - name: Verify anonymous fixed and rolling download hashes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python -B scripts/release_health.py --verify "$env:RUNNER_TEMP/release"
+
+  monitor:
+    if: always() && github.ref == 'refs/heads/main' && contains(fromJSON('["push","schedule","workflow_dispatch"]'), github.event_name)
+    needs: [probe, validate, publish]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
+      actions: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Deduplicate incident and prepare review-only candidate
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          JOB_RESULTS: '{"probe":"${{ needs.probe.result }}","validate":"${{ needs.validate.result }}","publish":"${{ needs.publish.result }}"}'
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python -B scripts/release_health.py
 
   maintenance:
     # Runs after publication (also after failure); never advances main mid-publish.
     if: always() && github.ref == 'refs/heads/main' && contains(fromJSON('["push","schedule","workflow_dispatch"]'), github.event_name)
-    needs: [validate, publish]
+    needs: [probe, validate, publish, monitor]
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
