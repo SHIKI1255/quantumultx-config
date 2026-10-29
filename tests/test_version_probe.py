@@ -43,10 +43,11 @@ class VersionProbeTests(unittest.TestCase):
         with patch.object(probe,"release_sha",side_effect=OSError()),self.assertRaises(OSError):
             probe.check()
 
-    def test_hourly_trigger_and_full_validation_dependency(self):
+    def test_twice_daily_trigger_and_full_validation_dependency(self):
         text=(probe.ROOT/".github/workflows/update.yml").read_text()
         minute="17" if probe.REPOSITORY.endswith("clash-config") else "47"
-        self.assertIn("cron: '"+minute+" * * * *'",text)
+        hours="11,23" if probe.REPOSITORY.endswith("clash-config") else "10,22"
+        self.assertIn("cron: '"+minute+" "+hours+" * * *'",text)
         self.assertIn("needs: probe\n    if: needs.probe.outputs.changed == 'true'",text)
         self.assertIn("'--shared-release', $env:SHARED_RELEASE",text)
         self.assertIn("needs: [probe, validate, publish, monitor]",text)

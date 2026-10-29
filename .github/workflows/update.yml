@@ -13,13 +13,13 @@ on:
         required: false
         type: string
       probe_only:
-        description: 'Exercise the hourly no-change/version-check path without forcing a rebuild'
+        description: 'Exercise the scheduled no-change/version-check path without forcing a rebuild'
         required: false
         type: boolean
         default: false
   schedule:
-    # Hourly data check; a full build runs only for a new version or required recovery.
-    - cron: '47 * * * *'
+    # Twice-daily data check; full validation for new versions or required recovery.
+    - cron: '47 10,22 * * *'
 
 permissions:
   contents: read
