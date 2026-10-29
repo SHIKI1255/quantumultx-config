@@ -1,4 +1,4 @@
-"""Hourly data-only check; an immutable producer revision is passed to the build."""
+"""Scheduled data-only check; an immutable producer revision is passed to the build."""
 import json
 import os
 from pathlib import Path
