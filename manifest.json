@@ -2916,13 +2916,13 @@
   ],
   "rules": 14588,
   "schema_version": 2,
-  "shared_version": "ed5cb47d352e8921124bd4e694e69a28bd6097106a1613a39e14cc343ec9962d",
+  "shared_version": "f735aec101778175140859e9f5cfef6246f0845afbbd24366577565ba0f2d7c2",
   "source_files_sha256": {
     "config/base.conf": "25dfbcbef03aa2bdebafbeab760436f4721a31b3ee42a2460c4d022380ed80b4",
     "config/shared.json": "bfda71b310e83788c179b5b375c4c74c82c9787842db557e75e9df5531bf352a",
     "docs/third_party.md": "aef1effde52b8974e10018411b0efba3a5fd81e630bf340acaf82570b5836f4b",
     "scripts/build.py": "59c690bc1485950f6298b37da7ab3d1b3fea785ea29ba5a85322bb2e86ff7cf7",
-    "scripts/check_update.py": "15da85718e903e06dc34e5c794fcd2a445d778a2439855464f1bb6e676958e71",
+    "scripts/check_update.py": "b584473cee58c1346203a90b1351c9a37afe0b6b040043e9769135a313b76fa6",
     "scripts/keepalive.py": "56a4e12ebba72d8e2b49d2222cdf697040c4d7bdcd9132f21357f067ddc5cf8a",
     "scripts/public_http.py": "5287fcf19b89ac273a4ec4fa908e7bbb1a28a28d5c00e959ec89dc009db8e869",
     "scripts/publish.py": "37816c89a4842e4a7730c65aea896f9178f2c27d36ffbe7b9e22d34e79772327",
@@ -2934,7 +2934,7 @@
     "tests/test_keepalive.py": "c167a740407dae9c924e5ce76828595077272589c5f8d985d6da45637b44ecd6",
     "tests/test_publish.py": "6783ffded680ec1878f956789db5c6a6cb7a3769aec381205dfcf6a22f537532",
     "tests/test_release_resilience.py": "b40afe8d97db91f6d12ba0bd107c6e5f444a3165573acd7d1c72ec7c175fd4fe",
-    "tests/test_version_probe.py": "c9aa2a1c52f6849100887325935cfffd04f52392b4047730c69758976bd7c719"
+    "tests/test_version_probe.py": "cb20d63df84c56cd9ce7036959b27702df9b03cbda4fd95c17e71977a4461ba7"
   },
   "user_agent_priority_changes": 71,
   "validation": "Static generation verified; client parsing and real network acceptance are separate.",
