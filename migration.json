@@ -296,9 +296,9 @@
     }
   ],
   "local_rules": 20,
-  "native_rules": 14621,
-  "no_resolve_removed": 616,
-  "remote_rules": 14601,
+  "native_rules": 14729,
+  "no_resolve_removed": 724,
+  "remote_rules": 14709,
   "removed_exact_duplicates": 261,
   "removed_native_duplicates": 0,
   "routing_cases": [
@@ -2908,7 +2908,7 @@
       "policy": "PROXY"
     }
   ],
-  "rules": 14621,
+  "rules": 14729,
   "user_agent_priority_changes": 71,
-  "voice_ip_cases": 432
+  "voice_ip_cases": 540
 }
