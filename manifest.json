@@ -297,14 +297,14 @@
     }
   ],
   "local_rules": 20,
-  "native_rules": 14729,
-  "no_resolve_removed": 724,
+  "native_rules": 14600,
+  "no_resolve_removed": 595,
   "public_files_sha256": {
     "quantumultx.conf": "1424b5c313db47e4d9aca6cd3fa56b0c327d98172527d93099ce46782601219b",
     "rewrite.list": "c7ea734dd2d32d043e606bff60acc3bf3497cb116a22fbeb8c00a378d71c3e27",
-    "rules.list": "d77a7f1a5481617703eff575a411b0ed606ffa13f7399468ac632700038e64d5"
+    "rules.list": "a6088e07d80fad5a4d1470ec3970f47b0d6a2dba5a6021405a316acf48f76b7d"
   },
-  "remote_rules": 14709,
+  "remote_rules": 14580,
   "removed_exact_duplicates": 261,
   "removed_native_duplicates": 0,
   "routing_cases": [
@@ -2914,9 +2914,9 @@
       "policy": "PROXY"
     }
   ],
-  "rules": 14729,
+  "rules": 14600,
   "schema_version": 2,
-  "shared_version": "ab8188249889955997b41a78e5a51aa2f1ad60e72fac46dab75743b17950441a",
+  "shared_version": "8f6639916297248348dac0037b9bb46dec304475a661722f009053ad02be0e0d",
   "source_files_sha256": {
     "config/base.conf": "25dfbcbef03aa2bdebafbeab760436f4721a31b3ee42a2460c4d022380ed80b4",
     "config/shared.json": "bfda71b310e83788c179b5b375c4c74c82c9787842db557e75e9df5531bf352a",
@@ -2934,9 +2934,9 @@
     "tests/test_keepalive.py": "c167a740407dae9c924e5ce76828595077272589c5f8d985d6da45637b44ecd6",
     "tests/test_publish.py": "6783ffded680ec1878f956789db5c6a6cb7a3769aec381205dfcf6a22f537532",
     "tests/test_release_resilience.py": "b40afe8d97db91f6d12ba0bd107c6e5f444a3165573acd7d1c72ec7c175fd4fe",
-    "tests/test_version_probe.py": "cb20d63df84c56cd9ce7036959b27702df9b03cbda4fd95c17e71977a4461ba7"
+    "tests/test_version_probe.py": "e9eb697a0a710a0b4d514f75e4c8321cd74fbf4e301e735532643de72a9f801f"
   },
   "user_agent_priority_changes": 71,
   "validation": "Static generation verified; client parsing and real network acceptance are separate.",
-  "voice_ip_cases": 540
+  "voice_ip_cases": 411
 }
