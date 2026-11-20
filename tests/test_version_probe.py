@@ -45,8 +45,8 @@ class VersionProbeTests(unittest.TestCase):
 
     def test_twice_daily_trigger_and_full_validation_dependency(self):
         text=(probe.ROOT/".github/workflows/update.yml").read_text()
-        minute="17" if probe.REPOSITORY.endswith("clash-config") else "47"
-        hours="11,23" if probe.REPOSITORY.endswith("clash-config") else "10,22"
+        minute="0"
+        hours="11,23"
         self.assertIn("cron: '"+minute+" "+hours+" * * *'",text)
         self.assertIn("needs: probe\n    if: needs.probe.outputs.changed == 'true'",text)
         self.assertIn("'--shared-release', $env:SHARED_RELEASE",text)
