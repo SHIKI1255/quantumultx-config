@@ -150,6 +150,7 @@ host, antigravity.googleapis.com, proxy
 host-suffix, antigravity.google, proxy
 host-suffix, antigravity-unleash.goog, proxy
 host-suffix, stitch.withgoogle.com, proxy
+host-suffix, gemma.ai, proxy
 
 # voice | ChatGPT 语音
 ip-cidr, 102.37.57.54/32, proxy
