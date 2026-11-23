@@ -49,7 +49,7 @@ class VersionProbeTests(unittest.TestCase):
         hours="11,23"
         self.assertIn("cron: '"+minute+" "+hours+" * * *'",text)
         self.assertIn("needs: probe\n    if: needs.probe.outputs.changed == 'true'",text)
-        self.assertIn("'--shared-release', $env:SHARED_RELEASE",text)
+        self.assertIn('--shared-release "$SHARED_RELEASE"',text)
         self.assertIn("needs: [probe, validate, publish, monitor]",text)
 
 if __name__ == "__main__":unittest.main()

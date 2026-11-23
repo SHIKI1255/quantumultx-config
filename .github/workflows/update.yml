@@ -30,7 +30,7 @@ concurrency:
 
 defaults:
   run:
-    shell: pwsh
+    shell: bash
 
 jobs:
   probe:
@@ -48,7 +48,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with:
-          python-version: '3.12'
+          python-version: '3.14'
       - id: version
         name: Check immutable shared version
         env:
@@ -72,25 +72,22 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: '3.12'
+          python-version: '3.14'
       - name: Unit and failure-path tests
         run: python -B -m unittest discover -s tests -v
       - name: Download, convert, validate
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          $argsList = @('-B', 'scripts/build.py', '--output', "$env:RUNNER_TEMP/release", '--previous-release')
-          if ($env:REPLAY_COMMIT) { $argsList += @('--replay-commit', $env:REPLAY_COMMIT) }
-          else { $argsList += @('--shared-release', $env:SHARED_RELEASE) }
-          & python @argsList
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          if [ -n "${REPLAY_COMMIT:-}" ]; then
+            python -B scripts/build.py --output "$RUNNER_TEMP/release" --previous-release --replay-commit "$REPLAY_COMMIT"
+          else
+            python -B scripts/build.py --output "$RUNNER_TEMP/release" --previous-release --shared-release "$SHARED_RELEASE"
+          fi
       - name: Offline reproducibility check
         run: |
-          python -B scripts/build.py --replay "$env:RUNNER_TEMP/release" --output "$env:RUNNER_TEMP/replay"
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          $original = Get-Content -LiteralPath "$env:RUNNER_TEMP/release/SHA256SUMS" -Raw
-          $replayed = Get-Content -LiteralPath "$env:RUNNER_TEMP/replay/SHA256SUMS" -Raw
-          if ($original -cne $replayed) { throw 'Non-deterministic build' }
+          python -B scripts/build.py --replay "$RUNNER_TEMP/release" --output "$RUNNER_TEMP/replay"
+          cmp -s "$RUNNER_TEMP/release/SHA256SUMS" "$RUNNER_TEMP/replay/SHA256SUMS"
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: validated-release
@@ -111,7 +108,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: '3.12'
+          python-version: '3.14'
       - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: validated-release
@@ -120,12 +117,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONDONTWRITEBYTECODE: '1'
-        run: python -B scripts/publish.py "$env:RUNNER_TEMP/release"
+        run: python -B scripts/publish.py "$RUNNER_TEMP/release"
       - name: Verify anonymous fixed and rolling download hashes
         env:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONDONTWRITEBYTECODE: '1'
-        run: python -B scripts/release_health.py --verify "$env:RUNNER_TEMP/release"
+        run: python -B scripts/release_health.py --verify "$RUNNER_TEMP/release"
 
   monitor:
     if: always() && github.ref == 'refs/heads/main' && contains(fromJSON('["push","schedule","workflow_dispatch"]'), github.event_name)
@@ -142,7 +139,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with:
-          python-version: '3.12'
+          python-version: '3.14'
       - name: Deduplicate incident and prepare review-only candidate
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -164,7 +161,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: '3.12'
+          python-version: '3.14'
       - name: Record maintenance when 30 days have elapsed
         env:
           GITHUB_TOKEN: ${{ github.token }}

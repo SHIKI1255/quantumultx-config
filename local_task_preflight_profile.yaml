@@ -1,11 +1,11 @@
 version: 1
 repo_slug: quantumultx-config
 default_task: Read
-local_shell: pwsh
-runtime: Python 3.12 standard library
-governed_entry: D:/CodexProjects/repo-naming-governance/govern.ps1
+local_shell: zsh
+runtime: Python 3.14 standard library
+governed_entry: /Users/gabriel/Projects/repo-naming-governance/govern.py
 required: [current_target, task_specific_context, local_git_state]
 source_entry: scripts/build.py
-artifact_entry: artifact.ps1
+artifact_entry: artifact.py
 public_repository: SHIKI1255/quantumultx-config
 forbidden_public_content: [credentials, proxy_nodes, subscription_tokens, private_keys]
