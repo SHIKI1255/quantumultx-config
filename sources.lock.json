@@ -1,18 +1,21 @@
 {
   "schema_version": 3,
-  "shared_version": "3a8099072ed13ffe8e5f7b8ae91df7e94b5591cecf3f2a131dc50bb4b5273084",
+  "shared_version": "044f44dc6172de33511944371506d8881d4f25f7f6beb1e3e4eefff1f7002064",
   "upstreams": {
-    "blackmatrix7": {
-      "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-      "license": "GPL-2.0",
-      "ref": "master",
-      "repo": "blackmatrix7/ios_rule_script"
+    "metacubex": {
+      "commit": "ce616601064422e7acfe75ea201549dc7372becf",
+      "license": "GPL-3.0",
+      "license_commit": "4178770badecb1b349fbcd62c737e0d7a2079729",
+      "license_ref": "master",
+      "ref": "meta",
+      "repo": "MetaCubeX/meta-rules-dat"
     },
     "v2fly": {
       "commit": "98c43cad27fa8f02043858763709fe4a95432ffb",
       "license": "MIT",
       "ref": "master",
-      "repo": "v2fly/domain-list-community"
+      "repo": "v2fly/domain-list-community",
+      "tarball_sha256": "b2f3781253cc62041ab73a5526beee2130ea8051f57408535446e18682c42a7a"
     }
   }
 }

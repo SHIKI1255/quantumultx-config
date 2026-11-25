@@ -2,57 +2,673 @@
   "conflicts": [
     {
       "later": "DIRECT",
-      "later_source": "apple",
-      "selector": "DOMAIN-SUFFIX,crashlytics.com",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,copilot-proxy.githubusercontent.com",
       "winner": "PROXY",
-      "winner_source": "google"
+      "winner_source": "github"
     },
     {
       "later": "DIRECT",
-      "later_source": "china",
-      "selector": "DOMAIN-SUFFIX,tiktokd.net",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,copilot-workspace.githubnext.com",
       "winner": "PROXY",
-      "winner_source": "tiktok"
+      "winner_source": "github"
     },
     {
       "later": "DIRECT",
-      "later_source": "china",
-      "selector": "DOMAIN-SUFFIX,tiktokd.org",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,copilotprodattachments.blob.core.windows.net",
       "winner": "PROXY",
-      "winner_source": "tiktok"
+      "winner_source": "github"
     },
     {
       "later": "DIRECT",
-      "later_source": "china",
-      "selector": "USER-AGENT,hearthstone*",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,github-api.arkoselabs.com",
       "winner": "PROXY",
-      "winner_source": "proxy"
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,github-cloud.s3.amazonaws.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,github-production-repository-file-5c1aeb.s3.amazonaws.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,github-production-repository-image-32fea6.s3.amazonaws.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,github-production-upload-manifest-file-7fdce7.s3.amazonaws.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,github-production-user-asset-6210df.s3.amazonaws.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,location.microsoft.com",
+      "winner": "PROXY",
+      "winner_source": "personal_proxy"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,production-copilot-host-westus.webpubsub.azure.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa0.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa1.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa10.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa11.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa12.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa13.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa14.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa15.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa16.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa17.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa18.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa19.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa2.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa3.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa4.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa5.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa6.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa7.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa8.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN,productionresultssa9.blob.core.windows.net",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,atom.io",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,copilot.cloud.microsoft",
+      "winner": "PROXY",
+      "winner_source": "personal_proxy"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,copilot.com",
+      "winner": "PROXY",
+      "winner_source": "personal_proxy"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,copilot.microsoft.com",
+      "winner": "PROXY",
+      "winner_source": "personal_proxy"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,dependabot.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,gh.io",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,ghcr.io",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,ghe.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,git.io",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,github.ai",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,github.blog",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,github.career",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,github.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,github.community",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,github.dev",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,github.io",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubapp.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubassets.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubcopilot.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubhackathon.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubnext.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubpreview.dev",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubstatus.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubsupport.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubuniverse.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,githubusercontent.com",
+      "winner": "PROXY",
+      "winner_source": "personal_proxy"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,myoctocat.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,npm.community",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,npmjs.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,npmjs.org",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,octocaptcha.com",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,opensource.guide",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,repo.new",
+      "winner": "PROXY",
+      "winner_source": "github"
+    },
+    {
+      "later": "DIRECT",
+      "later_source": "microsoft",
+      "selector": "DOMAIN-SUFFIX,thegithubshop.com",
+      "winner": "PROXY",
+      "winner_source": "github"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-KEYWORD,1drv",
+      "selector": "DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,appleworldwidedeveloper.sc.omtrdc.net",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,az764295.vo.msecnd.net",
       "winner": "DIRECT",
       "winner_source": "microsoft"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-KEYWORD,onedrive",
+      "selector": "DOMAIN,bingsettingssearch.trafficmanager.net",
       "winner": "DIRECT",
       "winner_source": "microsoft"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-KEYWORD,skydrive",
+      "selector": "DOMAIN,builds.dotnet.microsoft.com",
       "winner": "DIRECT",
       "winner_source": "microsoft"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,apple-dns.net",
+      "selector": "DOMAIN,default.exp-tas.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,developer.microsoft.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,dotnetcli.trafficmanager.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,dtlgalleryint.cloudapp.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,notary-submissions-prod.s3-accelerate.amazonaws.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,notary-submissions-prod.s3.us-west-2.amazonaws.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,p-events-delivery.akamaized.net",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,packages.microsoft.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,poshtestgallery.cloudapp.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,psg-int-centralus.cloudapp.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,psg-int-eastus.cloudapp.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,rink.hockeyapp.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,sundry-star-net-geo.trafficmanager.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,vscode-sync-insiders.trafficmanager.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,vscode-sync.trafficmanager.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,vscode.blob.core.windows.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,vscode.search.windows.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN,vsmarketplacebadge.apphb.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,adaptivecards.io",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,api-extractor.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,apisof.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,appcenter.ms",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,apple-cloudkit.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,apple-mapkit.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,appleswift.com",
       "winner": "DIRECT",
       "winner_source": "apple"
     },
@@ -66,27 +682,6 @@
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,aspnetcdn.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,azure.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,azureedge.net",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
       "selector": "DOMAIN-SUFFIX,azurewebsites.net",
       "winner": "DIRECT",
       "winner_source": "microsoft"
@@ -94,212 +689,555 @@
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,bing.com",
+      "selector": "DOMAIN-SUFFIX,blazor.net",
       "winner": "DIRECT",
       "winner_source": "microsoft"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,bing.net",
+      "selector": "DOMAIN-SUFFIX,botframework.com",
       "winner": "DIRECT",
       "winner_source": "microsoft"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,bingapis.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,digicert.com",
+      "selector": "DOMAIN-SUFFIX,calendarserver.org",
       "winner": "DIRECT",
       "winner_source": "apple"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,edgesuite.net",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,fabric.io",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,gfx.ms",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,helpshift.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,here.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,hockeyapp.net",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,itun.es",
+      "selector": "DOMAIN-SUFFIX,carekit.org",
       "winner": "DIRECT",
       "winner_source": "apple"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,live.com",
+      "selector": "DOMAIN-SUFFIX,codethemicrobit.com",
       "winner": "DIRECT",
       "winner_source": "microsoft"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,live.net",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,livefilestore.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,microsoft-falcon.io",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,microsoft.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,microsoftapp.net",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,microsoftpersonalcontent.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,microsofttranslator.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,msedge.net",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,msn.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,msn.com.tw",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,onenote.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,sfx.ms",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,shazam.com",
+      "selector": "DOMAIN-SUFFIX,cups.org",
       "winner": "DIRECT",
       "winner_source": "apple"
     },
     {
       "later": "PROXY",
       "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,skype.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "DOMAIN-SUFFIX,tenor.com",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "USER-AGENT,OneDrive*",
-      "winner": "DIRECT",
-      "winner_source": "microsoft"
-    },
-    {
-      "later": "PROXY",
-      "later_source": "proxy",
-      "selector": "USER-AGENT,com.apple.trustd*",
+      "selector": "DOMAIN-SUFFIX,developer.apple.com",
       "winner": "DIRECT",
       "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,developerservices2.apple.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,devimages-cdn.apple.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,devopsassessment.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,devstreaming-cdn.apple.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,dot.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,foundationdb.org",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,gamesstack.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,graphengine.io",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,insiderdevtour.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,jwt.ms",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,macosforge.org",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,macruby.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,macruby.net",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,macruby.org",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microbit.org",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftadc.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftgamestack.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftiotinsiderlabs.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftreactor.info",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftreactor.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftreactor.org",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftsilverlight.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftsilverlight.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftsilverlight.org",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,microsoftsqlserver.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,mmdnn.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,mono-project.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,msdn.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,msinnovationchallenge.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,mspairlift.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,msropendata.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,nuget.org",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,nugettest.org",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,onedrive.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,onedrive.live.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,opentranslatorstothings.org",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,playgrounds-cdn.apple.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,poshtestgallery.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,pwabuilder.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,researchandcare.org",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,researchkit.hk",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,researchkit.net",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,researchkit.org",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,researchkit.tv",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,sankie.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,servicetalk.io",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,sqlserveronlinux.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,swift.org",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,timelinestoryteller.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,timestamp.apple.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,uwpcommunitytoolkit.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,vfsforgit.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,vfsforgit.org",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,visualstudio-staging.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,visualstudio.co",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,visualstudio.co.uk",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,visualstudio.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,visualstudio.eu",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,visualstudio.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,vsassets.io",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,vscode-cdn.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,vscode-unpkg.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,vscode-webview.net",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,vscode.dev",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,vscodeedu.app",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,vscodeedu.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,webkit.org",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,webkitgtk.org",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,webobjects.com",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,wpewebkit.org",
+      "winner": "DIRECT",
+      "winner_source": "apple"
+    },
+    {
+      "later": "PROXY",
+      "later_source": "proxy",
+      "selector": "DOMAIN-SUFFIX,xamarin.com",
+      "winner": "DIRECT",
+      "winner_source": "microsoft"
     }
   ],
   "local_rules": 20,
-  "native_rules": 14634,
-  "no_resolve_removed": 628,
-  "remote_rules": 14614,
-  "removed_exact_duplicates": 261,
+  "native_rules": 18002,
+  "no_resolve_removed": 469,
+  "remote_rules": 17982,
+  "removed_exact_duplicates": 983,
   "removed_native_duplicates": 0,
   "routing_cases": [
     {
@@ -586,7 +1524,7 @@
       "actual": {
         "policy": "PROXY",
         "rule": "DOMAIN,services.bingapis.com,PROXY",
-        "source": "copilot"
+        "source": "personal_proxy"
       },
       "expected_rule": "DOMAIN,services.bingapis.com,PROXY",
       "input": {
@@ -599,7 +1537,7 @@
       "actual": {
         "policy": "PROXY",
         "rule": "DOMAIN,gateway.bingviz.microsoft.net,PROXY",
-        "source": "copilot"
+        "source": "personal_proxy"
       },
       "expected_rule": "DOMAIN,gateway.bingviz.microsoft.net,PROXY",
       "input": {
@@ -612,7 +1550,7 @@
       "actual": {
         "policy": "PROXY",
         "rule": "DOMAIN,gateway.bingviz.microsoftapp.net,PROXY",
-        "source": "copilot"
+        "source": "personal_proxy"
       },
       "expected_rule": "DOMAIN,gateway.bingviz.microsoftapp.net,PROXY",
       "input": {
@@ -1165,7 +2103,7 @@
       "actual": {
         "policy": "PROXY",
         "rule": "DOMAIN,sydney.bing.com,PROXY",
-        "source": "copilot"
+        "source": "personal_proxy"
       },
       "expected_rule": "DOMAIN,sydney.bing.com,PROXY",
       "input": {
@@ -1414,7 +2352,7 @@
     {
       "actual": {
         "policy": "DIRECT",
-        "rule": "DOMAIN-KEYWORD,baidu,DIRECT",
+        "rule": "DOMAIN-SUFFIX,baidu.com,DIRECT",
         "source": "china"
       },
       "input": {
@@ -1426,7 +2364,7 @@
     {
       "actual": {
         "policy": "DIRECT",
-        "rule": "DOMAIN-KEYWORD,taobao,DIRECT",
+        "rule": "DOMAIN-SUFFIX,taobao.com,DIRECT",
         "source": "china"
       },
       "input": {
@@ -2906,9 +3844,178 @@
       },
       "name": "Unified DOMAIN-KEYWORD media.tiktokcdn.example",
       "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,x.ai,PROXY",
+        "source": "xai"
+      },
+      "expected_category": "xai",
+      "expected_rule": "DOMAIN-SUFFIX,x.ai,PROXY",
+      "input": {
+        "domain": "x.ai"
+      },
+      "name": "v2 xAI root",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,grok.com,PROXY",
+        "source": "xai"
+      },
+      "expected_category": "xai",
+      "expected_rule": "DOMAIN-SUFFIX,grok.com,PROXY",
+      "input": {
+        "domain": "grok.com"
+      },
+      "name": "v2 xAI Grok",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN,productionresultssa0.blob.core.windows.net,PROXY",
+        "source": "github"
+      },
+      "expected_category": "github",
+      "expected_rule": "DOMAIN,productionresultssa0.blob.core.windows.net,PROXY",
+      "input": {
+        "domain": "productionresultssa0.blob.core.windows.net"
+      },
+      "name": "v2 GitHub Actions Azure Blob",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,gh.io,PROXY",
+        "source": "github"
+      },
+      "expected_category": "github",
+      "expected_rule": "DOMAIN-SUFFIX,gh.io,PROXY",
+      "input": {
+        "domain": "gh.io"
+      },
+      "name": "v2 GitHub short link",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,antigravity.google,PROXY",
+        "source": "gemini"
+      },
+      "expected_category": "gemini",
+      "expected_rule": "DOMAIN-SUFFIX,antigravity.google,PROXY",
+      "input": {
+        "domain": "antigravity.google"
+      },
+      "name": "v2 Gemini Antigravity",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "IP-CIDR,91.108.56.0/22,PROXY",
+        "source": "telegram"
+      },
+      "expected_category": "telegram",
+      "expected_rule": "IP-CIDR,91.108.56.0/22,PROXY",
+      "input": {
+        "ip": "91.108.56.1"
+      },
+      "name": "v2 Official Telegram IPv4",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "IP-CIDR,2001:b28:f23d::/48,PROXY",
+        "source": "telegram"
+      },
+      "expected_category": "telegram",
+      "expected_rule": "IP-CIDR,2001:b28:f23d::/48,PROXY",
+      "input": {
+        "ip": "2001:b28:f23d::1"
+      },
+      "name": "v2 Official Telegram IPv6",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,deepseek.com,DIRECT",
+        "source": "china"
+      },
+      "expected_category": "china",
+      "expected_rule": "DOMAIN-SUFFIX,deepseek.com,DIRECT",
+      "input": {
+        "domain": "deepseek.com"
+      },
+      "name": "v2 China DeepSeek",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,doubao.com,DIRECT",
+        "source": "china"
+      },
+      "expected_category": "china",
+      "expected_rule": "DOMAIN-SUFFIX,doubao.com,DIRECT",
+      "input": {
+        "domain": "doubao.com"
+      },
+      "name": "v2 China Doubao",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "DIRECT",
+        "rule": "DOMAIN-SUFFIX,steamcontent.com,DIRECT",
+        "source": "steam_cn"
+      },
+      "expected_category": "steam_cn",
+      "expected_rule": "DOMAIN-SUFFIX,steamcontent.com,DIRECT",
+      "input": {
+        "domain": "steamcontent.com"
+      },
+      "name": "v2 Steam CN download",
+      "policy": "DIRECT"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,steampowered.com,PROXY",
+        "source": "steam"
+      },
+      "expected_category": "steam",
+      "expected_rule": "DOMAIN-SUFFIX,steampowered.com,PROXY",
+      "input": {
+        "domain": "steampowered.com"
+      },
+      "name": "v2 Steam global store",
+      "policy": "PROXY"
+    },
+    {
+      "actual": {
+        "policy": "PROXY",
+        "rule": "DOMAIN-SUFFIX,hyperliquid.xyz,PROXY",
+        "source": "crypto"
+      },
+      "expected_category": "crypto",
+      "expected_rule": "DOMAIN-SUFFIX,hyperliquid.xyz,PROXY",
+      "input": {
+        "domain": "hyperliquid.xyz"
+      },
+      "name": "v2 Crypto Hyperliquid",
+      "policy": "PROXY"
     }
   ],
-  "rules": 14634,
-  "user_agent_priority_changes": 71,
+  "rules": 18002,
+  "telegram_ip_cases": 14,
+  "user_agent_priority_changes": 0,
   "voice_ip_cases": 444
 }
