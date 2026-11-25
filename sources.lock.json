@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
-  "shared_version": "044f44dc6172de33511944371506d8881d4f25f7f6beb1e3e4eefff1f7002064",
+  "shared_version": "ed620ee5a72165a5897121ceb5857ef0fdb9ae5970701cf20334b9d981d9afcf",
   "upstreams": {
     "metacubex": {
-      "commit": "ce616601064422e7acfe75ea201549dc7372becf",
+      "commit": "ebdf916c315bb0411a7ce323a7a6c002e15146a7",
       "license": "GPL-3.0",
       "license_commit": "4178770badecb1b349fbcd62c737e0d7a2079729",
       "license_ref": "master",
@@ -11,11 +11,11 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "v2fly": {
-      "commit": "98c43cad27fa8f02043858763709fe4a95432ffb",
+      "commit": "e5f669692b33c189efc96cb1a972c69b390bbbc8",
       "license": "MIT",
       "ref": "master",
       "repo": "v2fly/domain-list-community",
-      "tarball_sha256": "b2f3781253cc62041ab73a5526beee2130ea8051f57408535446e18682c42a7a"
+      "tarball_sha256": "10d4cce27d5b97ec28acb5b6c739b9a32a65281a14b8c7965e486f4f0c9ba8b4"
     }
   }
 }
