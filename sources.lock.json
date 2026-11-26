@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
-  "shared_version": "ed620ee5a72165a5897121ceb5857ef0fdb9ae5970701cf20334b9d981d9afcf",
+  "shared_version": "faedd376c8503a14bcb2fd791ae8fa5b19077e9354f191c849eab1ebf0f5aec3",
   "upstreams": {
     "metacubex": {
-      "commit": "ebdf916c315bb0411a7ce323a7a6c002e15146a7",
+      "commit": "69f94483c308940c277035c66eb78ff529efd977",
       "license": "GPL-3.0",
       "license_commit": "4178770badecb1b349fbcd62c737e0d7a2079729",
       "license_ref": "master",
