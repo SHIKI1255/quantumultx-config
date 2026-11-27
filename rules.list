@@ -4375,6 +4375,7 @@ host-suffix, winhec.net, direct
 host-suffix, yammer.com, direct
 host-suffix, skype-edf.akadns.net, direct
 host-suffix, skypedata.akadns.net, direct
+host, aurora-customization-usw2.lithium.com, direct
 host, img-prod-cms-rt-microsoft-com.akamaized.net, direct
 host, img-s-msn-com.akamaized.net, direct
 host, mwf-service.akamaized.net, direct
