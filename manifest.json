@@ -1235,14 +1235,14 @@
     }
   ],
   "local_rules": 20,
-  "native_rules": 18003,
+  "native_rules": 18006,
   "no_resolve_removed": 469,
   "public_files_sha256": {
     "quantumultx.conf": "1424b5c313db47e4d9aca6cd3fa56b0c327d98172527d93099ce46782601219b",
     "rewrite.list": "c7ea734dd2d32d043e606bff60acc3bf3497cb116a22fbeb8c00a378d71c3e27",
-    "rules.list": "b255ff58a03536753c2192f3a46b0557eb7ba46890b84ff19820518ebf1926a5"
+    "rules.list": "c588036d4b2b38917800f8bc7b8d329412ab71650a2ce30bcd0f5f7034d93764"
   },
-  "remote_rules": 17983,
+  "remote_rules": 17986,
   "removed_exact_duplicates": 983,
   "removed_native_duplicates": 0,
   "routing_cases": [
@@ -4020,9 +4020,9 @@
       "policy": "PROXY"
     }
   ],
-  "rules": 18003,
+  "rules": 18006,
   "schema_version": 2,
-  "shared_version": "f012eef3d28b72bcfa9f87860bf9336f559d791336584fb1502b3549a2929340",
+  "shared_version": "bb774a2c980e66b1c6d823dc6462ba1e7f7d6d02cb85f8426a9e1bb672157b30",
   "source_files_sha256": {
     "config/base.conf": "25dfbcbef03aa2bdebafbeab760436f4721a31b3ee42a2460c4d022380ed80b4",
     "config/shared.json": "bfda71b310e83788c179b5b375c4c74c82c9787842db557e75e9df5531bf352a",

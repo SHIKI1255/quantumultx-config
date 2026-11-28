@@ -1234,9 +1234,9 @@
     }
   ],
   "local_rules": 20,
-  "native_rules": 18003,
+  "native_rules": 18006,
   "no_resolve_removed": 469,
-  "remote_rules": 17983,
+  "remote_rules": 17986,
   "removed_exact_duplicates": 983,
   "removed_native_duplicates": 0,
   "routing_cases": [
@@ -4014,7 +4014,7 @@
       "policy": "PROXY"
     }
   ],
-  "rules": 18003,
+  "rules": 18006,
   "telegram_ip_cases": 14,
   "user_agent_priority_changes": 0,
   "voice_ip_cases": 444
